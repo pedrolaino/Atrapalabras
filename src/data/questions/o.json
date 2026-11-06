@@ -1,0 +1,322 @@
+[
+  {
+    "id": "o-001",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Animal grande y peludo que pasa el invierno durmiendo",
+    "answer": "Oso",
+    "difficulty": "easy"
+  },
+  {
+    "id": "o-002",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Órgano con el que vemos, que tiene pupila e iris",
+    "answer": "Ojo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "o-003",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Parte de la cabeza donde se ponen los aros",
+    "answer": "Oreja",
+    "difficulty": "easy"
+  },
+  {
+    "id": "o-004",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Animal de granja que da lana",
+    "answer": "Oveja",
+    "difficulty": "easy"
+  },
+  {
+    "id": "o-005",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Número que, acostado, es el símbolo del infinito",
+    "answer": "Ocho",
+    "difficulty": "easy"
+  },
+  {
+    "id": "o-006",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Metal precioso de color amarillo",
+    "answer": "Oro",
+    "difficulty": "easy"
+  },
+  {
+    "id": "o-007",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Gran masa de agua salada que separa los continentes",
+    "answer": "Océano",
+    "difficulty": "easy"
+  },
+  {
+    "id": "o-008",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Mes en que se festeja el Día de la Madre en Argentina",
+    "answer": "Octubre",
+    "difficulty": "easy"
+  },
+  {
+    "id": "o-009",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Recipiente hondo con dos asas para cocinar en la hornalla",
+    "answer": "Olla",
+    "difficulty": "easy"
+  },
+  {
+    "id": "o-010",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Lugar de trabajo con escritorios y computadoras",
+    "answer": "Oficina",
+    "difficulty": "easy"
+  },
+  {
+    "id": "o-011",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Marca que tenemos en el medio de la panza",
+    "answer": "Ombligo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "o-012",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Punto cardinal por donde se pone el sol",
+    "answer": "Oeste",
+    "difficulty": "easy"
+  },
+  {
+    "id": "o-013",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Lo que los perros perciben con la nariz mucho mejor que nosotros",
+    "answer": "Olor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "o-014",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Movimiento del mar que rompe en la orilla",
+    "answer": "Ola",
+    "difficulty": "easy"
+  },
+  {
+    "id": "o-015",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Conjunto de muchos músicos que tocan juntos con un director",
+    "answer": "Orquesta",
+    "difficulty": "easy"
+  },
+  {
+    "id": "o-016",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Cómo queda una habitación de noche cuando se corta la luz",
+    "answer": "Oscuro",
+    "difficulty": "easy"
+  },
+  {
+    "id": "o-017",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Mamífero australiano con pico de pato que pone huevos",
+    "answer": "Ornitorrinco",
+    "difficulty": "medium"
+  },
+  {
+    "id": "o-018",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Cetáceo blanco y negro conocido como ballena asesina",
+    "answer": "Orca",
+    "difficulty": "medium"
+  },
+  {
+    "id": "o-019",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Molusco de dos valvas que puede tener una perla adentro",
+    "answer": "Ostra",
+    "difficulty": "medium"
+  },
+  {
+    "id": "o-020",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Lugar con agua y palmeras en medio del desierto",
+    "answer": "Oasis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "o-021",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Competencia deportiva mundial que se hace cada cuatro años",
+    "answer": "Olimpíadas",
+    "difficulty": "medium"
+  },
+  {
+    "id": "o-022",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Hierba aromática que se espolvorea sobre la pizza",
+    "answer": "Orégano",
+    "difficulty": "medium"
+  },
+  {
+    "id": "o-023",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Médico especialista en la vista",
+    "answer": "Oftalmólogo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "o-024",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Camino que recorre un planeta alrededor del Sol",
+    "answer": "Órbita",
+    "difficulty": "medium"
+  },
+  {
+    "id": "o-025",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Capa de la atmósfera que nos protege de los rayos ultravioleta",
+    "answer": "Ozono",
+    "difficulty": "hard"
+  },
+  {
+    "id": "o-026",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Gas que necesitamos respirar para vivir",
+    "answer": "Oxígeno",
+    "difficulty": "medium"
+  },
+  {
+    "id": "o-027",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Obra de teatro cantada, como las del Teatro Colón",
+    "answer": "Ópera",
+    "difficulty": "medium"
+  },
+  {
+    "id": "o-028",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Monumento porteño en forma de aguja, sobre la avenida 9 de Julio",
+    "answer": "Obelisco",
+    "difficulty": "medium"
+  },
+  {
+    "id": "o-029",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Trabajador manual de una fábrica",
+    "answer": "Obrero",
+    "difficulty": "medium"
+  },
+  {
+    "id": "o-030",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Reglas para escribir las palabras correctamente",
+    "answer": "Ortografía",
+    "difficulty": "medium"
+  },
+  {
+    "id": "o-031",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Calzado de goma con tira entre los dedos que se usa en la playa",
+    "answer": "Ojota",
+    "difficulty": "medium"
+  },
+  {
+    "id": "o-032",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Árbol enorme y solitario de la pampa, de tronco muy grueso",
+    "answer": "Ombú",
+    "difficulty": "medium"
+  },
+  {
+    "id": "o-033",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Simio de pelo rojizo que vive en las selvas de Borneo",
+    "answer": "Orangután",
+    "difficulty": "medium"
+  },
+  {
+    "id": "o-034",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Médico especialista en oído, nariz y garganta",
+    "answer": "Otorrino",
+    "difficulty": "hard"
+  },
+  {
+    "id": "o-035",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Poema de Homero sobre el largo regreso de Ulises a su casa",
+    "answer": "Odisea",
+    "difficulty": "hard"
+  },
+  {
+    "id": "o-036",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Palabra que imita un sonido, como \"miau\" o \"tic tac\"",
+    "answer": "Onomatopeya",
+    "difficulty": "hard"
+  },
+  {
+    "id": "o-037",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Animal que come de todo, tanto plantas como carne",
+    "answer": "Omnívoro",
+    "difficulty": "hard"
+  },
+  {
+    "id": "o-038",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Instrumento enorme de tubos que se toca en las iglesias",
+    "answer": "Órgano",
+    "difficulty": "hard"
+  },
+  {
+    "id": "o-039",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Árbol del que se sacan las aceitunas",
+    "answer": "Olivo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "o-040",
+    "letter": "O",
+    "type": "startsWith",
+    "clue": "Pintura hecha con colores mezclados con aceite",
+    "answer": "Óleo",
+    "difficulty": "hard"
+  }
+]

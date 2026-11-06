@@ -1,0 +1,322 @@
+[
+  {
+    "id": "v-001",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Animal de granja que muge y da leche",
+    "answer": "Vaca",
+    "difficulty": "easy"
+  },
+  {
+    "id": "v-002",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Color de la luz del semáforo que indica que se puede pasar",
+    "answer": "Verde",
+    "difficulty": "easy"
+  },
+  {
+    "id": "v-003",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Abertura con vidrio en la pared, para que entren la luz y el aire",
+    "answer": "Ventana",
+    "difficulty": "easy"
+  },
+  {
+    "id": "v-004",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Recipiente sin asa para tomar agua",
+    "answer": "Vaso",
+    "difficulty": "easy"
+  },
+  {
+    "id": "v-005",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Estación de la pileta, el helado y las vacaciones largas",
+    "answer": "Verano",
+    "difficulty": "easy"
+  },
+  {
+    "id": "v-006",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Cilindro de cera con una mecha que da luz",
+    "answer": "Vela",
+    "difficulty": "easy"
+  },
+  {
+    "id": "v-007",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Lo que hace girar las aspas de un molino",
+    "answer": "Viento",
+    "difficulty": "easy"
+  },
+  {
+    "id": "v-008",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Último día hábil de la semana",
+    "answer": "Viernes",
+    "difficulty": "easy"
+  },
+  {
+    "id": "v-009",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Instrumento de cuerdas que se apoya en el hombro y se toca con arco",
+    "answer": "Violín",
+    "difficulty": "easy"
+  },
+  {
+    "id": "v-010",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Montaña que puede entrar en erupción",
+    "answer": "Volcán",
+    "difficulty": "easy"
+  },
+  {
+    "id": "v-011",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Bolso grande con rueditas para llevar la ropa en un viaje",
+    "answer": "Valija",
+    "difficulty": "easy"
+  },
+  {
+    "id": "v-012",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Personaje de terror que chupa sangre y duerme en un ataúd",
+    "answer": "Vampiro",
+    "difficulty": "easy"
+  },
+  {
+    "id": "v-013",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Persona que vive al lado de tu casa",
+    "answer": "Vecino",
+    "difficulty": "easy"
+  },
+  {
+    "id": "v-014",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Días libres para descansar y viajar",
+    "answer": "Vacaciones",
+    "difficulty": "easy"
+  },
+  {
+    "id": "v-015",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Alimento de la huerta, como la acelga o la lechuga",
+    "answer": "Verdura",
+    "difficulty": "easy"
+  },
+  {
+    "id": "v-016",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Parte de la calle por donde caminan los peatones",
+    "answer": "Vereda",
+    "difficulty": "easy"
+  },
+  {
+    "id": "v-017",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Médico que atiende a los animales",
+    "answer": "Veterinario",
+    "difficulty": "medium"
+  },
+  {
+    "id": "v-018",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Ciudad italiana de canales y góndolas",
+    "answer": "Venecia",
+    "difficulty": "medium"
+  },
+  {
+    "id": "v-019",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Vaso sanguíneo que lleva la sangre de vuelta al corazón",
+    "answer": "Vena",
+    "difficulty": "medium"
+  },
+  {
+    "id": "v-020",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Planeta más brillante del cielo, llamado lucero",
+    "answer": "Venus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "v-021",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Sustancia de los alimentos necesaria para la salud, como la C",
+    "answer": "Vitamina",
+    "difficulty": "medium"
+  },
+  {
+    "id": "v-022",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Inyección que previene una enfermedad",
+    "answer": "Vacuna",
+    "difficulty": "medium"
+  },
+  {
+    "id": "v-023",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Deporte en el que se pasa la pelota con las manos por encima de una red alta",
+    "answer": "Vóley",
+    "difficulty": "medium"
+  },
+  {
+    "id": "v-024",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Guerrero nórdico que navegaba en barcos con cabeza de dragón",
+    "answer": "Vikingo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "v-025",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Terreno llano entre montañas",
+    "answer": "Valle",
+    "difficulty": "medium"
+  },
+  {
+    "id": "v-026",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Cada uno de los coches que arrastra una locomotora",
+    "answer": "Vagón",
+    "difficulty": "medium"
+  },
+  {
+    "id": "v-027",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Conjunto de platos, fuentes y tazas de una casa",
+    "answer": "Vajilla",
+    "difficulty": "medium"
+  },
+  {
+    "id": "v-028",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Líquido ácido con el que se condimenta la ensalada",
+    "answer": "Vinagre",
+    "difficulty": "medium"
+  },
+  {
+    "id": "v-029",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "País sudamericano cuya capital es Caracas",
+    "answer": "Venezuela",
+    "difficulty": "medium"
+  },
+  {
+    "id": "v-030",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Color entre el azul y el rojo, que también es nombre de flor",
+    "answer": "Violeta",
+    "difficulty": "medium"
+  },
+  {
+    "id": "v-031",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Roedor de la pampa que vive en cuevas",
+    "answer": "Vizcacha",
+    "difficulty": "hard"
+  },
+  {
+    "id": "v-032",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Aparato con aspas que da aire fresco en verano",
+    "answer": "Ventilador",
+    "difficulty": "medium"
+  },
+  {
+    "id": "v-033",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Cada hueso de la columna",
+    "answer": "Vértebra",
+    "difficulty": "hard"
+  },
+  {
+    "id": "v-034",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Cosecha de la uva, que se celebra con una fiesta en Mendoza",
+    "answer": "Vendimia",
+    "difficulty": "hard"
+  },
+  {
+    "id": "v-035",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Gobierno colonial español, como el del Río de la Plata",
+    "answer": "Virreinato",
+    "difficulty": "hard"
+  },
+  {
+    "id": "v-036",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Agente que causa la gripe y que no se cura con antibióticos",
+    "answer": "Virus",
+    "difficulty": "hard"
+  },
+  {
+    "id": "v-037",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Artista que habla sin mover los labios y hace hablar a un muñeco",
+    "answer": "Ventrílocuo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "v-038",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Recipiente de barro antiguo para guardar líquidos o granos",
+    "answer": "Vasija",
+    "difficulty": "hard"
+  },
+  {
+    "id": "v-039",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Pariente salvaje de la llama, de lana finísima",
+    "answer": "Vicuña",
+    "difficulty": "hard"
+  },
+  {
+    "id": "v-040",
+    "letter": "V",
+    "type": "startsWith",
+    "clue": "Cada línea de un poema",
+    "answer": "Verso",
+    "difficulty": "medium"
+  }
+]

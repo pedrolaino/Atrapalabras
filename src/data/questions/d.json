@@ -1,0 +1,322 @@
+[
+  {
+    "id": "d-001",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Pieza dura y blanca de la boca que sirve para masticar",
+    "answer": "Diente",
+    "difficulty": "easy"
+  },
+  {
+    "id": "d-002",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Cada una de las cinco partes en que termina la mano",
+    "answer": "Dedo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "d-003",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Día de ravioles y fútbol en muchas familias argentinas",
+    "answer": "Domingo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "d-004",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Reptil gigante que se extinguió hace millones de años",
+    "answer": "Dinosaurio",
+    "difficulty": "easy"
+  },
+  {
+    "id": "d-005",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Mamífero marino muy inteligente que salta entre las olas",
+    "answer": "Delfín",
+    "difficulty": "easy"
+  },
+  {
+    "id": "d-006",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Crema marrón típica rioplatense que rellena alfajores y panqueques",
+    "answer": "Dulce de leche",
+    "difficulty": "easy"
+  },
+  {
+    "id": "d-007",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Cubo con puntos del uno al seis que se tira en los juegos de mesa",
+    "answer": "Dado",
+    "difficulty": "easy"
+  },
+  {
+    "id": "d-008",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Lo que hacemos unas ocho horas cada noche",
+    "answer": "Dormir",
+    "difficulty": "easy"
+  },
+  {
+    "id": "d-009",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Mes del aguinaldo, del arbolito y de las fiestas",
+    "answer": "Diciembre",
+    "difficulty": "easy"
+  },
+  {
+    "id": "d-010",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Billetes y monedas con los que se paga",
+    "answer": "Dinero",
+    "difficulty": "easy"
+  },
+  {
+    "id": "d-011",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Comida del café con leche y las medialunas",
+    "answer": "Desayuno",
+    "difficulty": "easy"
+  },
+  {
+    "id": "d-012",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Chorro de agua que cae desde arriba para bañarse",
+    "answer": "Ducha",
+    "difficulty": "easy"
+  },
+  {
+    "id": "d-013",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Animal fantástico con alas que echa fuego por la boca",
+    "answer": "Dragón",
+    "difficulty": "easy"
+  },
+  {
+    "id": "d-014",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Fruta de piel aterciopelada con un carozo grande",
+    "answer": "Durazno",
+    "difficulty": "easy"
+  },
+  {
+    "id": "d-015",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Moneda de los Estados Unidos",
+    "answer": "Dólar",
+    "difficulty": "easy"
+  },
+  {
+    "id": "d-016",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Imagen hecha con lápiz o lapicera sobre un papel",
+    "answer": "Dibujo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "d-017",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Libro con las palabras ordenadas alfabéticamente y su significado",
+    "answer": "Diccionario",
+    "difficulty": "medium"
+  },
+  {
+    "id": "d-018",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Lugar muy seco, con arena y casi sin lluvias",
+    "answer": "Desierto",
+    "difficulty": "medium"
+  },
+  {
+    "id": "d-019",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Piedra preciosa transparente, el mineral más duro que existe",
+    "answer": "Diamante",
+    "difficulty": "medium"
+  },
+  {
+    "id": "d-020",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Profesional que arregla caries y coloca ortodoncia",
+    "answer": "Dentista",
+    "difficulty": "medium"
+  },
+  {
+    "id": "d-021",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Animal del desierto con una sola joroba",
+    "answer": "Dromedario",
+    "difficulty": "medium"
+  },
+  {
+    "id": "d-022",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Raza de perro blanco con manchas negras",
+    "answer": "Dálmata",
+    "difficulty": "medium"
+  },
+  {
+    "id": "d-023",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Prenda que se ata adelante para no ensuciarse al cocinar",
+    "answer": "Delantal",
+    "difficulty": "medium"
+  },
+  {
+    "id": "d-024",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Herramienta con punta plana o en cruz para ajustar y aflojar",
+    "answer": "Destornillador",
+    "difficulty": "medium"
+  },
+  {
+    "id": "d-025",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Persona que investiga delitos y misterios, como Sherlock Holmes",
+    "answer": "Detective",
+    "difficulty": "medium"
+  },
+  {
+    "id": "d-026",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "País nórdico donde nació Hans Christian Andersen",
+    "answer": "Dinamarca",
+    "difficulty": "hard"
+  },
+  {
+    "id": "d-027",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Ropa que se usa para parecer otro personaje, por ejemplo en carnaval",
+    "answer": "Disfraz",
+    "difficulty": "medium"
+  },
+  {
+    "id": "d-028",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Flechita que se lanza contra un tablero redondo",
+    "answer": "Dardo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "d-029",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Proceso por el que el cuerpo transforma los alimentos que comemos",
+    "answer": "Digestión",
+    "difficulty": "medium"
+  },
+  {
+    "id": "d-030",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Ser fantástico pequeño y travieso de los cuentos",
+    "answer": "Duende",
+    "difficulty": "medium"
+  },
+  {
+    "id": "d-031",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "En el fútbol, jugador que juega más cerca del arco rival para hacer goles",
+    "answer": "Delantero",
+    "difficulty": "medium"
+  },
+  {
+    "id": "d-032",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Juego de tablero con fichas blancas y negras que se comen saltando",
+    "answer": "Damas",
+    "difficulty": "medium"
+  },
+  {
+    "id": "d-033",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Apellido del pintor surrealista español de bigotes largos y enroscados",
+    "answer": "Dalí",
+    "difficulty": "hard"
+  },
+  {
+    "id": "d-034",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Apellido del naturalista inglés que propuso la teoría de la evolución",
+    "answer": "Darwin",
+    "difficulty": "hard"
+  },
+  {
+    "id": "d-035",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Forma de gobierno en la que el pueblo elige a sus gobernantes con el voto",
+    "answer": "Democracia",
+    "difficulty": "hard"
+  },
+  {
+    "id": "d-036",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Unión de dos vocales en una misma sílaba, como en \"cielo\"",
+    "answer": "Diptongo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "d-037",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Explosivo que inventó Alfred Nobel",
+    "answer": "Dinamita",
+    "difficulty": "hard"
+  },
+  {
+    "id": "d-038",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Músculo que separa el tórax del abdomen y ayuda a respirar",
+    "answer": "Diafragma",
+    "difficulty": "hard"
+  },
+  {
+    "id": "d-039",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Desembocadura de un río en forma de triángulo, como la del Paraná en el Tigre",
+    "answer": "Delta",
+    "difficulty": "hard"
+  },
+  {
+    "id": "d-040",
+    "letter": "D",
+    "type": "startsWith",
+    "clue": "Persona que usa principalmente la mano derecha",
+    "answer": "Diestro",
+    "difficulty": "medium"
+  }
+]

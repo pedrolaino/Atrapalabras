@@ -1,0 +1,322 @@
+[
+  {
+    "id": "a-001",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Planta grande de tronco leñoso, como el ombú o el jacarandá",
+    "answer": "Árbol",
+    "difficulty": "easy"
+  },
+  {
+    "id": "a-002",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Cubre casi tres cuartas partes de la superficie de la Tierra",
+    "answer": "Agua",
+    "difficulty": "easy"
+  },
+  {
+    "id": "a-003",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Insecto que vive en colmenas y muere después de picar",
+    "answer": "Abeja",
+    "difficulty": "easy"
+  },
+  {
+    "id": "a-004",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Vehículo que se toma en Ezeiza o en Aeroparque",
+    "answer": "Avión",
+    "difficulty": "easy"
+  },
+  {
+    "id": "a-005",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Fruta tropical de cáscara rugosa con una corona de hojas",
+    "answer": "Ananá",
+    "difficulty": "easy"
+  },
+  {
+    "id": "a-006",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Cereal de granos blancos con el que se hace el risotto",
+    "answer": "Arroz",
+    "difficulty": "easy"
+  },
+  {
+    "id": "a-007",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Madre de tu mamá o de tu papá",
+    "answer": "Abuela",
+    "difficulty": "easy"
+  },
+  {
+    "id": "a-008",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Color primario que mezclado con amarillo da verde",
+    "answer": "Azul",
+    "difficulty": "easy"
+  },
+  {
+    "id": "a-009",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Parte de un avión donde suelen ir colgados los motores",
+    "answer": "Ala",
+    "difficulty": "easy"
+  },
+  {
+    "id": "a-010",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Fenómeno de siete colores que aparece en el cielo después de la lluvia",
+    "answer": "Arcoíris",
+    "difficulty": "easy"
+  },
+  {
+    "id": "a-011",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Bulbo de olor fuerte que se usa para cocinar y ahuyenta a los vampiros",
+    "answer": "Ajo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "a-012",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Líquido que se saca del girasol o de la oliva",
+    "answer": "Aceite",
+    "difficulty": "easy"
+  },
+  {
+    "id": "a-013",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Animal de ocho patas que teje telas",
+    "answer": "Araña",
+    "difficulty": "easy"
+  },
+  {
+    "id": "a-014",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Vehículo de cuatro ruedas para pocas personas, que se maneja con volante",
+    "answer": "Auto",
+    "difficulty": "easy"
+  },
+  {
+    "id": "a-015",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Mes del invierno en el que se festeja el Día del Niño",
+    "answer": "Agosto",
+    "difficulty": "easy"
+  },
+  {
+    "id": "a-016",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Lo que se pone debajo de la cabeza en la cama, adentro de una funda",
+    "answer": "Almohada",
+    "difficulty": "easy"
+  },
+  {
+    "id": "a-017",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Juego de tablero con reyes, reinas, alfiles y torres",
+    "answer": "Ajedrez",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a-018",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Persona que viaja al espacio en una nave",
+    "answer": "Astronauta",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a-019",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "En el fútbol, jugador que puede agarrar la pelota con las manos",
+    "answer": "Arquero",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a-020",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Continente helado que rodea el polo sur",
+    "answer": "Antártida",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a-021",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Río más caudaloso del mundo, que cruza Brasil",
+    "answer": "Amazonas",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a-022",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Montaña más alta de América, en Mendoza",
+    "answer": "Aconcagua",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a-023",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Pieza de hierro que se tira al fondo del agua para que el barco no se mueva",
+    "answer": "Ancla",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a-024",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Objeto plegable que se agita con la mano para darse aire",
+    "answer": "Abanico",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a-025",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Obrero que levanta paredes con ladrillos y cemento",
+    "answer": "Albañil",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a-026",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Profesional que defiende a una persona en un juicio",
+    "answer": "Abogado",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a-027",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Golosina de dos galletitas unidas con dulce de leche",
+    "answer": "Alfajor",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a-028",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Partícula diminuta formada por protones, neutrones y electrones",
+    "answer": "Átomo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a-029",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Pintura que se diluye en agua y se usa sobre papel",
+    "answer": "Acuarela",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a-030",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Ave africana, la más grande del mundo, que corre pero no vuela",
+    "answer": "Avestruz",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a-031",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Vehículo de emergencias que en Argentina se llama al 107",
+    "answer": "Ambulancia",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a-032",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Lentes con armazón que se apoyan en la nariz para ver mejor",
+    "answer": "Anteojos",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a-033",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Animal que vive parte en el agua y parte en la tierra, como la rana",
+    "answer": "Anfibio",
+    "difficulty": "hard"
+  },
+  {
+    "id": "a-034",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Construcción romana con arcos que llevaba agua a las ciudades",
+    "answer": "Acueducto",
+    "difficulty": "hard"
+  },
+  {
+    "id": "a-035",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Hormona que se libera con el miedo o la emoción y acelera el corazón",
+    "answer": "Adrenalina",
+    "difficulty": "hard"
+  },
+  {
+    "id": "a-036",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Instrumento de fuelle con teclado de piano, muy usado en el chamamé",
+    "answer": "Acordeón",
+    "difficulty": "hard"
+  },
+  {
+    "id": "a-037",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Palabra formada con las mismas letras que otra, como \"amor\" y \"Roma\"",
+    "answer": "Anagrama",
+    "difficulty": "hard"
+  },
+  {
+    "id": "a-038",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Roca que gira alrededor del Sol; uno habría acabado con los dinosaurios",
+    "answer": "Asteroide",
+    "difficulty": "hard"
+  },
+  {
+    "id": "a-039",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Pérdida total o parcial de la memoria",
+    "answer": "Amnesia",
+    "difficulty": "hard"
+  },
+  {
+    "id": "a-040",
+    "letter": "A",
+    "type": "startsWith",
+    "clue": "Marco con bolitas que se deslizan, usado para hacer cuentas",
+    "answer": "Ábaco",
+    "difficulty": "hard"
+  }
+]

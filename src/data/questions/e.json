@@ -1,0 +1,322 @@
+[
+  {
+    "id": "e-001",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Animal enorme con trompa y colmillos de marfil",
+    "answer": "Elefante",
+    "difficulty": "easy"
+  },
+  {
+    "id": "e-002",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Lugar donde los chicos van a aprender con sus maestros",
+    "answer": "Escuela",
+    "difficulty": "easy"
+  },
+  {
+    "id": "e-003",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Hay una de cinco puntas en la punta del arbolito de Navidad",
+    "answer": "Estrella",
+    "difficulty": "easy"
+  },
+  {
+    "id": "e-004",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Superficie de vidrio donde vemos nuestro reflejo",
+    "answer": "Espejo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "e-005",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Mes que tiene a los Reyes Magos llegando el día 6",
+    "answer": "Enero",
+    "difficulty": "easy"
+  },
+  {
+    "id": "e-006",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Plato de verduras crudas que se condimenta con aceite y vinagre",
+    "answer": "Ensalada",
+    "difficulty": "easy"
+  },
+  {
+    "id": "e-007",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Serie de peldaños para subir de un piso a otro",
+    "answer": "Escalera",
+    "difficulty": "easy"
+  },
+  {
+    "id": "e-008",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Masa rellena de carne, cerrada con repulgue",
+    "answer": "Empanada",
+    "difficulty": "easy"
+  },
+  {
+    "id": "e-009",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Mujer que cuida a los pacientes en el hospital y pone inyecciones",
+    "answer": "Enfermera",
+    "difficulty": "easy"
+  },
+  {
+    "id": "e-010",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Órgano donde se digiere la comida",
+    "answer": "Estómago",
+    "difficulty": "easy"
+  },
+  {
+    "id": "e-011",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Parte de atrás del cuerpo, desde los hombros hasta la cintura",
+    "answer": "Espalda",
+    "difficulty": "easy"
+  },
+  {
+    "id": "e-012",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Cantidad de años que tiene una persona",
+    "answer": "Edad",
+    "difficulty": "easy"
+  },
+  {
+    "id": "e-013",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Pequeño mamífero cubierto de púas",
+    "answer": "Erizo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "e-014",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Personaje de cuento muy bajito, como los siete de Blancanieves",
+    "answer": "Enano",
+    "difficulty": "easy"
+  },
+  {
+    "id": "e-015",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Objeto blando que absorbe el agua y se usa para lavar los platos",
+    "answer": "Esponja",
+    "difficulty": "easy"
+  },
+  {
+    "id": "e-016",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Aparato que calienta una habitación en invierno",
+    "answer": "Estufa",
+    "difficulty": "easy"
+  },
+  {
+    "id": "e-017",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Línea imaginaria que divide la Tierra en dos hemisferios",
+    "answer": "Ecuador",
+    "difficulty": "medium"
+  },
+  {
+    "id": "e-018",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "País de las pirámides y del río Nilo",
+    "answer": "Egipto",
+    "difficulty": "medium"
+  },
+  {
+    "id": "e-019",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Conjunto de todos los huesos del cuerpo",
+    "answer": "Esqueleto",
+    "difficulty": "medium"
+  },
+  {
+    "id": "e-020",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Artista que hace estatuas de piedra, madera o bronce",
+    "answer": "Escultor",
+    "difficulty": "medium"
+  },
+  {
+    "id": "e-021",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Técnico que arregla cables, tomacorrientes y tableros de luz",
+    "answer": "Electricista",
+    "difficulty": "medium"
+  },
+  {
+    "id": "e-022",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Pieza con patitas que conecta un aparato a la corriente",
+    "answer": "Enchufe",
+    "difficulty": "medium"
+  },
+  {
+    "id": "e-023",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Fenómeno en el que la Luna tapa al Sol",
+    "answer": "Eclipse",
+    "difficulty": "medium"
+  },
+  {
+    "id": "e-024",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Arácnido con una cola que termina en un aguijón venenoso",
+    "answer": "Escorpión",
+    "difficulty": "medium"
+  },
+  {
+    "id": "e-025",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "País europeo de la paella y el flamenco",
+    "answer": "España",
+    "difficulty": "medium"
+  },
+  {
+    "id": "e-026",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Deporte de combate con espadas y careta",
+    "answer": "Esgrima",
+    "difficulty": "medium"
+  },
+  {
+    "id": "e-027",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Instrumento del médico para escuchar el corazón y los pulmones",
+    "answer": "Estetoscopio",
+    "difficulty": "medium"
+  },
+  {
+    "id": "e-028",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Carne de la boca donde están sujetos los dientes",
+    "answer": "Encía",
+    "difficulty": "medium"
+  },
+  {
+    "id": "e-029",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Árbol muy alto de hojas aromáticas, usadas contra la tos",
+    "answer": "Eucalipto",
+    "difficulty": "medium"
+  },
+  {
+    "id": "e-030",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Verdura de hojas verde oscuro con la que se rellenan los canelones",
+    "answer": "Espinaca",
+    "difficulty": "medium"
+  },
+  {
+    "id": "e-031",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Valijas y bolsos que se llevan en un viaje",
+    "answer": "Equipaje",
+    "difficulty": "medium"
+  },
+  {
+    "id": "e-032",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Piedra preciosa de color verde",
+    "answer": "Esmeralda",
+    "difficulty": "medium"
+  },
+  {
+    "id": "e-033",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Formación de piedra que cuelga del techo de las cuevas",
+    "answer": "Estalactita",
+    "difficulty": "hard"
+  },
+  {
+    "id": "e-034",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Oficina de un país dentro de otro, adonde se va a pedir la visa",
+    "answer": "Embajada",
+    "difficulty": "hard"
+  },
+  {
+    "id": "e-035",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Que dura muy poco tiempo",
+    "answer": "Efímero",
+    "difficulty": "hard"
+  },
+  {
+    "id": "e-036",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Palabra acentuada en la antepenúltima sílaba, como \"pájaro\"",
+    "answer": "Esdrújula",
+    "difficulty": "hard"
+  },
+  {
+    "id": "e-037",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Desgaste de las rocas y del suelo por el agua o el viento",
+    "answer": "Erosión",
+    "difficulty": "hard"
+  },
+  {
+    "id": "e-038",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Figura con cuerpo de león y cabeza humana que está junto a las pirámides",
+    "answer": "Esfinge",
+    "difficulty": "hard"
+  },
+  {
+    "id": "e-039",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Momento del año en que el día y la noche duran lo mismo",
+    "answer": "Equinoccio",
+    "difficulty": "hard"
+  },
+  {
+    "id": "e-040",
+    "letter": "E",
+    "type": "startsWith",
+    "clue": "Teoría que explica cómo las especies cambian a lo largo de millones de años",
+    "answer": "Evolución",
+    "difficulty": "hard"
+  }
+]

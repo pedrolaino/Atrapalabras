@@ -1,0 +1,322 @@
+[
+  {
+    "id": "q-001",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Alimento hecho con leche cuajada que se ralla sobre los fideos",
+    "answer": "Queso",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-002",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Edad en la que muchas chicas festejan con vals y vestido largo",
+    "answer": "Quince",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-003",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Herida que se produce con el fuego o con agua hirviendo",
+    "answer": "Quemadura",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-004",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Cómo hay que quedarse para que la foto no salga movida",
+    "answer": "Quieto",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-005",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Sentir cariño por alguien",
+    "answer": "Querer",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-006",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Casa de fin de semana en las afueras, con jardín y pileta",
+    "answer": "Quinta",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-007",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Lo que se usa para golpear la pelota en el tenis",
+    "answer": "Raqueta",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-008",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Lugar donde se cruzan dos calles",
+    "answer": "Esquina",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-009",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Caja envuelta que llega por correo",
+    "answer": "Paquete",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-010",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Lugar con muchísimos árboles",
+    "answer": "Bosque",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-011",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Espacio verde grande de la ciudad, con árboles y juegos",
+    "answer": "Parque",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-012",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Depósito de agua que está en el techo de las casas",
+    "answer": "Tanque",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-013",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Grupo de jugadores que juegan juntos",
+    "answer": "Equipo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-014",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Negocio donde te cortan y te tiñen el pelo",
+    "answer": "Peluquería",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-015",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Papelito pegado a la ropa con el talle y el precio",
+    "answer": "Etiqueta",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-016",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Aparato con piezas y motor que hace un trabajo, como la de coser",
+    "answer": "Máquina",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-017",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Ciencia que estudia las sustancias y cómo reaccionan",
+    "answer": "Química",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-018",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Sala del hospital donde se opera",
+    "answer": "Quirófano",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-019",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Paso angosto entre montañas, como la de Humahuaca",
+    "answer": "Quebrada",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-020",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Flauta andina hecha de caña",
+    "answer": "Quena",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-021",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Lugar techado junto a la parrilla para hacer asados con amigos",
+    "answer": "Quincho",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-022",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Nombre del caballero de la novela de Cervantes que peleaba contra molinos de viento",
+    "answer": "Quijote",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-023",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Semilla andina muy nutritiva que se cocina como el arroz",
+    "answer": "Quinoa",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-024",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Reclamo que se hace cuando algo no gusta",
+    "answer": "Queja",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-025",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Flor tropical, elegante y exótica, que se cultiva en maceta",
+    "answer": "Orquídea",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-026",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Profesional que diseña edificios y casas",
+    "answer": "Arquitecto",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-027",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Templo de los musulmanes",
+    "answer": "Mezquita",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-028",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Calmo, sin nervios ni apuro",
+    "answer": "Tranquilo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-029",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Barco muy grande",
+    "answer": "Buque",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-030",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Lo que paga cada mes quien vive en una casa que no es suya",
+    "answer": "Alquiler",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-031",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Comida abundante y elegante para muchos invitados",
+    "answer": "Banquete",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-032",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Bocado frito y empanado de papa, pollo o espinaca",
+    "answer": "Croqueta",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-033",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Unidad que mide la pureza del oro",
+    "answer": "Quilate",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-034",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Juego de azar con números que se sortea varias veces por día",
+    "answer": "Quiniela",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-035",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Armadillo del norte argentino con cuyo caparazón se hacía el charango",
+    "answer": "Quirquincho",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-036",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Árbol del norte argentino de madera durísima",
+    "answer": "Quebracho",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-037",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Científico que estudia civilizaciones antiguas excavando ruinas",
+    "answer": "Arqueólogo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-038",
+    "letter": "Q",
+    "type": "startsWith",
+    "clue": "Cinco hermanos nacidos en el mismo parto",
+    "answer": "Quintillizos",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-039",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Persona que conoce muy bien los caminos de una región y guía a otros",
+    "answer": "Baqueano",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-040",
+    "letter": "Q",
+    "type": "contains",
+    "clue": "Soldado de las novelas de Dumas que juraba \"todos para uno\"",
+    "answer": "Mosquetero",
+    "difficulty": "hard"
+  }
+]

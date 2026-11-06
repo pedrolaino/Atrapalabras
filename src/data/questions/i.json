@@ -1,0 +1,322 @@
+[
+  {
+    "id": "i-001",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Porción de tierra rodeada de agua por todos lados",
+    "answer": "Isla",
+    "difficulty": "easy"
+  },
+  {
+    "id": "i-002",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Templo cristiano con campanario",
+    "answer": "Iglesia",
+    "difficulty": "easy"
+  },
+  {
+    "id": "i-003",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Estación del año que en Argentina empieza alrededor del 21 de junio",
+    "answer": "Invierno",
+    "difficulty": "easy"
+  },
+  {
+    "id": "i-004",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Objeto que atrae al hierro y se pega en la heladera",
+    "answer": "Imán",
+    "difficulty": "easy"
+  },
+  {
+    "id": "i-005",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Animal pequeño de seis patas, como la mosca o la abeja",
+    "answer": "Insecto",
+    "difficulty": "easy"
+  },
+  {
+    "id": "i-006",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Signo de una cuenta que va justo antes del resultado",
+    "answer": "Igual",
+    "difficulty": "easy"
+  },
+  {
+    "id": "i-007",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Reptil verde con una cresta de escamas en el lomo",
+    "answer": "Iguana",
+    "difficulty": "easy"
+  },
+  {
+    "id": "i-008",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "País europeo con forma de bota",
+    "answer": "Italia",
+    "difficulty": "easy"
+  },
+  {
+    "id": "i-009",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Lengua que habla un pueblo o una nación, como el portugués",
+    "answer": "Idioma",
+    "difficulty": "easy"
+  },
+  {
+    "id": "i-010",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Lengua que se habla en Estados Unidos y en Australia",
+    "answer": "Inglés",
+    "difficulty": "easy"
+  },
+  {
+    "id": "i-011",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Casa de bloques de hielo de los pueblos del Ártico",
+    "answer": "Iglú",
+    "difficulty": "easy"
+  },
+  {
+    "id": "i-012",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Tarjeta o mensaje con el que se convoca a alguien a una fiesta",
+    "answer": "Invitación",
+    "difficulty": "easy"
+  },
+  {
+    "id": "i-013",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Medicamento que se aplica con una aguja",
+    "answer": "Inyección",
+    "difficulty": "easy"
+  },
+  {
+    "id": "i-014",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Tubo largo por donde pasa la comida después del estómago",
+    "answer": "Intestino",
+    "difficulty": "easy"
+  },
+  {
+    "id": "i-015",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Fuego grande que destruye todo a su paso y apagan los bomberos",
+    "answer": "Incendio",
+    "difficulty": "easy"
+  },
+  {
+    "id": "i-016",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Artefacto del baño en el que se tira la cadena",
+    "answer": "Inodoro",
+    "difficulty": "easy"
+  },
+  {
+    "id": "i-017",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Gran bloque de hielo que flota en el mar, como el que hundió al Titanic",
+    "answer": "Iceberg",
+    "difficulty": "medium"
+  },
+  {
+    "id": "i-018",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Invento de Gutenberg que permitió hacer muchas copias de un libro",
+    "answer": "Imprenta",
+    "difficulty": "medium"
+  },
+  {
+    "id": "i-019",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Profesional que diseña puentes, rutas y máquinas",
+    "answer": "Ingeniero",
+    "difficulty": "medium"
+  },
+  {
+    "id": "i-020",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Cataratas de Misiones, en la frontera con Brasil",
+    "answer": "Iguazú",
+    "difficulty": "medium"
+  },
+  {
+    "id": "i-021",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Pueblo de los Andes que construyó Machu Picchu",
+    "answer": "Inca",
+    "difficulty": "medium"
+  },
+  {
+    "id": "i-022",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Persona muy admirada por sus seguidores",
+    "answer": "Ídolo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "i-023",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Etapa de la vida en que se es niño",
+    "answer": "Infancia",
+    "difficulty": "medium"
+  },
+  {
+    "id": "i-024",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Tecla de la pared que prende y apaga la luz",
+    "answer": "Interruptor",
+    "difficulty": "medium"
+  },
+  {
+    "id": "i-025",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Artista que hace los dibujos de los libros y las revistas",
+    "answer": "Ilustrador",
+    "difficulty": "medium"
+  },
+  {
+    "id": "i-026",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Cada uno de los elementos que lleva una receta",
+    "answer": "Ingrediente",
+    "difficulty": "medium"
+  },
+  {
+    "id": "i-027",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "País asiático del Taj Mahal y del río Ganges",
+    "answer": "India",
+    "difficulty": "medium"
+  },
+  {
+    "id": "i-028",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Parte de color del ojo, alrededor de la pupila",
+    "answer": "Iris",
+    "difficulty": "medium"
+  },
+  {
+    "id": "i-029",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Diente delantero que sirve para cortar los alimentos",
+    "answer": "Incisivo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "i-030",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Que no deja pasar el agua",
+    "answer": "Impermeable",
+    "difficulty": "medium"
+  },
+  {
+    "id": "i-031",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Persona que alquila la casa o el departamento donde vive",
+    "answer": "Inquilino",
+    "difficulty": "medium"
+  },
+  {
+    "id": "i-032",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Red mundial que conecta computadoras y celulares",
+    "answer": "Internet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "i-033",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Triángulo que tiene dos lados iguales y uno distinto",
+    "answer": "Isósceles",
+    "difficulty": "hard"
+  },
+  {
+    "id": "i-034",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Aumento general y sostenido de los precios",
+    "answer": "Inflación",
+    "difficulty": "hard"
+  },
+  {
+    "id": "i-035",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Nombre del personaje mitológico que voló con alas de cera y cayó al mar",
+    "answer": "Ícaro",
+    "difficulty": "hard"
+  },
+  {
+    "id": "i-036",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Dificultad para conciliar el sueño de noche",
+    "answer": "Insomnio",
+    "difficulty": "hard"
+  },
+  {
+    "id": "i-037",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "En una ecuación, el valor desconocido que se escribe con una x",
+    "answer": "Incógnita",
+    "difficulty": "hard"
+  },
+  {
+    "id": "i-038",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Animal sin columna vertebral, como el pulpo o el gusano",
+    "answer": "Invertebrado",
+    "difficulty": "hard"
+  },
+  {
+    "id": "i-039",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Forma de burla que consiste en decir lo contrario de lo que se piensa",
+    "answer": "Ironía",
+    "difficulty": "hard"
+  },
+  {
+    "id": "i-040",
+    "letter": "I",
+    "type": "startsWith",
+    "clue": "Estado enorme que domina muchos pueblos, como el romano o el otomano",
+    "answer": "Imperio",
+    "difficulty": "hard"
+  }
+]

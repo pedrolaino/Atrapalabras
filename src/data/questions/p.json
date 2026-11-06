@@ -1,0 +1,322 @@
+[
+  {
+    "id": "p-001",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Animal doméstico que ladra, mueve la cola y cuida la casa",
+    "answer": "Perro",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-002",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Ave que nada en las lagunas y hace \"cuac\"",
+    "answer": "Pato",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-003",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Alimento horneado de harina y levadura que acompaña las comidas",
+    "answer": "Pan",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-004",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Objeto redondo con el que se juega al fútbol",
+    "answer": "Pelota",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-005",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Masa redonda con salsa de tomate y muzzarella, que se hace al horno",
+    "answer": "Pizza",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-006",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Parte del cuerpo donde se ponen las medias y los zapatos",
+    "answer": "Pie",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-007",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Tubérculo con el que se hacen el puré y las fritas",
+    "answer": "Papa",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-008",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Ave blanca y negra que no vuela y camina como balanceándose",
+    "answer": "Pingüino",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-009",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Abertura con una hoja que se abre para entrar o salir",
+    "answer": "Puerta",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-010",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Lugar con agua para nadar, en una casa o un club",
+    "answer": "Pileta",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-011",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Artista de circo con nariz roja y zapatos enormes",
+    "answer": "Payaso",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-012",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Agente que vigila las calles y detiene a los delincuentes",
+    "answer": "Policía",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-013",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Fruta verde o amarilla, ancha abajo y angosta arriba",
+    "answer": "Pera",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-014",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Ladrón de los mares con parche en el ojo y pata de palo",
+    "answer": "Pirata",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-015",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Objeto que se abre sobre la cabeza para no mojarse con la lluvia",
+    "answer": "Paraguas",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-016",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Estación del año que empieza el 21 de septiembre",
+    "answer": "Primavera",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-017",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Animal marino de ocho tentáculos que larga tinta",
+    "answer": "Pulpo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-018",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Construcción egipcia de base cuadrada y caras triangulares",
+    "answer": "Pirámide",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-019",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Órgano con el que respiramos",
+    "answer": "Pulmón",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-020",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Tela que se abre para frenar al saltar desde un avión",
+    "answer": "Paracaídas",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-021",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Masa fina hecha en sartén que se rellena con dulce",
+    "answer": "Panqueque",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-022",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Persona que arregla caños y pérdidas de agua",
+    "answer": "Plomero",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-023",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Persona que investiga y cuenta las noticias",
+    "answer": "Periodista",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-024",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "País vecino cuya capital es Asunción",
+    "answer": "Paraguay",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-025",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "País andino cuya capital es Lima",
+    "answer": "Perú",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-026",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Instrumento de cola o de pared con teclas blancas y negras",
+    "answer": "Piano",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-027",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Herramienta con pelos en la punta que se usa para pintar",
+    "answer": "Pincel",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-028",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Felino americano de pelaje pardo, también llamado león de montaña",
+    "answer": "Puma",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-029",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Astro que gira alrededor del Sol, como Marte o la Tierra",
+    "answer": "Planeta",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-030",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Apellido del pintor español del cubismo, autor del Guernica",
+    "answer": "Picasso",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-031",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Construcción que permite cruzar un río de una orilla a otra",
+    "answer": "Puente",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-032",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Abrigo de lana con un agujero en el medio para pasar la cabeza",
+    "answer": "Poncho",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-033",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Figura de cinco lados",
+    "answer": "Pentágono",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-034",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Material de escritura que usaban los antiguos egipcios, hecho de una planta",
+    "answer": "Papiro",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-035",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Primer antibiótico de la historia, descubierto por Fleming",
+    "answer": "Penicilina",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-036",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Suma de las longitudes de todos los lados de una figura",
+    "answer": "Perímetro",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-037",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Polvo explosivo inventado en China, que se usa en los fuegos artificiales",
+    "answer": "Pólvora",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-038",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Caballo alado de la mitología griega",
+    "answer": "Pegaso",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-039",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Cuerpo de vidrio que descompone la luz blanca en colores",
+    "answer": "Prisma",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-040",
+    "letter": "P",
+    "type": "startsWith",
+    "clue": "Científico que estudia los fósiles",
+    "answer": "Paleontólogo",
+    "difficulty": "hard"
+  }
+]

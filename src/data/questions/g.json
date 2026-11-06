@@ -1,0 +1,322 @@
+[
+  {
+    "id": "g-001",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Animal del que se dice que tiene siete vidas",
+    "answer": "Gato",
+    "difficulty": "easy"
+  },
+  {
+    "id": "g-002",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Ave de granja que pone huevos y cacarea",
+    "answer": "Gallina",
+    "difficulty": "easy"
+  },
+  {
+    "id": "g-003",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Instrumento de seis cuerdas que se toca con los dedos o una púa",
+    "answer": "Guitarra",
+    "difficulty": "easy"
+  },
+  {
+    "id": "g-004",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Bolsa de goma de colores que se infla en los cumpleaños",
+    "answer": "Globo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "g-005",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Sombrero con visera",
+    "answer": "Gorra",
+    "difficulty": "easy"
+  },
+  {
+    "id": "g-006",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Bebida dulce con burbujas",
+    "answer": "Gaseosa",
+    "difficulty": "easy"
+  },
+  {
+    "id": "g-007",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Masa chica y crocante, dulce o salada, que se come con el mate",
+    "answer": "Galletita",
+    "difficulty": "easy"
+  },
+  {
+    "id": "g-008",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Animal blando y alargado, sin patas, que vive en la tierra o en la fruta",
+    "answer": "Gusano",
+    "difficulty": "easy"
+  },
+  {
+    "id": "g-009",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Lo que se grita cuando la pelota entra en el arco",
+    "answer": "Gol",
+    "difficulty": "easy"
+  },
+  {
+    "id": "g-010",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Color que sale de mezclar el blanco con el negro",
+    "answer": "Gris",
+    "difficulty": "easy"
+  },
+  {
+    "id": "g-011",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Prenda de abrigo que cubre la mano y cada uno de los dedos",
+    "answer": "Guante",
+    "difficulty": "easy"
+  },
+  {
+    "id": "g-012",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Personaje de cuento enorme, mucho más alto que una persona",
+    "answer": "Gigante",
+    "difficulty": "easy"
+  },
+  {
+    "id": "g-013",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Parte interna del cuello que duele cuando tenemos anginas",
+    "answer": "Garganta",
+    "difficulty": "easy"
+  },
+  {
+    "id": "g-014",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Hermanos nacidos en el mismo parto que son idénticos",
+    "answer": "Gemelos",
+    "difficulty": "easy"
+  },
+  {
+    "id": "g-015",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Útil escolar que sirve para borrar lo escrito con lápiz",
+    "answer": "Goma",
+    "difficulty": "easy"
+  },
+  {
+    "id": "g-016",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Lugar en el campo donde se crían animales y se cultiva la tierra",
+    "answer": "Granja",
+    "difficulty": "easy"
+  },
+  {
+    "id": "g-017",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Flor amarilla muy grande de cuyas semillas se saca aceite",
+    "answer": "Girasol",
+    "difficulty": "medium"
+  },
+  {
+    "id": "g-018",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Gran masa de hielo que avanza lentamente, como el Perito Moreno",
+    "answer": "Glaciar",
+    "difficulty": "medium"
+  },
+  {
+    "id": "g-019",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Hombre de campo de la pampa, con poncho, bombacha y facón",
+    "answer": "Gaucho",
+    "difficulty": "medium"
+  },
+  {
+    "id": "g-020",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "País de la Acrópolis y de los dioses del Olimpo",
+    "answer": "Grecia",
+    "difficulty": "medium"
+  },
+  {
+    "id": "g-021",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Ciencia que estudia la superficie de la Tierra, sus países, ríos y montañas",
+    "answer": "Geografía",
+    "difficulty": "medium"
+  },
+  {
+    "id": "g-022",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Persona que cuida a los bañistas en la playa o en la pileta",
+    "answer": "Guardavidas",
+    "difficulty": "medium"
+  },
+  {
+    "id": "g-023",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Fruta de cáscara dura con cientos de semillitas rojas adentro",
+    "answer": "Granada",
+    "difficulty": "medium"
+  },
+  {
+    "id": "g-024",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Máquina que levanta cosas pesadas en una obra o remolca autos",
+    "answer": "Grúa",
+    "difficulty": "medium"
+  },
+  {
+    "id": "g-025",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Recipiente de metal con gas para la cocina o la estufa",
+    "answer": "Garrafa",
+    "difficulty": "medium"
+  },
+  {
+    "id": "g-026",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Deporte de saltos, piruetas, barras y anillas",
+    "answer": "Gimnasia",
+    "difficulty": "medium"
+  },
+  {
+    "id": "g-027",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Comida caliente de carne, papas y verduras cocinadas en una olla",
+    "answer": "Guiso",
+    "difficulty": "medium"
+  },
+  {
+    "id": "g-028",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Delantal blanco que usan los chicos en la escuela pública",
+    "answer": "Guardapolvo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "g-029",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Agujero en el techo por donde cae agua cuando llueve",
+    "answer": "Gotera",
+    "difficulty": "medium"
+  },
+  {
+    "id": "g-030",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Enorme conjunto de estrellas, como la Vía Láctea",
+    "answer": "Galaxia",
+    "difficulty": "medium"
+  },
+  {
+    "id": "g-031",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Luchador que peleaba en los circos de la antigua Roma",
+    "answer": "Gladiador",
+    "difficulty": "medium"
+  },
+  {
+    "id": "g-032",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Animal de la Patagonia parecido a la llama",
+    "answer": "Guanaco",
+    "difficulty": "medium"
+  },
+  {
+    "id": "g-033",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Fuente natural que lanza chorros de agua caliente y vapor",
+    "answer": "Géiser",
+    "difficulty": "hard"
+  },
+  {
+    "id": "g-034",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Unidad de herencia del ADN que pasa de padres a hijos",
+    "answer": "Gen",
+    "difficulty": "hard"
+  },
+  {
+    "id": "g-035",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Órgano que produce sustancias para el cuerpo, como la saliva o el sudor",
+    "answer": "Glándula",
+    "difficulty": "hard"
+  },
+  {
+    "id": "g-036",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Pájaro migratorio de cola en forma de tijera",
+    "answer": "Golondrina",
+    "difficulty": "hard"
+  },
+  {
+    "id": "g-037",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Apellido del inventor alemán de la imprenta",
+    "answer": "Gutenberg",
+    "difficulty": "hard"
+  },
+  {
+    "id": "g-038",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Nombre de pila del astrónomo Galilei, que defendió que la Tierra gira alrededor del Sol",
+    "answer": "Galileo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "g-039",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Roca muy dura y moteada que se usa en las mesadas de cocina",
+    "answer": "Granito",
+    "difficulty": "hard"
+  },
+  {
+    "id": "g-040",
+    "letter": "G",
+    "type": "startsWith",
+    "clue": "Mineral negro con el que se hace la mina de los lápices",
+    "answer": "Grafito",
+    "difficulty": "hard"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "z-001",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Lo que se pone en el pie, de cuero, para ir a trabajar o a una fiesta",
+    "answer": "Zapato",
+    "difficulty": "easy"
+  },
+  {
+    "id": "z-002",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Hortaliza naranja y alargada que comen los conejos",
+    "answer": "Zanahoria",
+    "difficulty": "easy"
+  },
+  {
+    "id": "z-003",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Animal astuto de cola peluda, parecido a un perro",
+    "answer": "Zorro",
+    "difficulty": "easy"
+  },
+  {
+    "id": "z-004",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Hortaliza grande y redonda de pulpa naranja, rica en puré",
+    "answer": "Zapallo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "z-005",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Lugar donde se pueden ver animales salvajes de todo el mundo",
+    "answer": "Zoológico",
+    "difficulty": "easy"
+  },
+  {
+    "id": "z-006",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Persona que usa principalmente la mano izquierda",
+    "answer": "Zurdo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "z-007",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Línea que va quebrándose de un lado al otro",
+    "answer": "Zigzag",
+    "difficulty": "easy"
+  },
+  {
+    "id": "z-008",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Signo formado por un palo vertical y otro horizontal, como en las iglesias",
+    "answer": "Cruz",
+    "difficulty": "easy"
+  },
+  {
+    "id": "z-009",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Animal que vive en el agua y respira por branquias",
+    "answer": "Pez",
+    "difficulty": "easy"
+  },
+  {
+    "id": "z-010",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Lo que da el sol y nos permite ver",
+    "answer": "Luz",
+    "difficulty": "easy"
+  },
+  {
+    "id": "z-011",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Espacio público con bancos y árboles, como la de Mayo",
+    "answer": "Plaza",
+    "difficulty": "easy"
+  },
+  {
+    "id": "z-012",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Parte del cuerpo donde están los ojos y el cerebro",
+    "answer": "Cabeza",
+    "difficulty": "easy"
+  },
+  {
+    "id": "z-013",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Superficie verde o negra donde la maestra escribe con tiza",
+    "answer": "Pizarrón",
+    "difficulty": "easy"
+  },
+  {
+    "id": "z-014",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Lo que simboliza la paloma blanca",
+    "answer": "Paz",
+    "difficulty": "easy"
+  },
+  {
+    "id": "z-015",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Muy contento, lleno de alegría",
+    "answer": "Feliz",
+    "difficulty": "easy"
+  },
+  {
+    "id": "z-016",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Sonido que sale de la garganta al hablar o cantar",
+    "answer": "Voz",
+    "difficulty": "easy"
+  },
+  {
+    "id": "z-017",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Animal blanco y negro que lanza un olor horrible para defenderse",
+    "answer": "Zorrino",
+    "difficulty": "medium"
+  },
+  {
+    "id": "z-018",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Pájaro cantor de color marrón, con el pecho manchado",
+    "answer": "Zorzal",
+    "difficulty": "medium"
+  },
+  {
+    "id": "z-019",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Danza folclórica argentina que se baila revoleando pañuelos",
+    "answer": "Zamba",
+    "difficulty": "medium"
+  },
+  {
+    "id": "z-020",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Excavación larga y angosta en la tierra",
+    "answer": "Zanja",
+    "difficulty": "medium"
+  },
+  {
+    "id": "z-021",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Piedra preciosa de color azul",
+    "answer": "Zafiro",
+    "difficulty": "medium"
+  },
+  {
+    "id": "z-022",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Conjunto de los doce signos, como Aries, Leo y Piscis",
+    "answer": "Zodíaco",
+    "difficulty": "medium"
+  },
+  {
+    "id": "z-023",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Salir un barco del puerto",
+    "answer": "Zarpar",
+    "difficulty": "medium"
+  },
+  {
+    "id": "z-024",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Salto de cabeza al agua",
+    "answer": "Zambullida",
+    "difficulty": "medium"
+  },
+  {
+    "id": "z-025",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Franja que recorre la parte baja de una pared",
+    "answer": "Zócalo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "z-026",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Todo lo que se pone en los pies para caminar",
+    "answer": "Calzado",
+    "difficulty": "medium"
+  },
+  {
+    "id": "z-027",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Aderezo amarillo y picante que se le pone al pancho",
+    "answer": "Mostaza",
+    "difficulty": "medium"
+  },
+  {
+    "id": "z-028",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Ave blanca de patas largas que pesca en las lagunas",
+    "answer": "Garza",
+    "difficulty": "medium"
+  },
+  {
+    "id": "z-029",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Prenda de abrigo de mangas largas, a veces con capucha",
+    "answer": "Buzo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "z-030",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Marca que queda en la piel después de una herida",
+    "answer": "Cicatriz",
+    "difficulty": "medium"
+  },
+  {
+    "id": "z-031",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Máscara que cubre solo la zona de los ojos",
+    "answer": "Antifaz",
+    "difficulty": "medium"
+  },
+  {
+    "id": "z-032",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Cereal de granos amarillos con el que se hace la polenta",
+    "answer": "Maíz",
+    "difficulty": "medium"
+  },
+  {
+    "id": "z-033",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Nombre del dios principal del Olimpo griego, que lanzaba rayos",
+    "answer": "Zeus",
+    "difficulty": "hard"
+  },
+  {
+    "id": "z-034",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Título del emperador de Rusia",
+    "answer": "Zar",
+    "difficulty": "hard"
+  },
+  {
+    "id": "z-035",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Jefe de los peones en una estancia",
+    "answer": "Capataz",
+    "difficulty": "hard"
+  },
+  {
+    "id": "z-036",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Coser un agujero en una media o en una prenda",
+    "answer": "Zurcir",
+    "difficulty": "hard"
+  },
+  {
+    "id": "z-037",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Pueblo que fundó Tenochtitlan, donde hoy está la Ciudad de México",
+    "answer": "Azteca",
+    "difficulty": "hard"
+  },
+  {
+    "id": "z-038",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Perro o persona que guía a un ciego",
+    "answer": "Lazarillo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "z-039",
+    "letter": "Z",
+    "type": "startsWith",
+    "clue": "Palos largos con los que se camina muy alto en el circo",
+    "answer": "Zancos",
+    "difficulty": "hard"
+  },
+  {
+    "id": "z-040",
+    "letter": "Z",
+    "type": "contains",
+    "clue": "Momento en que el avión toca la pista al llegar",
+    "answer": "Aterrizaje",
+    "difficulty": "hard"
+  }
+]

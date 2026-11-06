@@ -1,0 +1,322 @@
+[
+  {
+    "id": "r-001",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Anfibio verde que salta y croa",
+    "answer": "Rana",
+    "difficulty": "easy"
+  },
+  {
+    "id": "r-002",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Roedor pequeño que, según los dibujos animados, ama el queso",
+    "answer": "Ratón",
+    "difficulty": "easy"
+  },
+  {
+    "id": "r-003",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Aparato con agujas que marca la hora",
+    "answer": "Reloj",
+    "difficulty": "easy"
+  },
+  {
+    "id": "r-004",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Color de la sangre y de los tomates maduros",
+    "answer": "Rojo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "r-005",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Flor perfumada con espinas en el tallo",
+    "answer": "Rosa",
+    "difficulty": "easy"
+  },
+  {
+    "id": "r-006",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Pieza redonda que gira y hace avanzar a los autos",
+    "answer": "Rueda",
+    "difficulty": "easy"
+  },
+  {
+    "id": "r-007",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Monarca que lleva corona y se sienta en el trono",
+    "answer": "Rey",
+    "difficulty": "easy"
+  },
+  {
+    "id": "r-008",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Corriente de agua dulce que desemboca en el mar o en un lago",
+    "answer": "Río",
+    "difficulty": "easy"
+  },
+  {
+    "id": "r-009",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Lo que se da en un cumpleaños o en Navidad",
+    "answer": "Regalo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "r-010",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Máquina programada que imita movimientos humanos",
+    "answer": "Robot",
+    "difficulty": "easy"
+  },
+  {
+    "id": "r-011",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Aparato para escuchar música y noticias, sin imagen",
+    "answer": "Radio",
+    "difficulty": "easy"
+  },
+  {
+    "id": "r-012",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Articulación de la mitad de la pierna",
+    "answer": "Rodilla",
+    "difficulty": "easy"
+  },
+  {
+    "id": "r-013",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Prenda de manga corta, sin botones, que se pone por la cabeza",
+    "answer": "Remera",
+    "difficulty": "easy"
+  },
+  {
+    "id": "r-014",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Lo que provocan un chiste o las cosquillas",
+    "answer": "Risa",
+    "difficulty": "easy"
+  },
+  {
+    "id": "r-015",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Animal africano enorme con uno o dos cuernos sobre la nariz",
+    "answer": "Rinoceronte",
+    "difficulty": "easy"
+  },
+  {
+    "id": "r-016",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Pasta cuadrada y rellena que se come los domingos",
+    "answer": "Ravioles",
+    "difficulty": "easy"
+  },
+  {
+    "id": "r-017",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Descarga eléctrica que cae de una tormenta y puede partir un árbol",
+    "answer": "Rayo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "r-018",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Ciervo del Polo Norte que tira del trineo de Papá Noel",
+    "answer": "Reno",
+    "difficulty": "medium"
+  },
+  {
+    "id": "r-019",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Deporte con pelota ovalada en el que juegan Los Pumas",
+    "answer": "Rugby",
+    "difficulty": "medium"
+  },
+  {
+    "id": "r-020",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Ciudad de Santa Fe donde está el Monumento a la Bandera",
+    "answer": "Rosario",
+    "difficulty": "medium"
+  },
+  {
+    "id": "r-021",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Juego de piezas que encastran para formar una imagen",
+    "answer": "Rompecabezas",
+    "difficulty": "medium"
+  },
+  {
+    "id": "r-022",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Útil escolar para trazar líneas rectas y medir",
+    "answer": "Regla",
+    "difficulty": "medium"
+  },
+  {
+    "id": "r-023",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Instrucciones para preparar una comida",
+    "answer": "Receta",
+    "difficulty": "medium"
+  },
+  {
+    "id": "r-024",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Camino asfaltado que une ciudades",
+    "answer": "Ruta",
+    "difficulty": "medium"
+  },
+  {
+    "id": "r-025",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Imagen de los huesos tomada con rayos X",
+    "answer": "Radiografía",
+    "difficulty": "medium"
+  },
+  {
+    "id": "r-026",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Edificio altísimo, de muchísimos pisos",
+    "answer": "Rascacielos",
+    "difficulty": "medium"
+  },
+  {
+    "id": "r-027",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Verdura de hojas apretadas que forman una bola",
+    "answer": "Repollo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "r-028",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Hortaliza de color morado oscuro que tiñe todo lo que toca",
+    "answer": "Remolacha",
+    "difficulty": "medium"
+  },
+  {
+    "id": "r-029",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Enfermedad leve con mocos y estornudos",
+    "answer": "Resfrío",
+    "difficulty": "medium"
+  },
+  {
+    "id": "r-030",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Río del sur porteño que pasa por La Boca",
+    "answer": "Riachuelo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "r-031",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Piedra preciosa de color rojo",
+    "answer": "Rubí",
+    "difficulty": "medium"
+  },
+  {
+    "id": "r-032",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Parte de la planta que crece bajo tierra",
+    "answer": "Raíz",
+    "difficulty": "medium"
+  },
+  {
+    "id": "r-033",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Capa del fondo del ojo que capta la luz",
+    "answer": "Retina",
+    "difficulty": "hard"
+  },
+  {
+    "id": "r-034",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Gotitas de agua que aparecen sobre el pasto de madrugada",
+    "answer": "Rocío",
+    "difficulty": "hard"
+  },
+  {
+    "id": "r-035",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Proceso para volver a usar materiales como el plástico, el papel y el vidrio",
+    "answer": "Reciclaje",
+    "difficulty": "hard"
+  },
+  {
+    "id": "r-036",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Época de Leonardo y Miguel Ángel, que siguió a la Edad Media",
+    "answer": "Renacimiento",
+    "difficulty": "hard"
+  },
+  {
+    "id": "r-037",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Sistema que detecta aviones y barcos con ondas de radio",
+    "answer": "Radar",
+    "difficulty": "hard"
+  },
+  {
+    "id": "r-038",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Golpe de viento fuerte y repentino",
+    "answer": "Ráfaga",
+    "difficulty": "hard"
+  },
+  {
+    "id": "r-039",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Pájaro famoso por la belleza de su canto",
+    "answer": "Ruiseñor",
+    "difficulty": "hard"
+  },
+  {
+    "id": "r-040",
+    "letter": "R",
+    "type": "startsWith",
+    "clue": "Hueso redondo que está adelante de la rodilla",
+    "answer": "Rótula",
+    "difficulty": "hard"
+  }
+]

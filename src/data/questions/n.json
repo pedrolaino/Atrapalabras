@@ -1,0 +1,322 @@
+[
+  {
+    "id": "n-001",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Parte de la cara que le crecía a Pinocho cuando mentía",
+    "answer": "Nariz",
+    "difficulty": "easy"
+  },
+  {
+    "id": "n-002",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Masa blanca o gris que flota en el cielo y trae la lluvia",
+    "answer": "Nube",
+    "difficulty": "easy"
+  },
+  {
+    "id": "n-003",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Fruta cítrica y redonda con la que se hace jugo",
+    "answer": "Naranja",
+    "difficulty": "easy"
+  },
+  {
+    "id": "n-004",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Copos blancos que caen del cielo cuando hace mucho frío",
+    "answer": "Nieve",
+    "difficulty": "easy"
+  },
+  {
+    "id": "n-005",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Momento en que salen los murciélagos y las lechuzas",
+    "answer": "Noche",
+    "difficulty": "easy"
+  },
+  {
+    "id": "n-006",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Lugar que construyen los pájaros para poner sus huevos",
+    "answer": "Nido",
+    "difficulty": "easy"
+  },
+  {
+    "id": "n-007",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Color del carbón y de la oscuridad total",
+    "answer": "Negro",
+    "difficulty": "easy"
+  },
+  {
+    "id": "n-008",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Penúltimo mes del año",
+    "answer": "Noviembre",
+    "difficulty": "easy"
+  },
+  {
+    "id": "n-009",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Hijo de tu hijo o de tu hija",
+    "answer": "Nieto",
+    "difficulty": "easy"
+  },
+  {
+    "id": "n-010",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Mujer que se casa vestida de blanco",
+    "answer": "Novia",
+    "difficulty": "easy"
+  },
+  {
+    "id": "n-011",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Fruto seco de cáscara dura y arrugada",
+    "answer": "Nuez",
+    "difficulty": "easy"
+  },
+  {
+    "id": "n-012",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Fiesta del 25 de diciembre",
+    "answer": "Navidad",
+    "difficulty": "easy"
+  },
+  {
+    "id": "n-013",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Signo que expresa una cantidad, como el 7 o el 100",
+    "answer": "Número",
+    "difficulty": "easy"
+  },
+  {
+    "id": "n-014",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Parte de atrás del cuello",
+    "answer": "Nuca",
+    "difficulty": "easy"
+  },
+  {
+    "id": "n-015",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Cómo es un auto cero kilómetro",
+    "answer": "Nuevo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "n-016",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Lazo apretado que se hace con una soga o los cordones",
+    "answer": "Nudo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "n-017",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Mamífero de río de pelaje marrón, buena nadadora",
+    "answer": "Nutria",
+    "difficulty": "medium"
+  },
+  {
+    "id": "n-018",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Cartas para jugar al truco o al chinchón",
+    "answer": "Naipes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "n-019",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Río más largo de África",
+    "answer": "Nilo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "n-020",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "País nórdico de las auroras boreales, con capital en Oslo",
+    "answer": "Noruega",
+    "difficulty": "medium"
+  },
+  {
+    "id": "n-021",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Provincia patagónica de petróleo y lagos, cuya capital tiene el mismo nombre",
+    "answer": "Neuquén",
+    "difficulty": "medium"
+  },
+  {
+    "id": "n-022",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Profesional de la salud que arma dietas equilibradas",
+    "answer": "Nutricionista",
+    "difficulty": "medium"
+  },
+  {
+    "id": "n-023",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Célula del sistema nervioso",
+    "answer": "Neurona",
+    "difficulty": "medium"
+  },
+  {
+    "id": "n-024",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Persona que sobrevive al hundimiento de un barco",
+    "answer": "Náufrago",
+    "difficulty": "medium"
+  },
+  {
+    "id": "n-025",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Nombre del emperador francés derrotado en Waterloo",
+    "answer": "Napoleón",
+    "difficulty": "medium"
+  },
+  {
+    "id": "n-026",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Planeta más lejano del Sol",
+    "answer": "Neptuno",
+    "difficulty": "medium"
+  },
+  {
+    "id": "n-027",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Libro largo que cuenta una historia inventada",
+    "answer": "Novela",
+    "difficulty": "medium"
+  },
+  {
+    "id": "n-028",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Combustible que se carga en el auto",
+    "answer": "Nafta",
+    "difficulty": "medium"
+  },
+  {
+    "id": "n-029",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Premio internacional que se entrega en Estocolmo",
+    "answer": "Nobel",
+    "difficulty": "hard"
+  },
+  {
+    "id": "n-030",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Deporte que se practica en la pileta, con estilos como el crol",
+    "answer": "Natación",
+    "difficulty": "medium"
+  },
+  {
+    "id": "n-031",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "En un cuento, la voz que cuenta la historia",
+    "answer": "Narrador",
+    "difficulty": "medium"
+  },
+  {
+    "id": "n-032",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Goma inflada que va en la rueda del auto",
+    "answer": "Neumático",
+    "difficulty": "medium"
+  },
+  {
+    "id": "n-033",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Enorme nube de gas y polvo en el espacio donde nacen estrellas",
+    "answer": "Nebulosa",
+    "difficulty": "hard"
+  },
+  {
+    "id": "n-034",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Especie humana primitiva que convivió con el Homo sapiens",
+    "answer": "Neandertal",
+    "difficulty": "hard"
+  },
+  {
+    "id": "n-035",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Tristeza por algo del pasado que se extraña",
+    "answer": "Nostalgia",
+    "difficulty": "hard"
+  },
+  {
+    "id": "n-036",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Nombre del personaje bíblico que construyó un arca para salvar a los animales del diluvio",
+    "answer": "Noé",
+    "difficulty": "hard"
+  },
+  {
+    "id": "n-037",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Que no tiene un lugar fijo y se traslada de un sitio a otro",
+    "answer": "Nómade",
+    "difficulty": "hard"
+  },
+  {
+    "id": "n-038",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Líquido dulce de las flores que buscan las abejas",
+    "answer": "Néctar",
+    "difficulty": "medium"
+  },
+  {
+    "id": "n-039",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Sustancia adictiva que contiene el tabaco",
+    "answer": "Nicotina",
+    "difficulty": "hard"
+  },
+  {
+    "id": "n-040",
+    "letter": "N",
+    "type": "startsWith",
+    "clue": "Gas que brilla en los carteles luminosos de colores",
+    "answer": "Neón",
+    "difficulty": "hard"
+  }
+]

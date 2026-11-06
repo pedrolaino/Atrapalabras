@@ -1,0 +1,322 @@
+[
+  {
+    "id": "u-001",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Fruta pequeña que crece en racimos y con la que se hace el vino",
+    "answer": "Uva",
+    "difficulty": "easy"
+  },
+  {
+    "id": "u-002",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Primer número natural, el que va antes del dos",
+    "answer": "Uno",
+    "difficulty": "easy"
+  },
+  {
+    "id": "u-003",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Ropa igual que usan los soldados o los alumnos de un colegio",
+    "answer": "Uniforme",
+    "difficulty": "easy"
+  },
+  {
+    "id": "u-004",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Lugar donde se estudia una carrera después del secundario",
+    "answer": "Universidad",
+    "difficulty": "easy"
+  },
+  {
+    "id": "u-005",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Caballo mágico con un cuerno en la frente",
+    "answer": "Unicornio",
+    "difficulty": "easy"
+  },
+  {
+    "id": "u-006",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "País vecino cuya capital es Montevideo",
+    "answer": "Uruguay",
+    "difficulty": "easy"
+  },
+  {
+    "id": "u-007",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "El que llega después de todos en una carrera",
+    "answer": "Último",
+    "difficulty": "easy"
+  },
+  {
+    "id": "u-008",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Que no puede esperar y hay que hacerlo ya",
+    "answer": "Urgente",
+    "difficulty": "easy"
+  },
+  {
+    "id": "u-009",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Esparcir manteca o dulce sobre el pan",
+    "answer": "Untar",
+    "difficulty": "easy"
+  },
+  {
+    "id": "u-010",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Que sirve para algo",
+    "answer": "Útil",
+    "difficulty": "easy"
+  },
+  {
+    "id": "u-011",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Parte de la vaca de donde se saca la leche",
+    "answer": "Ubre",
+    "difficulty": "easy"
+  },
+  {
+    "id": "u-012",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Forma respetuosa de decir \"vos\"",
+    "answer": "Usted",
+    "difficulty": "easy"
+  },
+  {
+    "id": "u-013",
+    "letter": "U",
+    "type": "contains",
+    "clue": "Cubierto con filo para cortar la carne",
+    "answer": "Cuchillo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "u-014",
+    "letter": "U",
+    "type": "contains",
+    "clue": "Sustancia blanca y dulce que se le pone al café",
+    "answer": "Azúcar",
+    "difficulty": "easy"
+  },
+  {
+    "id": "u-015",
+    "letter": "U",
+    "type": "contains",
+    "clue": "Alimento dulce que dan las plantas, como la pera o la ciruela",
+    "answer": "Fruta",
+    "difficulty": "easy"
+  },
+  {
+    "id": "u-016",
+    "letter": "U",
+    "type": "contains",
+    "clue": "Ave nocturna de cara blanca con forma de corazón",
+    "answer": "Lechuza",
+    "difficulty": "easy"
+  },
+  {
+    "id": "u-017",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Caja donde se ponen los votos en una elección",
+    "answer": "Urna",
+    "difficulty": "medium"
+  },
+  {
+    "id": "u-018",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Ciudad de Tierra del Fuego, la más austral del mundo",
+    "answer": "Ushuaia",
+    "difficulty": "medium"
+  },
+  {
+    "id": "u-019",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Objeto de uso manual en la cocina, como el cucharón o el pelapapas",
+    "answer": "Utensilio",
+    "difficulty": "medium"
+  },
+  {
+    "id": "u-020",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Propio de la ciudad, lo contrario de rural",
+    "answer": "Urbano",
+    "difficulty": "medium"
+  },
+  {
+    "id": "u-021",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Elemento radiactivo que se usa en las centrales nucleares",
+    "answer": "Uranio",
+    "difficulty": "medium"
+  },
+  {
+    "id": "u-022",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Séptimo planeta del sistema solar, que gira acostado",
+    "answer": "Urano",
+    "difficulty": "medium"
+  },
+  {
+    "id": "u-023",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Todo lo que existe: galaxias, estrellas y planetas",
+    "answer": "Universo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "u-024",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Planta que produce electricidad para una ciudad",
+    "answer": "Usina",
+    "difficulty": "medium"
+  },
+  {
+    "id": "u-025",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Pájaro blanco y negro famoso por robar objetos brillantes",
+    "answer": "Urraca",
+    "difficulty": "medium"
+  },
+  {
+    "id": "u-026",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Persona que tiene una cuenta en una aplicación o una red social",
+    "answer": "Usuario",
+    "difficulty": "medium"
+  },
+  {
+    "id": "u-027",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Nombre del héroe griego que tardó diez años en volver a Ítaca",
+    "answer": "Ulises",
+    "difficulty": "medium"
+  },
+  {
+    "id": "u-028",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Guitarra pequeña de cuatro cuerdas, típica de Hawái",
+    "answer": "Ukelele",
+    "difficulty": "medium"
+  },
+  {
+    "id": "u-029",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Herida abierta en el estómago o en la piel",
+    "answer": "Úlcera",
+    "difficulty": "medium"
+  },
+  {
+    "id": "u-030",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Reacción alérgica que llena la piel de ronchas que pican",
+    "answer": "Urticaria",
+    "difficulty": "medium"
+  },
+  {
+    "id": "u-031",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Crema medicinal que se pasa sobre la piel",
+    "answer": "Ungüento",
+    "difficulty": "medium"
+  },
+  {
+    "id": "u-032",
+    "letter": "U",
+    "type": "contains",
+    "clue": "Insecto marrón que corre por la cocina de noche",
+    "answer": "Cucaracha",
+    "difficulty": "medium"
+  },
+  {
+    "id": "u-033",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Parte del piso que está justo en la entrada de una puerta",
+    "answer": "Umbral",
+    "difficulty": "hard"
+  },
+  {
+    "id": "u-034",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Lugar o sociedad ideal que parece imposible de alcanzar",
+    "answer": "Utopía",
+    "difficulty": "hard"
+  },
+  {
+    "id": "u-035",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Cómo es una votación en la que todos están de acuerdo",
+    "answer": "Unánime",
+    "difficulty": "hard"
+  },
+  {
+    "id": "u-036",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Ser vivo formado por una sola célula",
+    "answer": "Unicelular",
+    "difficulty": "hard"
+  },
+  {
+    "id": "u-037",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "País europeo cuya capital es Kiev",
+    "answer": "Ucrania",
+    "difficulty": "hard"
+  },
+  {
+    "id": "u-038",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Rayos invisibles del sol que queman la piel; los frena el protector solar",
+    "answer": "Ultravioleta",
+    "difficulty": "hard"
+  },
+  {
+    "id": "u-039",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Advertencia final antes de tomar una medida drástica",
+    "answer": "Ultimátum",
+    "difficulty": "hard"
+  },
+  {
+    "id": "u-040",
+    "letter": "U",
+    "type": "startsWith",
+    "clue": "Apoderarse de algo que pertenece a otro",
+    "answer": "Usurpar",
+    "difficulty": "hard"
+  }
+]

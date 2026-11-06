@@ -1,0 +1,322 @@
+[
+  {
+    "id": "j-001",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Animal africano de cuello larguísimo y manchas",
+    "answer": "Jirafa",
+    "difficulty": "easy"
+  },
+  {
+    "id": "j-002",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Lo que se usa con agua para lavarse las manos",
+    "answer": "Jabón",
+    "difficulty": "easy"
+  },
+  {
+    "id": "j-003",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Bebida que se obtiene exprimiendo frutas",
+    "answer": "Jugo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "j-004",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Terreno de una casa con plantas, flores y césped",
+    "answer": "Jardín",
+    "difficulty": "easy"
+  },
+  {
+    "id": "j-005",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Día de la semana que va entre el miércoles y el viernes",
+    "answer": "Jueves",
+    "difficulty": "easy"
+  },
+  {
+    "id": "j-006",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Séptimo mes del año, el de las vacaciones de invierno",
+    "answer": "Julio",
+    "difficulty": "easy"
+  },
+  {
+    "id": "j-007",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Mes en que empieza el invierno y se festeja el Día del Padre",
+    "answer": "Junio",
+    "difficulty": "easy"
+  },
+  {
+    "id": "j-008",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Fiambre de cerdo, crudo o cocido, que va en el sándwich con queso",
+    "answer": "Jamón",
+    "difficulty": "easy"
+  },
+  {
+    "id": "j-009",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Objeto para entretener a los chicos, como una muñeca o un autito",
+    "answer": "Juguete",
+    "difficulty": "easy"
+  },
+  {
+    "id": "j-010",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Persona que ya no es niña pero todavía no es adulta",
+    "answer": "Joven",
+    "difficulty": "easy"
+  },
+  {
+    "id": "j-011",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Caja con barrotes donde se encierra a un pájaro",
+    "answer": "Jaula",
+    "difficulty": "easy"
+  },
+  {
+    "id": "j-012",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Persona que monta a caballo",
+    "answer": "Jinete",
+    "difficulty": "easy"
+  },
+  {
+    "id": "j-013",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Persona que manda en un trabajo",
+    "answer": "Jefe",
+    "difficulty": "easy"
+  },
+  {
+    "id": "j-014",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Anillo, collar o pulsera de oro o de piedras preciosas",
+    "answer": "Joya",
+    "difficulty": "easy"
+  },
+  {
+    "id": "j-015",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Recipiente con asa y pico para servir agua en la mesa",
+    "answer": "Jarra",
+    "difficulty": "easy"
+  },
+  {
+    "id": "j-016",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "País asiático del sol naciente",
+    "answer": "Japón",
+    "difficulty": "easy"
+  },
+  {
+    "id": "j-017",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Felino americano de pelaje con manchas, el más grande del continente",
+    "answer": "Jaguar",
+    "difficulty": "medium"
+  },
+  {
+    "id": "j-018",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Provincia del norte argentino donde está la Quebrada de Humahuaca",
+    "answer": "Jujuy",
+    "difficulty": "medium"
+  },
+  {
+    "id": "j-019",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Cerdo salvaje con colmillos",
+    "answer": "Jabalí",
+    "difficulty": "medium"
+  },
+  {
+    "id": "j-020",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Flor blanca, pequeña y muy perfumada",
+    "answer": "Jazmín",
+    "difficulty": "medium"
+  },
+  {
+    "id": "j-021",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Instrumento con émbolo y aguja que se usa para inyectar",
+    "answer": "Jeringa",
+    "difficulty": "medium"
+  },
+  {
+    "id": "j-022",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Bulto en la espalda del camello",
+    "answer": "Joroba",
+    "difficulty": "medium"
+  },
+  {
+    "id": "j-023",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Dulce de frutas espeso, transparente y gelatinoso",
+    "answer": "Jalea",
+    "difficulty": "medium"
+  },
+  {
+    "id": "j-024",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Remedio líquido y dulce para la tos",
+    "answer": "Jarabe",
+    "difficulty": "medium"
+  },
+  {
+    "id": "j-025",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Escritura con dibujos de los antiguos egipcios",
+    "answer": "Jeroglífico",
+    "difficulty": "medium"
+  },
+  {
+    "id": "j-026",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Arte marcial japonés de llaves y proyecciones, que se practica con kimono",
+    "answer": "Judo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "j-027",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Lanza que se arroja en las pruebas de atletismo",
+    "answer": "Jabalina",
+    "difficulty": "medium"
+  },
+  {
+    "id": "j-028",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Isla del Caribe donde nació el reggae",
+    "answer": "Jamaica",
+    "difficulty": "medium"
+  },
+  {
+    "id": "j-029",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Planeta más grande del sistema solar",
+    "answer": "Júpiter",
+    "difficulty": "medium"
+  },
+  {
+    "id": "j-030",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Persona que en un tribunal decide si alguien es culpable",
+    "answer": "Juez",
+    "difficulty": "medium"
+  },
+  {
+    "id": "j-031",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Selva tropical muy espesa, como la del libro de Mowgli",
+    "answer": "Jungla",
+    "difficulty": "medium"
+  },
+  {
+    "id": "j-032",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Árbol de flores violetas que tiñe Buenos Aires en noviembre",
+    "answer": "Jacarandá",
+    "difficulty": "medium"
+  },
+  {
+    "id": "j-033",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Raíz picante y aromática muy usada en la cocina asiática",
+    "answer": "Jengibre",
+    "difficulty": "hard"
+  },
+  {
+    "id": "j-034",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Forma de hablar propia de un grupo o de un oficio",
+    "answer": "Jerga",
+    "difficulty": "hard"
+  },
+  {
+    "id": "j-035",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Lo que cobra una persona cuando deja de trabajar por la edad",
+    "answer": "Jubilación",
+    "difficulty": "hard"
+  },
+  {
+    "id": "j-036",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Ciudad sagrada para judíos, cristianos y musulmanes",
+    "answer": "Jerusalén",
+    "difficulty": "hard"
+  },
+  {
+    "id": "j-037",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Dolor de cabeza intenso y persistente",
+    "answer": "Jaqueca",
+    "difficulty": "hard"
+  },
+  {
+    "id": "j-038",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Grupo de perros que cazan juntos",
+    "answer": "Jauría",
+    "difficulty": "hard"
+  },
+  {
+    "id": "j-039",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Líder de una tribu o de un territorio árabe",
+    "answer": "Jeque",
+    "difficulty": "hard"
+  },
+  {
+    "id": "j-040",
+    "letter": "J",
+    "type": "startsWith",
+    "clue": "Período de la era de los dinosaurios que va entre el Triásico y el Cretácico",
+    "answer": "Jurásico",
+    "difficulty": "hard"
+  }
+]

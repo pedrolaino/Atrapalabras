@@ -1,0 +1,322 @@
+[
+  {
+    "id": "f-001",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Lo que se prende con carbón y papel de diario antes de poner la carne",
+    "answer": "Fuego",
+    "difficulty": "easy"
+  },
+  {
+    "id": "f-002",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Lo que visitan las abejas para juntar el néctar",
+    "answer": "Flor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "f-003",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Fruta roja con semillitas por fuera, rica con crema",
+    "answer": "Frutilla",
+    "difficulty": "easy"
+  },
+  {
+    "id": "f-004",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Deporte de once jugadores en el que no se puede tocar la pelota con la mano",
+    "answer": "Fútbol",
+    "difficulty": "easy"
+  },
+  {
+    "id": "f-005",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Mamífero marino que aplaude con las aletas en los acuarios",
+    "answer": "Foca",
+    "difficulty": "easy"
+  },
+  {
+    "id": "f-006",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "El mes más corto del año",
+    "answer": "Febrero",
+    "difficulty": "easy"
+  },
+  {
+    "id": "f-007",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Negocio donde se compran remedios",
+    "answer": "Farmacia",
+    "difficulty": "easy"
+  },
+  {
+    "id": "f-008",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Grupo formado por padres, hijos, hermanos y abuelos",
+    "answer": "Familia",
+    "difficulty": "easy"
+  },
+  {
+    "id": "f-009",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Lo que hace castañetear los dientes",
+    "answer": "Frío",
+    "difficulty": "easy"
+  },
+  {
+    "id": "f-010",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Pasta seca que se hierve, como los tallarines o los moñitos",
+    "answer": "Fideos",
+    "difficulty": "easy"
+  },
+  {
+    "id": "f-011",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Espíritu que asusta, a veces dibujado con una sábana",
+    "answer": "Fantasma",
+    "difficulty": "easy"
+  },
+  {
+    "id": "f-012",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Torre de la costa con una luz que guía a los barcos de noche",
+    "answer": "Faro",
+    "difficulty": "easy"
+  },
+  {
+    "id": "f-013",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Ave rosada de patas largas que descansa parada en una sola pata",
+    "answer": "Flamenco",
+    "difficulty": "easy"
+  },
+  {
+    "id": "f-014",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Reunión para celebrar con música y baile",
+    "answer": "Fiesta",
+    "difficulty": "easy"
+  },
+  {
+    "id": "f-015",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Parte de la cara que está arriba de los ojos",
+    "answer": "Frente",
+    "difficulty": "easy"
+  },
+  {
+    "id": "f-016",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Manta gruesa de abrigo para la cama",
+    "answer": "Frazada",
+    "difficulty": "easy"
+  },
+  {
+    "id": "f-017",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "País de la Torre Eiffel",
+    "answer": "Francia",
+    "difficulty": "medium"
+  },
+  {
+    "id": "f-018",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Palito con cabeza que se raspa para prender la hornalla",
+    "answer": "Fósforo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "f-019",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Medialunas, vigilantes y bolas de fraile de la panadería",
+    "answer": "Factura",
+    "difficulty": "medium"
+  },
+  {
+    "id": "f-020",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Proceso con el que las plantas fabrican su alimento usando la luz del sol",
+    "answer": "Fotosíntesis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "f-021",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Resto de un ser vivo antiguo que quedó conservado en la piedra",
+    "answer": "Fósil",
+    "difficulty": "medium"
+  },
+  {
+    "id": "f-022",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Temperatura del cuerpo más alta de lo normal",
+    "answer": "Fiebre",
+    "difficulty": "medium"
+  },
+  {
+    "id": "f-023",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Varilla con punta que se dispara con un arco",
+    "answer": "Flecha",
+    "difficulty": "medium"
+  },
+  {
+    "id": "f-024",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Masa de harina de garbanzo que se come arriba de la pizza",
+    "answer": "Fainá",
+    "difficulty": "medium"
+  },
+  {
+    "id": "f-025",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Rey del antiguo Egipto",
+    "answer": "Faraón",
+    "difficulty": "medium"
+  },
+  {
+    "id": "f-026",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Profesional que retrata casamientos y eventos con su cámara",
+    "answer": "Fotógrafo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "f-027",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Ciencia que estudia la materia, la energía y el movimiento",
+    "answer": "Física",
+    "difficulty": "medium"
+  },
+  {
+    "id": "f-028",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Hueso del muslo, el más largo del cuerpo",
+    "answer": "Fémur",
+    "difficulty": "hard"
+  },
+  {
+    "id": "f-029",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Negocio donde se compran tornillos, clavos y herramientas",
+    "answer": "Ferretería",
+    "difficulty": "medium"
+  },
+  {
+    "id": "f-030",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Jamón, salame y mortadela, por ejemplo",
+    "answer": "Fiambre",
+    "difficulty": "medium"
+  },
+  {
+    "id": "f-031",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Provincia del norte argentino, vecina de Paraguay, cuya capital tiene el mismo nombre",
+    "answer": "Formosa",
+    "difficulty": "hard"
+  },
+  {
+    "id": "f-032",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Instrumento de viento con agujeros que se toca soplando",
+    "answer": "Flauta",
+    "difficulty": "medium"
+  },
+  {
+    "id": "f-033",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Arte decorativo porteño de letras y flores que adornaba los colectivos",
+    "answer": "Fileteado",
+    "difficulty": "hard"
+  },
+  {
+    "id": "f-034",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Abogado que acusa en un juicio en nombre del Estado",
+    "answer": "Fiscal",
+    "difficulty": "hard"
+  },
+  {
+    "id": "f-035",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Conjunto de tradiciones, músicas y danzas populares de un pueblo",
+    "answer": "Folclore",
+    "difficulty": "hard"
+  },
+  {
+    "id": "f-036",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Cuento corto protagonizado por animales que deja una moraleja",
+    "answer": "Fábula",
+    "difficulty": "medium"
+  },
+  {
+    "id": "f-037",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Conjunto de los animales de una región",
+    "answer": "Fauna",
+    "difficulty": "medium"
+  },
+  {
+    "id": "f-038",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Sistema de la Edad Media basado en señores y vasallos",
+    "answer": "Feudalismo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "f-039",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Medio de transporte que los ingleses extendieron por toda la Argentina en el siglo XIX",
+    "answer": "Ferrocarril",
+    "difficulty": "hard"
+  },
+  {
+    "id": "f-040",
+    "letter": "F",
+    "type": "startsWith",
+    "clue": "Ave mitológica que renace de sus propias cenizas",
+    "answer": "Fénix",
+    "difficulty": "hard"
+  }
+]
