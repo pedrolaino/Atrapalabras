@@ -23,6 +23,8 @@ describe('saved game', () => {
     expect(loadGame()).toBeNull()
     localStorage.setItem('atrapalabras:game', JSON.stringify({ ...testGame(), version: 99 }))
     expect(loadGame()).toBeNull()
+    localStorage.setItem('atrapalabras:game', JSON.stringify({ version: 2, players: 'x' }))
+    expect(loadGame()).toBeNull()
   })
 
   it('does not break if localStorage fails', () => {

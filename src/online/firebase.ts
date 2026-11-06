@@ -7,8 +7,8 @@ import {
   browserLocalPersistence, connectAuthEmulator, indexedDBLocalPersistence, initializeAuth, onAuthStateChanged, signInAnonymously, signOut,
 } from 'firebase/auth'
 import { connectDatabaseEmulator, get, getDatabase, onValue, ref, remove, runTransaction, type Database } from 'firebase/database'
+import { isGame } from '../game/storage'
 import { reducer } from '../game/reducer'
-import type { Game } from '../game/types'
 import { newRoomCode } from './roomCode'
 import { checkJoin, EXPIRY, expiresAt, type Connection, type Expiry, type Room } from './connection'
 import { firebaseConfig } from './firebaseConfig'
@@ -34,12 +34,20 @@ function parseJSON<T>(text: string | undefined, fallback: T): T {
   }
 }
 
+const isStringList = (x: unknown): x is string[] => Array.isArray(x) && x.every((id) => typeof id === 'string')
+
+// Anyone who knows the code can read the room, so whatever arrives is checked first.
 export function toRoom(s: StoredRoom | null): Room | null {
-  if (!s) return null
+  if (!s || typeof s.name0 !== 'string') return null
+  const used = (text?: string) => {
+    const list = parseJSON<unknown>(text, [])
+    return isStringList(list) ? list : []
+  }
+  const game = parseJSON<unknown>(s.game, null)
   return {
-    players: [s.name0, s.name1 ?? null],
-    used: [parseJSON<string[]>(s.used0, []), parseJSON<string[]>(s.used1, [])],
-    game: parseJSON<Game | null>(s.game, null),
+    players: [s.name0, typeof s.name1 === 'string' ? s.name1 : null],
+    used: [used(s.used0), used(s.used1)],
+    game: isGame(game) ? game : null,
   }
 }
 
