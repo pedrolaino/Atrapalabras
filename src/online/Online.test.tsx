@@ -88,6 +88,22 @@ it('after a reload it goes back to the same room and seat', async () => {
   expect(await screen.findByText('Juan (vos)')).toBeTruthy()
 })
 
+it('entering online mode deletes the expired rooms this device was in', async () => {
+  network = memoryConnection({ activeMs: -1, finishedMs: -1 })
+  const old = await network.createRoom('Pedro', [])
+  localStorage.setItem('atrapalabras:myRooms', JSON.stringify([old]))
+  render(<Online bank={bank} onExit={() => {}} createConnection={createConnection} />)
+  fireEvent.change(await screen.findByLabelText('Tu nombre'), { target: { value: 'Pedro' } })
+  fireEvent.click(screen.getByRole('button', { name: 'Crear sala' }))
+  await screen.findByRole('button', { name: 'Jugar' })
+  const fresh = screen.getByLabelText(/Código de la sala:/).textContent!
+  let room: unknown = 'not read'
+  network.subscribe(old, (r) => { room = r })()
+  expect(room).toBeNull()
+  // The new one is remembered and the old one is not
+  expect(JSON.parse(localStorage.getItem('atrapalabras:myRooms')!)).toEqual([fresh])
+})
+
 it('the server time correction is only used while in the room', async () => {
   const code = await network.createRoom('Pedro', [])
   const withOffset: Connection = { ...network, subscribeClockOffset: (onChange) => { onChange(60_000); return () => {} } }

@@ -1,20 +1,21 @@
 // Online room stored in Firebase Realtime Database, at rooms/<code>:
-//   createdAt (timestamp), uid0, name0, used0, uid1, name1, used1 and game.
+//   createdAt and expiresAt (timestamps), uid0, name0, used0, uid1, name1, used1 and game.
 // The game and the used-question lists are stored as JSON text: Firebase drops nulls and
 // empty lists, and this way they come back exactly as they were sent.
 import { initializeApp } from 'firebase/app'
 import {
   browserLocalPersistence, connectAuthEmulator, indexedDBLocalPersistence, initializeAuth, onAuthStateChanged, signInAnonymously, signOut,
 } from 'firebase/auth'
-import { connectDatabaseEmulator, getDatabase, onValue, ref, runTransaction, type Database } from 'firebase/database'
+import { connectDatabaseEmulator, get, getDatabase, onValue, ref, remove, runTransaction, type Database } from 'firebase/database'
 import { reducer } from '../game/reducer'
 import type { Game } from '../game/types'
 import { newRoomCode } from './roomCode'
-import { checkJoin, type Connection, type Room } from './connection'
+import { checkJoin, EXPIRY, expiresAt, type Connection, type Expiry, type Room } from './connection'
 import { firebaseConfig } from './firebaseConfig'
 
 interface StoredRoom {
   createdAt: number
+  expiresAt?: number
   // Anonymous identity of each device: the rules only let these two write.
   uid0: string
   uid1?: string
@@ -46,6 +47,7 @@ export function toRoom(s: StoredRoom | null): Room | null {
 export function firebaseConnection(
   emulator: string | undefined = import.meta.env.VITE_FIREBASE_EMULATOR,
   appName?: string,
+  e: Expiry = EXPIRY,
 ): Connection {
   const app = initializeApp(firebaseConfig, appName)
   const db: Database = getDatabase(app)
@@ -87,7 +89,7 @@ export function firebaseConnection(
         const code = newRoomCode()
         // The transaction only writes if the code is free.
         const r = await runTransaction(room(code), (current: StoredRoom | null) =>
-          current === null ? { createdAt: now(), uid0: uid, name0: name, used0: JSON.stringify(used) } : undefined,
+          current === null ? { createdAt: now(), expiresAt: expiresAt(null, now(), e), uid0: uid, name0: name, used0: JSON.stringify(used) } : undefined,
         )
         if (r.committed) return code
       }
@@ -108,7 +110,7 @@ export function firebaseConnection(
           error = err
           return undefined
         }
-        return { ...current, uid1: uid, name1: name, used1: JSON.stringify(used) }
+        return { ...current, expiresAt: expiresAt(null, now(), e), uid1: uid, name1: name, used1: JSON.stringify(used) }
       })
       if (error) throw error
       // If the room did not exist, the transaction "wrote" null over null.
@@ -133,11 +135,21 @@ export function firebaseConnection(
         const before = toRoom(current)?.game ?? null
         const after = reducer(before, action)
         if (after === before) return undefined
-        const next: StoredRoom = { ...current }
+        const next: StoredRoom = { ...current, expiresAt: expiresAt(after, now(), e) }
         if (after) next.game = JSON.stringify(after)
         else delete next.game
         return next
       })
+    },
+
+    async deleteIfExpired(code) {
+      await me()
+      const s = await get(room(code))
+      const expires = (s.val() as StoredRoom | null)?.expiresAt
+      // Margin in case the server clock runs slightly behind: the rules check it again.
+      if (s.exists() && typeof expires === 'number' && expires > now() - 30_000) return false
+      if (s.exists()) await remove(s.ref)
+      return true
     },
 
     subscribeClockOffset(onChange) {

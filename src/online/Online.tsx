@@ -9,7 +9,7 @@ import type { Action, Question } from '../game/types'
 import { setClockOffset } from '../ui/hooks'
 import { normalizeRoomCode } from './roomCode'
 import { RoomError, type Connection, type Room } from './connection'
-import { ROOM_KEY, roomCodeFromLink, savedSeat, type SavedSeat } from './seat'
+import { deleteExpiredRooms, rememberRoom, ROOM_KEY, roomCodeFromLink, savedSeat, type SavedSeat } from './seat'
 
 const ONLINE_NAME_KEY = 'atrapalabras:onlineName'
 const NO_CONNECTION = 'No se pudo conectar. Revisá tu internet y probá de nuevo.'
@@ -39,12 +39,16 @@ export function Online({ bank, onExit, createConnection = connect }: Props) {
   const [error, setError] = useState('')
 
   useEffect(() => {
-    createConnection().then(setConnection, () => setError(NO_CONNECTION))
+    createConnection().then((c) => {
+      setConnection(c)
+      void deleteExpiredRooms(c, savedSeat()?.roomCode)
+    }, () => setError(NO_CONNECTION))
   }, [createConnection])
 
   const clearLink = () => history.replaceState(null, '', location.pathname)
   const enter = (s: SavedSeat) => {
     writeJSON(ROOM_KEY, s)
+    rememberRoom(s.roomCode)
     clearLink()
     setSeat(s)
   }

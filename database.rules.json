@@ -3,10 +3,13 @@
     "rooms": {
       "$code": {
         ".read": "auth != null && $code.matches(/^[ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ]$/)",
-        ".write": "auth != null && $code.matches(/^[ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ]$/) && (!data.exists() || (data.child('uid0').val() === auth.uid || data.child('uid1').val() === auth.uid) || (!data.child('uid1').exists() && newData.child('uid1').val() === auth.uid && newData.child('game').val() === data.child('game').val() && newData.child('used0').val() === data.child('used0').val()))",
+        ".write": "auth != null && $code.matches(/^[ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ]$/) && (!data.exists() || (data.child('uid0').val() === auth.uid || data.child('uid1').val() === auth.uid) || (!data.child('uid1').exists() && newData.child('uid1').val() === auth.uid && newData.child('game').val() === data.child('game').val() && newData.child('used0').val() === data.child('used0').val()) || (!newData.exists() && (!data.child('expiresAt').exists() || data.child('expiresAt').val() <= now)))",
         ".validate": "newData.hasChildren(['createdAt', 'uid0', 'name0', 'used0'])",
         "createdAt": {
           ".validate": "newData.isNumber() && (!data.exists() || newData.val() === data.val())"
+        },
+        "expiresAt": {
+          ".validate": "newData.isNumber() && newData.val() <= now + 21900000"
         },
         "uid0": {
           ".validate": "newData.isString() && (data.exists() ? newData.val() === data.val() : newData.val() === auth.uid)"

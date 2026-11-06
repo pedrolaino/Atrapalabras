@@ -21,11 +21,21 @@ export interface Connection {
   subscribe(code: string, onChange: (room: Room | null) => void): () => void
   // Applies the action with the reducer on the stored game, without losing simultaneous actions.
   dispatch(code: string, action: Action): Promise<void>
+  // Deletes the room if it expired. Returns true if it no longer exists.
+  deleteIfExpired(code: string): Promise<boolean>
   // Difference in ms between the server clock and the device clock.
   subscribeClockOffset(onChange: (ms: number) => void): () => void
 }
 
 export class RoomError extends Error {}
+
+// How long a room lasts after its last change. Each device deletes the expired rooms it was in,
+// so names and games are not kept forever.
+export interface Expiry { activeMs: number; finishedMs: number }
+export const EXPIRY: Expiry = { activeMs: 6 * 3_600_000, finishedMs: 30 * 60_000 }
+
+export const expiresAt = (game: Game | null, now: number, e: Expiry) =>
+  now + (game?.phase === 'finished' ? e.finishedMs : e.activeMs)
 
 // Checks whether someone can join the room. Shared by both implementations.
 // The messages are shown in the app (in Spanish).
@@ -41,14 +51,15 @@ export function checkJoin(room: Room | null, name: string): void {
 export function createMemoryServer() {
   return {
     rooms: new Map<string, Room>(),
+    expiry: new Map<string, number>(),
     members: new Map<string, [string, string | null]>(),
     listeners: new Map<string, Set<(r: Room | null) => void>>(),
   }
 }
 
-export function memoryConnection(server = createMemoryServer()): Connection {
+export function memoryConnection(e = EXPIRY, server = createMemoryServer()): Connection {
   const me = Math.random().toString(36).slice(2)
-  const { rooms, members, listeners } = server
+  const { rooms, expiry, members, listeners } = server
   const read = (code: string) => (rooms.has(code) ? structuredClone(rooms.get(code)!) : null)
   const notify = (code: string) => listeners.get(code)?.forEach((f) => f(read(code)))
 
@@ -58,6 +69,7 @@ export function memoryConnection(server = createMemoryServer()): Connection {
       while (rooms.has(code)) code = newRoomCode()
       rooms.set(code, { players: [name, null], used: [used, []], game: null })
       members.set(code, [me, null])
+      expiry.set(code, expiresAt(null, Date.now(), e))
       notify(code)
       return code
     },
@@ -68,6 +80,7 @@ export function memoryConnection(server = createMemoryServer()): Connection {
       room!.players[1] = name
       room!.used[1] = used
       members.get(code)![1] = me
+      expiry.set(code, expiresAt(null, Date.now(), e))
       notify(code)
     },
     subscribe(code, onChange) {
@@ -83,7 +96,16 @@ export function memoryConnection(server = createMemoryServer()): Connection {
       const next = reducer(room.game, action)
       if (next === room.game) return
       room.game = structuredClone(next)
+      expiry.set(code, expiresAt(next, Date.now(), e))
       notify(code)
+    },
+    async deleteIfExpired(code) {
+      if (rooms.has(code) && expiry.get(code)! > Date.now()) return false
+      rooms.delete(code)
+      expiry.delete(code)
+      members.delete(code)
+      notify(code)
+      return true
     },
     subscribeClockOffset(onChange) {
       onChange(0)
