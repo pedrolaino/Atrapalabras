@@ -1,0 +1,56 @@
+/* "Felt" design: a green game table, letters as ivory tiles, the question as a playing card. */
+
+:root {
+  --felt: #1f5e45;
+  --felt-light: #246b4f;
+  --felt-dark: #174a36;
+  --ivory: #f4ecd8;
+  --ivory-dark: #e9dfc4;
+  --ink: #1b2a22;
+  --card-gray: #5b6b61;
+  --gold: #e2b33c;
+  --tile-correct: #0f3d2a;
+  --button-green: #2f8f5b;
+  --red: #b3261e;
+  --text: #ffffff;
+  --text-muted: #cfe3d7;
+  --veil: rgba(0, 0, 0, 0.18);
+  --radius: 14px;
+  color-scheme: dark;
+  font-family: 'Outfit', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.4;
+  color: var(--text);
+  background: var(--felt);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: radial-gradient(ellipse 120% 90% at 50% 40%, var(--felt-light) 0%, var(--felt) 55%, var(--felt-dark) 100%) fixed;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1, h2, h3, p { margin: 0; }
+
+button, input { font: inherit; }
+
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+
+/* ---------- Layout ---------- */
+
+.screen {
+  min-height: 100dvh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: max(16px, env(safe-area-inset-top)) 16px max(16px, env(safe-area-inset-bottom));
+}
+
+.screen--centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  text-align: center;
+}
