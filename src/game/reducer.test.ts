@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { reducer } from './reducer'
-import { testGame } from './testUtils'
+import { testGame, testQuestions } from './testUtils'
 import type { Action, Game } from './types'
 
 // Applies the actions in order, failing if any of them clears the game.
@@ -299,5 +299,46 @@ describe('UNDO', () => {
 describe('RESET', () => {
   it('clears the game', () => {
     expect(reducer(inPlay(), { type: 'RESET' })).toBeNull()
+  })
+})
+
+describe('late or repeated taps', () => {
+  const currentQuestion = (g: Game) => g.players[g.current].wheel[g.players[g.current].index].question.id
+
+  it('a double tap does not score the next letter', () => {
+    const g = inPlay()
+    const id = currentQuestion(g)
+    const h = play(g, { type: 'CORRECT', now: 2000, questionId: id, turn: 1 }, { type: 'CORRECT', now: 2100, questionId: id, turn: 1 })
+    expect(statuses(h, 0)).toEqual(['correct', 'pending', 'pending'])
+  })
+
+  it('ignores an answer from a previous turn', () => {
+    const g = inPlay(['A'])
+    const old = { questionId: currentQuestion(g), turn: g.turns }
+    const h = play(g, { type: 'PASS', now: 2000, ...old }, { type: 'CONTINUE', now: 3000 }, { type: 'PASS', now: 4000 }, { type: 'CONTINUE', now: 5000 })
+    // It is Juan's same question again, but in another turn
+    expect(currentQuestion(h)).toBe(old.questionId)
+    expect(play(h, { type: 'WRONG', now: 6000, ...old })).toBe(h)
+  })
+
+  it('a Continue from a previous turn does not start the next one', () => {
+    const g = play(testGame(), { type: 'CONTINUE', now: 1000, turn: 0 }, { type: 'PASS', now: 2000 })
+    expect(g.phase).toBe('betweenTurns')
+    expect(play(g, { type: 'CONTINUE', now: 2500, turn: 0 })).toBe(g)
+    expect(play(g, { type: 'CONTINUE', now: 2500, turn: 1 }).phase).toBe('playing')
+  })
+
+  it('a repeated rematch does not overwrite the game that already started', () => {
+    const fresh = testGame()
+    const started = play(fresh, { type: 'CONTINUE', now: 1000 })
+    const again: Action = { type: 'START', names: ['Juan', 'Pedro'], wheels: [[], []], timeMs: 1 }
+    expect(reducer(started, again)).toBe(started)
+    expect(reducer(fresh, again)).toBe(fresh)
+  })
+
+  it('a rematch does start a new game after the end', () => {
+    const finished = play(inPlay(['A']), { type: 'CORRECT', now: 2000 }, { type: 'CONTINUE', now: 3000 }, { type: 'CORRECT', now: 4000 })
+    expect(finished.phase).toBe('finished')
+    expect(play(finished, { type: 'START', names: ['Juan', 'Pedro'], wheels: [testQuestions(['A'], 'x'), testQuestions(['A'], 'y')], timeMs: 1000 }).phase).toBe('betweenTurns')
   })
 })

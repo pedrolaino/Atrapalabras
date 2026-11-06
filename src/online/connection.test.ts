@@ -3,24 +3,24 @@
 import { describe, expect, it } from 'vitest'
 import { testQuestions } from '../game/testUtils'
 import type { Action, Game } from '../game/types'
-import { memoryConnection, RoomError, createMemoryServer, type Connection, type Room } from './connection'
+import { memoryConnection, RoomError, createMemoryServer, type Connection, type Expiry, type Room } from './connection'
 
 declare const process: { env: Record<string, string | undefined> }
 
 // Three different devices: Pedro, Juan and Ana.
-type Devices = () => Promise<[Connection, Connection, Connection]>
+type Devices = (expiry?: Expiry) => Promise<[Connection, Connection, Connection]>
 
-const implementations: [string, Devices][] = [['in memory', async () => {
+const implementations: [string, Devices][] = [['in memory', async (expiry) => {
   const s = createMemoryServer()
-  return [memoryConnection(s), memoryConnection(s), memoryConnection(s)]
+  return [memoryConnection(expiry, s), memoryConnection(expiry, s), memoryConnection(expiry, s)]
 }]]
 const emulator = process.env.FIREBASE_DATABASE_EMULATOR_HOST
 if (emulator) {
   let n = 0
-  implementations.push(['Firebase', async () => {
+  implementations.push(['Firebase', async (expiry) => {
     const { firebaseConnection } = await import('./firebase')
     n++
-    return [firebaseConnection(emulator, `pedro-${n}`), firebaseConnection(emulator, `juan-${n}`), firebaseConnection(emulator, `ana-${n}`)]
+    return [firebaseConnection(emulator, `pedro-${n}`, expiry), firebaseConnection(emulator, `juan-${n}`, expiry), firebaseConnection(emulator, `ana-${n}`, expiry)]
   }])
 }
 
@@ -91,5 +91,53 @@ describe.each(implementations)('connection %s', (_, devices) => {
     const offset = await new Promise<number>((resolve) => { stop = pedro.subscribeClockOffset(resolve) })
     stop()
     expect(typeof offset).toBe('number')
+  })
+
+  it('deletes a room only once it expired', async () => {
+    const [pedro, juan] = await devices({ activeMs: -120_000, finishedMs: -120_000 })
+    const expired = await pedro.createRoom('Pedro', [])
+    expect(await juan.deleteIfExpired(expired)).toBe(true)
+    expect(await waitFor(pedro, expired, () => true)).toBeNull()
+    expect(await juan.deleteIfExpired(expired)).toBe(true) // already gone
+
+    const [, , ana] = await devices()
+    const active = await ana.createRoom('Ana', [])
+    expect(await ana.deleteIfExpired(active)).toBe(false)
+    expect((await waitFor(ana, active, () => true))?.players[0]).toBe('Ana')
+  })
+
+  it('a finished room expires sooner than one in play', async () => {
+    const [pedro, juan] = await devices({ activeMs: 3_600_000, finishedMs: -120_000 })
+    const finished = await pedro.createRoom('Pedro', [])
+    await juan.join(finished, 'Juan', [])
+    const one = ['A']
+    await pedro.dispatch(finished, { type: 'START', names: ['Pedro', 'Juan'], wheels: [testQuestions(one, 'j1'), testQuestions(one, 'j2')], timeMs: 150_000 })
+    expect(await pedro.deleteIfExpired(finished)).toBe(false)
+    for (const now of [1000, 2000, 3000, 4000]) await pedro.dispatch(finished, { type: now % 2000 ? 'CONTINUE' : 'CORRECT', now })
+    expect((await waitFor(pedro, finished, (r) => r?.game?.phase === 'finished'))?.game?.phase).toBe('finished')
+    expect(await juan.deleteIfExpired(finished)).toBe(true)
+    expect(await waitFor(pedro, finished, () => true)).toBeNull()
+  })
+
+  it('joining again (for example, after a dropped connection) returns to the same seat', async () => {
+    const [pedro, juan, ana] = await devices()
+    const code = await pedro.createRoom('Pedro', [])
+    await juan.join(code, 'Juan', [])
+    await juan.join(code, 'Juan', [])
+    await expect(ana.join(code, 'Juan', [])).rejects.toThrow(/llena/)
+    expect((await waitFor(pedro, code, () => true))?.players).toEqual(['Pedro', 'Juan'])
+  })
+})
+
+// The Firebase rules: only the two players can modify the room.
+describe.skipIf(!emulator)('Firebase rules', () => {
+  it('an outsider cannot change the game or delete the room', async () => {
+    const [pedro, juan, ana] = await implementations[1][1]()
+    const code = await pedro.createRoom('Pedro', [])
+    await juan.join(code, 'Juan', [])
+    await pedro.dispatch(code, START)
+    await expect(ana.dispatch(code, { type: 'RESET' })).rejects.toThrow(/permission/i)
+    expect(await ana.deleteIfExpired(code)).toBe(false)
+    expect((await waitFor(pedro, code, () => true))?.game?.turns).toBe(0)
   })
 })

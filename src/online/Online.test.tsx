@@ -1,6 +1,6 @@
 // @vitest-environment jsdom
 import { act, cleanup, fireEvent, render, screen, within } from '@testing-library/react'
-import { afterEach, beforeEach, expect, it } from 'vitest'
+import { afterEach, beforeEach, expect, it, vi } from 'vitest'
 import { loadBank } from '../data/loadQuestions'
 import { memoryConnection, type Connection } from './connection'
 import { currentTime } from '../ui/hooks'
@@ -9,6 +9,11 @@ import { InRoom, Online } from './Online'
 const { bank } = loadBank()
 let network: Connection
 const createConnection = () => Promise.resolve(network)
+
+// Test taps are instantaneous: simulate one second between taps.
+let clock = 0
+beforeEach(() => { vi.spyOn(performance, 'now').mockImplementation(() => (clock += 1000)) })
+afterEach(() => { vi.restoreAllMocks() })
 
 beforeEach(() => {
   localStorage.clear()
@@ -81,6 +86,22 @@ it('after a reload it goes back to the same room and seat', async () => {
   localStorage.setItem('atrapalabras:room', JSON.stringify({ roomCode: code, seat: 1 }))
   render(<Online bank={bank} onExit={() => {}} createConnection={createConnection} />)
   expect(await screen.findByText('Juan (vos)')).toBeTruthy()
+})
+
+it('entering online mode deletes the expired rooms this device was in', async () => {
+  network = memoryConnection({ activeMs: -1, finishedMs: -1 })
+  const old = await network.createRoom('Pedro', [])
+  localStorage.setItem('atrapalabras:myRooms', JSON.stringify([old]))
+  render(<Online bank={bank} onExit={() => {}} createConnection={createConnection} />)
+  fireEvent.change(await screen.findByLabelText('Tu nombre'), { target: { value: 'Pedro' } })
+  fireEvent.click(screen.getByRole('button', { name: 'Crear sala' }))
+  await screen.findByRole('button', { name: 'Jugar' })
+  const fresh = screen.getByLabelText(/Código de la sala:/).textContent!
+  let room: unknown = 'not read'
+  network.subscribe(old, (r) => { room = r })()
+  expect(room).toBeNull()
+  // The new one is remembered and the old one is not
+  expect(JSON.parse(localStorage.getItem('atrapalabras:myRooms')!)).toEqual([fresh])
 })
 
 it('the server time correction is only used while in the room', async () => {

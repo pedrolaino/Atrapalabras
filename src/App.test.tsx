@@ -1,7 +1,12 @@
 // @vitest-environment jsdom
 import { cleanup, fireEvent, render, screen, within } from '@testing-library/react'
-import { afterEach, beforeEach, expect, it } from 'vitest'
+import { afterEach, beforeEach, expect, it, vi } from 'vitest'
 import App from './App'
+
+// Test taps are instantaneous: simulate one second between taps.
+let clock = 0
+beforeEach(() => { vi.spyOn(performance, 'now').mockImplementation(() => (clock += 1000)) })
+afterEach(() => { vi.restoreAllMocks() })
 
 beforeEach(() => localStorage.clear())
 afterEach(cleanup)
@@ -69,6 +74,16 @@ it('after a reload, the game resumes where it was, paused', () => {
   render(<App />)
   expect(screen.getByRole('dialog', { name: 'Partida en pausa' })).toBeTruthy()
   expect(screen.getByRole('listitem', { name: 'A: acierto' })).toBeTruthy()
+})
+
+it('a double tap on Correcto does not also score the next letter', () => {
+  start()
+  fireEvent.click(screen.getByRole('button', { name: /Continuar/ }))
+  // The clock stands still: the second tap arrives "at the same time" B appears.
+  vi.mocked(performance.now).mockReturnValue(1e12)
+  fireEvent.click(screen.getByRole('button', { name: /Correcto/ }))
+  fireEvent.click(screen.getByRole('button', { name: /Correcto/ }))
+  expect(screen.getByRole('listitem', { name: 'B: pendiente, letra actual' })).toBeTruthy()
 })
 
 it('between turns shows the letter the next player continues with', () => {
