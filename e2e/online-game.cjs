@@ -15,6 +15,7 @@ async function device(browser, name, viewport, touch) {
   const page = await context.newPage()
   const errors = []
   page.on('pageerror', (e) => errors.push(e.message))
+  page.on('console', (m) => { if (/Content Security Policy/i.test(m.text())) errors.push(m.text()) })
   let n = 0
   return {
     page,

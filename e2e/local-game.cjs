@@ -17,6 +17,7 @@ async function run({ name, viewport, touch }, browser) {
   const page = await context.newPage()
   const errors = []
   page.on('pageerror', (e) => errors.push(e.message))
+  page.on('console', (m) => { if (/Content Security Policy/i.test(m.text())) errors.push(m.text()) })
   await page.clock.install() // controllable clock, to test running out of time without waiting
 
   let n = 0
