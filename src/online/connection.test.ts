@@ -1,8 +1,11 @@
-// What every Connection must do. For now it runs against the in-memory implementation.
+// Both implementations (in-memory and Firebase) must behave the same.
+// The Firebase one only runs against the emulator: npm run test:online
 import { describe, expect, it } from 'vitest'
 import { testQuestions } from '../game/testUtils'
 import type { Action, Game } from '../game/types'
 import { memoryConnection, RoomError, createMemoryServer, type Connection, type Room } from './connection'
+
+declare const process: { env: Record<string, string | undefined> }
 
 // Three different devices: Pedro, Juan and Ana.
 type Devices = () => Promise<[Connection, Connection, Connection]>
@@ -11,6 +14,15 @@ const implementations: [string, Devices][] = [['in memory', async () => {
   const s = createMemoryServer()
   return [memoryConnection(s), memoryConnection(s), memoryConnection(s)]
 }]]
+const emulator = process.env.FIREBASE_DATABASE_EMULATOR_HOST
+if (emulator) {
+  let n = 0
+  implementations.push(['Firebase', async () => {
+    const { firebaseConnection } = await import('./firebase')
+    n++
+    return [firebaseConnection(emulator, `pedro-${n}`), firebaseConnection(emulator, `juan-${n}`), firebaseConnection(emulator, `ana-${n}`)]
+  }])
+}
 
 // Waits until the room meets the condition (or fails after 5 seconds).
 function waitFor(c: Connection, code: string, condition: (r: Room | null) => boolean): Promise<Room | null> {

@@ -1,0 +1,111 @@
+// Online room stored in Firebase Realtime Database, at rooms/<code>:
+//   createdAt, name0, used0, name1, used1 and game.
+// The game and the used-question lists are stored as JSON text: Firebase drops nulls and
+// empty lists, and this way they come back exactly as they were sent.
+import { initializeApp } from 'firebase/app'
+import { connectDatabaseEmulator, getDatabase, onValue, ref, runTransaction, type Database } from 'firebase/database'
+import { reducer } from '../game/reducer'
+import type { Game } from '../game/types'
+import { newRoomCode } from './roomCode'
+import { checkJoin, type Connection, type Room } from './connection'
+import { firebaseConfig } from './firebaseConfig'
+
+interface StoredRoom {
+  createdAt: number
+  name0: string
+  used0: string
+  name1?: string
+  used1?: string
+  game?: string
+}
+
+function parseJSON<T>(text: string | undefined, fallback: T): T {
+  try {
+    return text ? JSON.parse(text) : fallback
+  } catch {
+    return fallback
+  }
+}
+
+export function toRoom(s: StoredRoom | null): Room | null {
+  if (!s) return null
+  return {
+    players: [s.name0, s.name1 ?? null],
+    used: [parseJSON<string[]>(s.used0, []), parseJSON<string[]>(s.used1, [])],
+    game: parseJSON<Game | null>(s.game, null),
+  }
+}
+
+// `emulator` ("localhost:9000") is for tests; `appName` lets tests simulate several devices.
+export function firebaseConnection(
+  emulator: string | undefined = import.meta.env.VITE_FIREBASE_EMULATOR,
+  appName?: string,
+): Connection {
+  const app = initializeApp(firebaseConfig, appName)
+  const db: Database = getDatabase(app)
+  if (emulator) {
+    const [host, port] = emulator.split(':')
+    connectDatabaseEmulator(db, host, Number(port))
+  }
+  const room = (code: string) => ref(db, `rooms/${code}`)
+  const offset = ref(db, '.info/serverTimeOffset')
+  let offsetMs = 0
+  onValue(offset, (s) => { offsetMs = Number(s.val()) || 0 })
+  const now = () => Date.now() + offsetMs
+
+  return {
+    async createRoom(name, used) {
+      for (;;) {
+        const code = newRoomCode()
+        // The transaction only writes if the code is free.
+        const r = await runTransaction(room(code), (current: StoredRoom | null) =>
+          current === null ? { createdAt: now(), name0: name, used0: JSON.stringify(used) } : undefined,
+        )
+        if (r.committed) return code
+      }
+    },
+
+    async join(code, name, used) {
+      let error: unknown = null
+      // With a transaction, if two people join at once only one gets in.
+      const r = await runTransaction(room(code), (current: StoredRoom | null) => {
+        error = null
+        // If it is not cached yet, Firebase first calls with null and then retries with the real value.
+        if (current === null) return null
+        try {
+          checkJoin(toRoom(current), name)
+        } catch (err) {
+          error = err
+          return undefined
+        }
+        return { ...current, name1: name, used1: JSON.stringify(used) }
+      })
+      if (error) throw error
+      // If the room did not exist, the transaction "wrote" null over null.
+      if (!r.snapshot.exists()) checkJoin(null, name)
+    },
+
+    subscribe(code, onChange) {
+      return onValue(room(code), (s) => onChange(toRoom(s.val())), () => onChange(null))
+    },
+
+    async dispatch(code, action) {
+      await runTransaction(room(code), (current: StoredRoom | null) => {
+        // If it is not cached yet, Firebase first calls with null: returning null makes it retry
+        // with the real value. If the room really does not exist, nothing is written.
+        if (current === null) return null
+        const before = toRoom(current)?.game ?? null
+        const after = reducer(before, action)
+        if (after === before) return undefined
+        const next: StoredRoom = { ...current }
+        if (after) next.game = JSON.stringify(after)
+        else delete next.game
+        return next
+      })
+    },
+
+    subscribeClockOffset(onChange) {
+      return onValue(offset, (s) => onChange(Number(s.val()) || 0))
+    },
+  }
+}

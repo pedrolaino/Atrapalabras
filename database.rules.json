@@ -1,0 +1,32 @@
+{
+  "rules": {
+    "rooms": {
+      "$code": {
+        ".read": "$code.matches(/^[ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ]$/)",
+        ".write": "$code.matches(/^[ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ]$/)",
+        ".validate": "newData.hasChildren(['createdAt', 'name0', 'used0'])",
+        "createdAt": {
+          ".validate": "newData.isNumber() && (!data.exists() || newData.val() === data.val())"
+        },
+        "name0": {
+          ".validate": "newData.isString() && newData.val().length >= 1 && newData.val().length <= 20 && (!data.exists() || newData.val() === data.val())"
+        },
+        "name1": {
+          ".validate": "newData.isString() && newData.val().length >= 1 && newData.val().length <= 20 && (!data.exists() || newData.val() === data.val())"
+        },
+        "used0": {
+          ".validate": "newData.isString() && newData.val().length <= 100000"
+        },
+        "used1": {
+          ".validate": "newData.isString() && newData.val().length <= 100000"
+        },
+        "game": {
+          ".validate": "newData.isString() && newData.val().length <= 200000"
+        },
+        "$other": {
+          ".validate": false
+        }
+      }
+    }
+  }
+}
