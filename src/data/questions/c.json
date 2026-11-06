@@ -1,0 +1,322 @@
+[
+  {
+    "id": "c-001",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Lugar donde vive una familia, con techo, puertas y ventanas",
+    "answer": "Casa",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-002",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Animal que relincha y se puede montar",
+    "answer": "Caballo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-003",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Órgano que bombea la sangre por todo el cuerpo",
+    "answer": "Corazón",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-004",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Cubierto que se usa para tomar la sopa",
+    "answer": "Cuchara",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-005",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Mueble con colchón, sábanas y almohada",
+    "answer": "Cama",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-006",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Golosina marrón hecha con cacao y azúcar",
+    "answer": "Chocolate",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-007",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Animal de orejas largas que salta y come zanahorias",
+    "answer": "Conejo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-008",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Hortaliza que hace llorar cuando se la corta",
+    "answer": "Cebolla",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-009",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Prenda con cuello, mangas y botones adelante",
+    "answer": "Camisa",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-010",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Lugar de la casa donde se preparan las comidas",
+    "answer": "Cocina",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-011",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Órgano que está dentro del cráneo y con el que pensamos",
+    "answer": "Cerebro",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-012",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Conjunto de hojas encuadernadas para escribir en la escuela",
+    "answer": "Cuaderno",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-013",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Fiesta de todos los años en la que se soplan velitas sobre una torta",
+    "answer": "Cumpleaños",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-014",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Lo que vemos arriba, donde están las nubes y las estrellas",
+    "answer": "Cielo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-015",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Lo que se combate con ventilador o aire acondicionado",
+    "answer": "Calor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-016",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Transporte público con recorrido fijo y paradas, en Argentina",
+    "answer": "Colectivo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-017",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Ave enorme de los Andes, de plumaje negro y collar blanco",
+    "answer": "Cóndor",
+    "difficulty": "medium"
+  },
+  {
+    "id": "c-018",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Persona que trabaja la madera y hace muebles",
+    "answer": "Carpintero",
+    "difficulty": "medium"
+  },
+  {
+    "id": "c-019",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Conducto por donde sale el humo de una estufa a leña",
+    "answer": "Chimenea",
+    "difficulty": "medium"
+  },
+  {
+    "id": "c-020",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Médico especialista en el corazón",
+    "answer": "Cardiólogo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "c-021",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Astro como el Halley, que se vio por última vez en 1986",
+    "answer": "Cometa",
+    "difficulty": "hard"
+  },
+  {
+    "id": "c-022",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Provincia argentina con sierras, cuya capital tiene el mismo nombre",
+    "answer": "Córdoba",
+    "difficulty": "medium"
+  },
+  {
+    "id": "c-023",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "País largo y angosto del otro lado de la cordillera",
+    "answer": "Chile",
+    "difficulty": "medium"
+  },
+  {
+    "id": "c-024",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Apellido del navegante que llegó a América en 1492",
+    "answer": "Colón",
+    "difficulty": "medium"
+  },
+  {
+    "id": "c-025",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Juego de plaza que gira con caballitos, donde se saca la sortija",
+    "answer": "Calesita",
+    "difficulty": "medium"
+  },
+  {
+    "id": "c-026",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Mazorca tierna que se come hervida, a la parrilla o en la humita",
+    "answer": "Choclo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "c-027",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Figura de cuatro lados iguales y cuatro ángulos rectos",
+    "answer": "Cuadrado",
+    "difficulty": "easy"
+  },
+  {
+    "id": "c-028",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Deporte que se practica sobre una bicicleta, como el Tour de Francia",
+    "answer": "Ciclismo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "c-029",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Instrumento de viento de madera negra, con boquilla de caña",
+    "answer": "Clarinete",
+    "difficulty": "medium"
+  },
+  {
+    "id": "c-030",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Hoja o cuadernillo donde están todos los días y meses del año",
+    "answer": "Calendario",
+    "difficulty": "medium"
+  },
+  {
+    "id": "c-031",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Planta del desierto llena de espinas, que guarda agua",
+    "answer": "Cactus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "c-032",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Tira de cuero con hebilla que sostiene el pantalón",
+    "answer": "Cinturón",
+    "difficulty": "medium"
+  },
+  {
+    "id": "c-033",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Reptil que cambia de color según el ambiente",
+    "answer": "Camaleón",
+    "difficulty": "medium"
+  },
+  {
+    "id": "c-034",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Pigmento verde de las plantas que les permite hacer la fotosíntesis",
+    "answer": "Clorofila",
+    "difficulty": "hard"
+  },
+  {
+    "id": "c-035",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Anfiteatro de Roma donde peleaban los gladiadores",
+    "answer": "Coliseo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "c-036",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Mineral transparente muy común, que se usa en los relojes",
+    "answer": "Cuarzo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "c-037",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Animal con caparazón y muchas patas, como el cangrejo y el langostino",
+    "answer": "Crustáceo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "c-038",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Arte de escribir a mano con letra bella y prolija",
+    "answer": "Caligrafía",
+    "difficulty": "hard"
+  },
+  {
+    "id": "c-039",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Barco de vela como la Pinta y la Niña",
+    "answer": "Carabela",
+    "difficulty": "hard"
+  },
+  {
+    "id": "c-040",
+    "letter": "C",
+    "type": "startsWith",
+    "clue": "Grupo de estrellas que forman una figura, como la Cruz del Sur",
+    "answer": "Constelación",
+    "difficulty": "hard"
+  }
+]

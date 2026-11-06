@@ -1,0 +1,322 @@
+[
+  {
+    "id": "h-001",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Postre frío y cremoso que se sirve en cucurucho",
+    "answer": "Helado",
+    "difficulty": "easy"
+  },
+  {
+    "id": "h-002",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Se puede pedir frito, duro, revuelto o pasado por agua",
+    "answer": "Huevo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "h-003",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Insecto pequeño que vive en colonias y carga hojas",
+    "answer": "Hormiga",
+    "difficulty": "easy"
+  },
+  {
+    "id": "h-004",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Se pone en el vaso para enfriar la bebida y sobre un golpe para que no se hinche",
+    "answer": "Hielo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "h-005",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Lugar donde se atiende a los enfermos y se hacen operaciones",
+    "answer": "Hospital",
+    "difficulty": "easy"
+  },
+  {
+    "id": "h-006",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Hijo de tus mismos padres",
+    "answer": "Hermano",
+    "difficulty": "easy"
+  },
+  {
+    "id": "h-007",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Medallón de carne picada que se come entre dos panes",
+    "answer": "Hamburguesa",
+    "difficulty": "easy"
+  },
+  {
+    "id": "h-008",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Parte verde y plana de las plantas que cae en otoño",
+    "answer": "Hoja",
+    "difficulty": "easy"
+  },
+  {
+    "id": "h-009",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Parte del cuerpo donde el brazo se une con el tronco",
+    "answer": "Hombro",
+    "difficulty": "easy"
+  },
+  {
+    "id": "h-010",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Personaje mágico con alas y varita",
+    "answer": "Hada",
+    "difficulty": "easy"
+  },
+  {
+    "id": "h-011",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Animal africano enorme que pasa el día metido en los ríos",
+    "answer": "Hipopótamo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "h-012",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Juego de la plaza donde uno se sienta y se balancea",
+    "answer": "Hamaca",
+    "difficulty": "easy"
+  },
+  {
+    "id": "h-013",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Hebra fina que se pasa por la aguja para coser",
+    "answer": "Hilo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "h-014",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Pieza dura y blanca del cuerpo, que a los perros les encanta enterrar",
+    "answer": "Hueso",
+    "difficulty": "easy"
+  },
+  {
+    "id": "h-015",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Cada una de las 24 partes en que se divide el día",
+    "answer": "Hora",
+    "difficulty": "easy"
+  },
+  {
+    "id": "h-016",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Polvo blanco hecho de trigo con el que se amasa el pan",
+    "answer": "Harina",
+    "difficulty": "easy"
+  },
+  {
+    "id": "h-017",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Aeronave con aspas giratorias arriba que despega en vertical",
+    "answer": "Helicóptero",
+    "difficulty": "medium"
+  },
+  {
+    "id": "h-018",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Pieza de hierro en forma de U que se clava en el casco del caballo",
+    "answer": "Herradura",
+    "difficulty": "medium"
+  },
+  {
+    "id": "h-019",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Animal carroñero africano que parece reírse",
+    "answer": "Hiena",
+    "difficulty": "medium"
+  },
+  {
+    "id": "h-020",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Tormenta violenta con vientos muy fuertes que giran en remolino",
+    "answer": "Huracán",
+    "difficulty": "medium"
+  },
+  {
+    "id": "h-021",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Contracciones que hacen ruido en la garganta y dicen que se pasan con un susto",
+    "answer": "Hipo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "h-022",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Herramienta con mango y filo de metal para cortar troncos",
+    "answer": "Hacha",
+    "difficulty": "medium"
+  },
+  {
+    "id": "h-023",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Artesano que forja metales con fuego, martillo y yunque",
+    "answer": "Herrero",
+    "difficulty": "medium"
+  },
+  {
+    "id": "h-024",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Ciencia que estudia el pasado de la humanidad",
+    "answer": "Historia",
+    "difficulty": "medium"
+  },
+  {
+    "id": "h-025",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Cada una de las dos mitades de la Tierra que separa el ecuador",
+    "answer": "Hemisferio",
+    "difficulty": "hard"
+  },
+  {
+    "id": "h-026",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "País europeo de los molinos de viento y los tulipanes",
+    "answer": "Holanda",
+    "difficulty": "medium"
+  },
+  {
+    "id": "h-027",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Canción patriótica que representa a un país",
+    "answer": "Himno",
+    "difficulty": "medium"
+  },
+  {
+    "id": "h-028",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Deporte que se juega con palo y bocha, como el de Las Leonas",
+    "answer": "Hockey",
+    "difficulty": "medium"
+  },
+  {
+    "id": "h-029",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Fruto pequeño y dulce, de cáscara verde o violeta, que se come seco o en almíbar",
+    "answer": "Higo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "h-030",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Órgano grande que filtra la sangre y produce la bilis",
+    "answer": "Hígado",
+    "difficulty": "medium"
+  },
+  {
+    "id": "h-031",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Marca que deja el pie o el dedo al apoyarse",
+    "answer": "Huella",
+    "difficulty": "medium"
+  },
+  {
+    "id": "h-032",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Pájaro nacional argentino que hace su nido de barro",
+    "answer": "Hornero",
+    "difficulty": "medium"
+  },
+  {
+    "id": "h-033",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Figura de seis lados, como las celdas de un panal",
+    "answer": "Hexágono",
+    "difficulty": "hard"
+  },
+  {
+    "id": "h-034",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Elemento químico más liviano, que con el oxígeno forma el agua",
+    "answer": "Hidrógeno",
+    "difficulty": "hard"
+  },
+  {
+    "id": "h-035",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Imagen en tres dimensiones hecha con luz láser",
+    "answer": "Holograma",
+    "difficulty": "hard"
+  },
+  {
+    "id": "h-036",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Estado parecido al sueño en que una persona obedece órdenes, a veces con un péndulo",
+    "answer": "Hipnosis",
+    "difficulty": "hard"
+  },
+  {
+    "id": "h-037",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Animal que se alimenta solo de plantas",
+    "answer": "Herbívoro",
+    "difficulty": "medium"
+  },
+  {
+    "id": "h-038",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Nombre del poeta de la antigua Grecia autor de la Ilíada y la Odisea",
+    "answer": "Homero",
+    "difficulty": "hard"
+  },
+  {
+    "id": "h-039",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Pasar el invierno dormido, como hacen los osos",
+    "answer": "Hibernar",
+    "difficulty": "hard"
+  },
+  {
+    "id": "h-040",
+    "letter": "H",
+    "type": "startsWith",
+    "clue": "Planta trepadora de hojas verdes que cubre paredes enteras",
+    "answer": "Hiedra",
+    "difficulty": "hard"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "b-001",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Fruta amarilla y alargada, la preferida de los monos",
+    "answer": "Banana",
+    "difficulty": "easy"
+  },
+  {
+    "id": "b-002",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Mamífero marino enorme que respira por un orificio en la cabeza",
+    "answer": "Ballena",
+    "difficulty": "easy"
+  },
+  {
+    "id": "b-003",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Parte del cuerpo donde están el paladar, las encías y la lengua",
+    "answer": "Boca",
+    "difficulty": "easy"
+  },
+  {
+    "id": "b-004",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Vehículo de dos ruedas que se mueve pedaleando",
+    "answer": "Bicicleta",
+    "difficulty": "easy"
+  },
+  {
+    "id": "b-005",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Persona que apaga incendios y sale en un camión rojo con sirena",
+    "answer": "Bombero",
+    "difficulty": "easy"
+  },
+  {
+    "id": "b-006",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Animal parecido al caballo, de orejas largas, que rebuzna",
+    "answer": "Burro",
+    "difficulty": "easy"
+  },
+  {
+    "id": "b-007",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Color de la nieve y de la leche",
+    "answer": "Blanco",
+    "difficulty": "easy"
+  },
+  {
+    "id": "b-008",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Lo que se da con los labios para saludar o mostrar cariño",
+    "answer": "Beso",
+    "difficulty": "easy"
+  },
+  {
+    "id": "b-009",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Niño recién nacido o de pocos meses",
+    "answer": "Bebé",
+    "difficulty": "easy"
+  },
+  {
+    "id": "b-010",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Tela con colores y símbolos que representa a un país",
+    "answer": "Bandera",
+    "difficulty": "easy"
+  },
+  {
+    "id": "b-011",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Recipiente de vidrio o plástico, de cuello angosto, para líquidos",
+    "answer": "Botella",
+    "difficulty": "easy"
+  },
+  {
+    "id": "b-012",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Parte del cuerpo que va del hombro a la mano",
+    "answer": "Brazo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "b-013",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Lugar con muchos libros para leer o pedir prestados",
+    "answer": "Biblioteca",
+    "difficulty": "easy"
+  },
+  {
+    "id": "b-014",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Prenda larga que se enrolla en el cuello cuando hace frío",
+    "answer": "Bufanda",
+    "difficulty": "easy"
+  },
+  {
+    "id": "b-015",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Ave nocturna de ojos grandes que puede girar mucho la cabeza",
+    "answer": "Búho",
+    "difficulty": "easy"
+  },
+  {
+    "id": "b-016",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Objeto de bolsillo para guardar la plata y las tarjetas",
+    "answer": "Billetera",
+    "difficulty": "easy"
+  },
+  {
+    "id": "b-017",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Instrumento con una aguja imantada que señala el norte",
+    "answer": "Brújula",
+    "difficulty": "medium"
+  },
+  {
+    "id": "b-018",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Instrumento de fuelle y botones, emblema del tango",
+    "answer": "Bandoneón",
+    "difficulty": "medium"
+  },
+  {
+    "id": "b-019",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Deporte en el que se mete la pelota en un aro con red",
+    "answer": "Básquet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "b-020",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Apellido del prócer argentino que creó la bandera celeste y blanca",
+    "answer": "Belgrano",
+    "difficulty": "medium"
+  },
+  {
+    "id": "b-021",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "País más grande de Sudamérica",
+    "answer": "Brasil",
+    "difficulty": "medium"
+  },
+  {
+    "id": "b-022",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Ciudad de Río Negro famosa por sus chocolates y el cerro Catedral",
+    "answer": "Bariloche",
+    "difficulty": "medium"
+  },
+  {
+    "id": "b-023",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Cuchillo pequeño y muy filoso que usan los cirujanos",
+    "answer": "Bisturí",
+    "difficulty": "medium"
+  },
+  {
+    "id": "b-024",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Microorganismo de una sola célula; algunos causan enfermedades",
+    "answer": "Bacteria",
+    "difficulty": "medium"
+  },
+  {
+    "id": "b-025",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Caño de metal con filtro que se usa para tomar mate",
+    "answer": "Bombilla",
+    "difficulty": "medium"
+  },
+  {
+    "id": "b-026",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Hortaliza de cáscara violeta oscura, rica en escabeche",
+    "answer": "Berenjena",
+    "difficulty": "medium"
+  },
+  {
+    "id": "b-027",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Verdura verde con forma de arbolito",
+    "answer": "Brócoli",
+    "difficulty": "medium"
+  },
+  {
+    "id": "b-028",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Deporte de combate con guantes que se practica en un ring",
+    "answer": "Boxeo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "b-029",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Calzado que cubre el pie y parte de la pierna",
+    "answer": "Bota",
+    "difficulty": "medium"
+  },
+  {
+    "id": "b-030",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Saliente de un edificio, con baranda, donde uno se asoma a la calle",
+    "answer": "Balcón",
+    "difficulty": "medium"
+  },
+  {
+    "id": "b-031",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Pelo que les crece a los hombres en el mentón y las mejillas",
+    "answer": "Barba",
+    "difficulty": "medium"
+  },
+  {
+    "id": "b-032",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Juguete de papel y cañas que se remonta con el viento",
+    "answer": "Barrilete",
+    "difficulty": "medium"
+  },
+  {
+    "id": "b-033",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Arma curva de los aborígenes australianos que vuelve al lanzarla",
+    "answer": "Bumerán",
+    "difficulty": "hard"
+  },
+  {
+    "id": "b-034",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Triángulo del océano Atlántico famoso por la desaparición de barcos y aviones",
+    "answer": "Bermudas",
+    "difficulty": "hard"
+  },
+  {
+    "id": "b-035",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Padre de uno de tus abuelos",
+    "answer": "Bisabuelo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "b-036",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Arma gaucha de bolas atadas con tientos, que se lanza para cazar",
+    "answer": "Boleadoras",
+    "difficulty": "hard"
+  },
+  {
+    "id": "b-037",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Fruto del roble, que comen las ardillas",
+    "answer": "Bellota",
+    "difficulty": "hard"
+  },
+  {
+    "id": "b-038",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Ciencia que estudia las plantas",
+    "answer": "Botánica",
+    "difficulty": "hard"
+  },
+  {
+    "id": "b-039",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Exceso de trámites y papeles en las oficinas públicas",
+    "answer": "Burocracia",
+    "difficulty": "hard"
+  },
+  {
+    "id": "b-040",
+    "letter": "B",
+    "type": "startsWith",
+    "clue": "Arte japonés de cultivar árboles en miniatura dentro de una maceta",
+    "answer": "Bonsái",
+    "difficulty": "hard"
+  }
+]

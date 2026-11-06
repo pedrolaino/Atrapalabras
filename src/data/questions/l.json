@@ -1,0 +1,322 @@
+[
+  {
+    "id": "l-001",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Felino africano con melena, llamado el rey de la selva",
+    "answer": "León",
+    "difficulty": "easy"
+  },
+  {
+    "id": "l-002",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "La pisó por primera vez Neil Armstrong en 1969",
+    "answer": "Luna",
+    "difficulty": "easy"
+  },
+  {
+    "id": "l-003",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Bebida blanca que da la vaca y se le agrega al café",
+    "answer": "Leche",
+    "difficulty": "easy"
+  },
+  {
+    "id": "l-004",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Conjunto de hojas impresas y encuadernadas para leer",
+    "answer": "Libro",
+    "difficulty": "easy"
+  },
+  {
+    "id": "l-005",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Útil de madera con una mina adentro para escribir o dibujar",
+    "answer": "Lápiz",
+    "difficulty": "easy"
+  },
+  {
+    "id": "l-006",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Fruta amarilla y muy ácida",
+    "answer": "Limón",
+    "difficulty": "easy"
+  },
+  {
+    "id": "l-007",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Se mide en milímetros y a veces viene con granizo",
+    "answer": "Lluvia",
+    "difficulty": "easy"
+  },
+  {
+    "id": "l-008",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Primer día de la semana laboral",
+    "answer": "Lunes",
+    "difficulty": "easy"
+  },
+  {
+    "id": "l-009",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Verdura de hojas verdes, base de la ensalada mixta",
+    "answer": "Lechuga",
+    "difficulty": "easy"
+  },
+  {
+    "id": "l-010",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Órgano de la boca con el que sentimos los sabores",
+    "answer": "Lengua",
+    "difficulty": "easy"
+  },
+  {
+    "id": "l-011",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Objeto de metal que abre una cerradura",
+    "answer": "Llave",
+    "difficulty": "easy"
+  },
+  {
+    "id": "l-012",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Aparato que da luz y se pone sobre la mesa de luz",
+    "answer": "Lámpara",
+    "difficulty": "easy"
+  },
+  {
+    "id": "l-013",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Ave de colores que puede imitar la voz humana",
+    "answer": "Loro",
+    "difficulty": "easy"
+  },
+  {
+    "id": "l-014",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Electrodoméstico que deja limpias las prendas sucias",
+    "answer": "Lavarropas",
+    "difficulty": "easy"
+  },
+  {
+    "id": "l-015",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Partes carnosas que rodean la boca",
+    "answer": "Labios",
+    "difficulty": "easy"
+  },
+  {
+    "id": "l-016",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Bloque de barro cocido que se usa para levantar paredes",
+    "answer": "Ladrillo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "l-017",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Reptil pequeño que toma sol en las paredes",
+    "answer": "Lagartija",
+    "difficulty": "medium"
+  },
+  {
+    "id": "l-018",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Legumbres chiquitas y redondas que se comen en guiso",
+    "answer": "Lentejas",
+    "difficulty": "medium"
+  },
+  {
+    "id": "l-019",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Animal alargado y rosado que vive bajo tierra y la airea",
+    "answer": "Lombriz",
+    "difficulty": "medium"
+  },
+  {
+    "id": "l-020",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Persona que trabaja cortando árboles con un hacha",
+    "answer": "Leñador",
+    "difficulty": "medium"
+  },
+  {
+    "id": "l-021",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Lente que agranda lo que se mira a través de ella",
+    "answer": "Lupa",
+    "difficulty": "medium"
+  },
+  {
+    "id": "l-022",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Lugar lleno de caminos y pasillos donde es fácil perderse",
+    "answer": "Laberinto",
+    "difficulty": "medium"
+  },
+  {
+    "id": "l-023",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Gran extensión de agua dulce rodeada de tierra, como el Nahuel Huapi",
+    "answer": "Lago",
+    "difficulty": "medium"
+  },
+  {
+    "id": "l-024",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Máquina que arrastra los vagones del tren",
+    "answer": "Locomotora",
+    "difficulty": "medium"
+  },
+  {
+    "id": "l-025",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Palabra que se grita tres veces en el Himno Nacional Argentino",
+    "answer": "Libertad",
+    "difficulty": "medium"
+  },
+  {
+    "id": "l-026",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Animal andino de lana, que se usa para cargar",
+    "answer": "Llama",
+    "difficulty": "medium"
+  },
+  {
+    "id": "l-027",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Capital de Inglaterra, donde está el Big Ben",
+    "answer": "Londres",
+    "difficulty": "medium"
+  },
+  {
+    "id": "l-028",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Forma de hablar porteña de las letras de tango, como \"mina\" o \"laburo\"",
+    "answer": "Lunfardo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "l-029",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Norma que aprueba el Congreso y todos deben cumplir",
+    "answer": "Ley",
+    "difficulty": "medium"
+  },
+  {
+    "id": "l-030",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Gota que sale del ojo cuando lloramos",
+    "answer": "Lágrima",
+    "difficulty": "medium"
+  },
+  {
+    "id": "l-031",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Embarcación chica con motor",
+    "answer": "Lancha",
+    "difficulty": "medium"
+  },
+  {
+    "id": "l-032",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Planta de flores violetas muy perfumadas",
+    "answer": "Lavanda",
+    "difficulty": "medium"
+  },
+  {
+    "id": "l-033",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Felino de orejas puntiagudas famoso por su vista",
+    "answer": "Lince",
+    "difficulty": "hard"
+  },
+  {
+    "id": "l-034",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Distancia de un lugar al ecuador, medida en grados",
+    "answer": "Latitud",
+    "difficulty": "hard"
+  },
+  {
+    "id": "l-035",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Roca derretida que sale de un volcán en erupción",
+    "answer": "Lava",
+    "difficulty": "medium"
+  },
+  {
+    "id": "l-036",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Tela sobre la que pinta un artista",
+    "answer": "Lienzo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "l-037",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Nombre del genio del Renacimiento que pintó la Mona Lisa",
+    "answer": "Leonardo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "l-038",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Barra de oro u otro metal fundido",
+    "answer": "Lingote",
+    "difficulty": "hard"
+  },
+  {
+    "id": "l-039",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Distancia en grados de un lugar al meridiano de Greenwich",
+    "answer": "Longitud",
+    "difficulty": "hard"
+  },
+  {
+    "id": "l-040",
+    "letter": "L",
+    "type": "startsWith",
+    "clue": "Parte blanda de abajo de la oreja, donde se pone el aro",
+    "answer": "Lóbulo",
+    "difficulty": "hard"
+  }
+]

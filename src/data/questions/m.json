@@ -1,0 +1,322 @@
+[
+  {
+    "id": "m-001",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Parte del cuerpo con cinco dedos que en el fútbol solo puede usar el arquero",
+    "answer": "Mano",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-002",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Fruta roja o verde, como la que mordió Blancanieves",
+    "answer": "Manzana",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-003",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Mueble con patas donde se apoyan los platos para comer",
+    "answer": "Mesa",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-004",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Insecto de alas coloridas que antes fue oruga",
+    "answer": "Mariposa",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-005",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Animal que trepa a los árboles, hace muecas y come bananas",
+    "answer": "Mono",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-006",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Agua salada en la que se bañan los turistas en Punta del Este",
+    "answer": "Mar",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-007",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Profesional que cura a los enfermos",
+    "answer": "Médico",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-008",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Mujer que enseña en la escuela primaria",
+    "answer": "Maestra",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-009",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Sustancia dulce y espesa que fabrican las abejas",
+    "answer": "Miel",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-010",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Día de la semana que va después del lunes",
+    "answer": "Martes",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-011",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Infusión rioplatense que se toma con bombilla y se comparte en ronda",
+    "answer": "Mate",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-012",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Bolso con dos tiras que se lleva en la espalda",
+    "answer": "Mochila",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-013",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Filete de carne rebozado con pan rallado",
+    "answer": "Milanesa",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-014",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Pieza redonda de metal con la que se paga",
+    "answer": "Moneda",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-015",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Insecto que zumba y pica de noche",
+    "answer": "Mosquito",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-016",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Mamífero volador nocturno que duerme colgado cabeza abajo",
+    "answer": "Murciélago",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-017",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Dibujo que representa un territorio con sus ríos y ciudades",
+    "answer": "Mapa",
+    "difficulty": "medium"
+  },
+  {
+    "id": "m-018",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Instrumento que agranda lo que es invisible a simple vista",
+    "answer": "Microscopio",
+    "difficulty": "medium"
+  },
+  {
+    "id": "m-019",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Provincia argentina famosa por sus vinos y sus viñedos",
+    "answer": "Mendoza",
+    "difficulty": "medium"
+  },
+  {
+    "id": "m-020",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Capital de Uruguay",
+    "answer": "Montevideo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "m-021",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Animal marino gelatinoso y transparente que pica",
+    "answer": "Medusa",
+    "difficulty": "medium"
+  },
+  {
+    "id": "m-022",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Agrupación de carnaval que canta y baila con bombos y platillos",
+    "answer": "Murga",
+    "difficulty": "medium"
+  },
+  {
+    "id": "m-023",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Persona que arregla motores de autos en un taller",
+    "answer": "Mecánico",
+    "difficulty": "medium"
+  },
+  {
+    "id": "m-024",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Herramienta para clavar clavos",
+    "answer": "Martillo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "m-025",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Cuerpo embalsamado y envuelto en vendas del antiguo Egipto",
+    "answer": "Momia",
+    "difficulty": "medium"
+  },
+  {
+    "id": "m-026",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Cítrico pequeño, dulce y fácil de pelar",
+    "answer": "Mandarina",
+    "difficulty": "medium"
+  },
+  {
+    "id": "m-027",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Artista que saca un conejo de la galera",
+    "answer": "Mago",
+    "difficulty": "medium"
+  },
+  {
+    "id": "m-028",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Construcción con aspas que mueve el viento para moler granos",
+    "answer": "Molino",
+    "difficulty": "medium"
+  },
+  {
+    "id": "m-029",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Piedra blanca y pulida que se usa en estatuas y escaleras",
+    "answer": "Mármol",
+    "difficulty": "medium"
+  },
+  {
+    "id": "m-030",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Parte de la cara debajo de los ojos, donde se da un beso",
+    "answer": "Mejilla",
+    "difficulty": "medium"
+  },
+  {
+    "id": "m-031",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Carrera a pie de unos 42 kilómetros",
+    "answer": "Maratón",
+    "difficulty": "medium"
+  },
+  {
+    "id": "m-032",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Apellido del compositor austríaco que fue niño prodigio en el siglo XVIII",
+    "answer": "Mozart",
+    "difficulty": "hard"
+  },
+  {
+    "id": "m-033",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Roca del espacio que atraviesa la atmósfera y cae en la Tierra",
+    "answer": "Meteorito",
+    "difficulty": "hard"
+  },
+  {
+    "id": "m-034",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Cambio de forma que sufren algunos animales, como el renacuajo al volverse rana",
+    "answer": "Metamorfosis",
+    "difficulty": "hard"
+  },
+  {
+    "id": "m-035",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Imagen hecha con piedritas o azulejos de colores",
+    "answer": "Mosaico",
+    "difficulty": "hard"
+  },
+  {
+    "id": "m-036",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Forma de gobierno encabezada por un rey o una reina",
+    "answer": "Monarquía",
+    "difficulty": "hard"
+  },
+  {
+    "id": "m-037",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Animal que amamanta a sus crías, como la ballena o el murciélago",
+    "answer": "Mamífero",
+    "difficulty": "hard"
+  },
+  {
+    "id": "m-038",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Monstruo mitad hombre y mitad toro, encerrado en el laberinto de Creta",
+    "answer": "Minotauro",
+    "difficulty": "hard"
+  },
+  {
+    "id": "m-039",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Hueso de la cara que se mueve al masticar",
+    "answer": "Mandíbula",
+    "difficulty": "medium"
+  },
+  {
+    "id": "m-040",
+    "letter": "M",
+    "type": "startsWith",
+    "clue": "Grupo de átomos unidos, la parte más chica de una sustancia",
+    "answer": "Molécula",
+    "difficulty": "hard"
+  }
+]
