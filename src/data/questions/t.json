@@ -1,0 +1,322 @@
+[
+  {
+    "id": "t-001",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Fruto rojo con el que se hace la salsa de los fideos",
+    "answer": "Tomate",
+    "difficulty": "easy"
+  },
+  {
+    "id": "t-002",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Felino de pelaje naranja con rayas negras",
+    "answer": "Tigre",
+    "difficulty": "easy"
+  },
+  {
+    "id": "t-003",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Reptil muy lento que lleva un caparazón",
+    "answer": "Tortuga",
+    "difficulty": "easy"
+  },
+  {
+    "id": "t-004",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Transporte con vagones que va sobre vías",
+    "answer": "Tren",
+    "difficulty": "easy"
+  },
+  {
+    "id": "t-005",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Herramienta de dos hojas que se usa para cortar papel o tela",
+    "answer": "Tijera",
+    "difficulty": "easy"
+  },
+  {
+    "id": "t-006",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Aparato que Graham Bell patentó en 1876",
+    "answer": "Teléfono",
+    "difficulty": "medium"
+  },
+  {
+    "id": "t-007",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Postre de cumpleaños sobre el que se ponen las velitas",
+    "answer": "Torta",
+    "difficulty": "easy"
+  },
+  {
+    "id": "t-008",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Recipiente con asa para tomar el café con leche",
+    "answer": "Taza",
+    "difficulty": "easy"
+  },
+  {
+    "id": "t-009",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Cubierto con dientes que sirve para pinchar la comida",
+    "answer": "Tenedor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "t-010",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Pez grande de dientes filosos que asusta a los bañistas",
+    "answer": "Tiburón",
+    "difficulty": "easy"
+  },
+  {
+    "id": "t-011",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Instrumento de percusión con un parche que se golpea",
+    "answer": "Tambor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "t-012",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Ruido fuerte que se oye después de un rayo",
+    "answer": "Trueno",
+    "difficulty": "easy"
+  },
+  {
+    "id": "t-013",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Articulación entre el pie y la pierna",
+    "answer": "Tobillo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "t-014",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Parte de arriba de una casa, que nos protege de la lluvia",
+    "answer": "Techo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "t-015",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Lo que pasás a ser cuando tu hermana tiene un hijo",
+    "answer": "Tío",
+    "difficulty": "easy"
+  },
+  {
+    "id": "t-016",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Barrita blanca para escribir en el pizarrón",
+    "answer": "Tiza",
+    "difficulty": "easy"
+  },
+  {
+    "id": "t-017",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Música y baile porteño que se acompaña con bandoneón",
+    "answer": "Tango",
+    "difficulty": "medium"
+  },
+  {
+    "id": "t-018",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Instrumento que mide la temperatura, por ejemplo si tenemos fiebre",
+    "answer": "Termómetro",
+    "difficulty": "medium"
+  },
+  {
+    "id": "t-019",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Instrumento para observar las estrellas y los planetas",
+    "answer": "Telescopio",
+    "difficulty": "medium"
+  },
+  {
+    "id": "t-020",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Ave de la selva con un pico enorme y colorido",
+    "answer": "Tucán",
+    "difficulty": "medium"
+  },
+  {
+    "id": "t-021",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Movimiento fuerte y repentino del suelo que derrumba edificios",
+    "answer": "Terremoto",
+    "difficulty": "medium"
+  },
+  {
+    "id": "t-022",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Instrumento de viento de metal con tres pistones",
+    "answer": "Trompeta",
+    "difficulty": "medium"
+  },
+  {
+    "id": "t-023",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Provincia donde se declaró la independencia argentina en 1816",
+    "answer": "Tucumán",
+    "difficulty": "medium"
+  },
+  {
+    "id": "t-024",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Juego de plaza por el que uno se desliza sentado",
+    "answer": "Tobogán",
+    "difficulty": "easy"
+  },
+  {
+    "id": "t-025",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Cereal dorado con cuyos granos se hace la harina",
+    "answer": "Trigo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "t-026",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Deporte que se juega con raqueta y una red en el medio de la cancha",
+    "answer": "Tenis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "t-027",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Pieza de metal con rosca que se ajusta girándola",
+    "answer": "Tornillo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "t-028",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Rebanada de pan dorada al fuego, rica con manteca",
+    "answer": "Tostada",
+    "difficulty": "medium"
+  },
+  {
+    "id": "t-029",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Planta pequeña que, si tiene cuatro hojas, dicen que trae suerte",
+    "answer": "Trébol",
+    "difficulty": "medium"
+  },
+  {
+    "id": "t-030",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Artista de circo que se balancea colgado en las alturas",
+    "answer": "Trapecista",
+    "difficulty": "medium"
+  },
+  {
+    "id": "t-031",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Rueda con la que se dirige un barco",
+    "answer": "Timón",
+    "difficulty": "medium"
+  },
+  {
+    "id": "t-032",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Dibujo hecho con tinta debajo de la piel",
+    "answer": "Tatuaje",
+    "difficulty": "medium"
+  },
+  {
+    "id": "t-033",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Ola gigante provocada por un terremoto en el fondo del mar",
+    "answer": "Tsunami",
+    "difficulty": "hard"
+  },
+  {
+    "id": "t-034",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Tubo que lleva el aire de la garganta a los pulmones",
+    "answer": "Tráquea",
+    "difficulty": "hard"
+  },
+  {
+    "id": "t-035",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Poste tallado con figuras de animales sagrados",
+    "answer": "Tótem",
+    "difficulty": "hard"
+  },
+  {
+    "id": "t-036",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Conjunto de tres obras que cuentan una misma historia",
+    "answer": "Trilogía",
+    "difficulty": "hard"
+  },
+  {
+    "id": "t-037",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Documento donde alguien deja escrito a quién le quedan sus bienes cuando muera",
+    "answer": "Testamento",
+    "difficulty": "hard"
+  },
+  {
+    "id": "t-038",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Zanja donde se protegían los soldados en la Primera Guerra Mundial",
+    "answer": "Trinchera",
+    "difficulty": "hard"
+  },
+  {
+    "id": "t-039",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "La voz masculina más aguda",
+    "answer": "Tenor",
+    "difficulty": "hard"
+  },
+  {
+    "id": "t-040",
+    "letter": "T",
+    "type": "startsWith",
+    "clue": "Árbol cuyas flores se usan para un té que ayuda a dormir",
+    "answer": "Tilo",
+    "difficulty": "hard"
+  }
+]

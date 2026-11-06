@@ -1,0 +1,322 @@
+[
+  {
+    "id": "s-001",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Está en el centro de la bandera argentina",
+    "answer": "Sol",
+    "difficulty": "easy"
+  },
+  {
+    "id": "s-002",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Mueble con respaldo para que se siente una persona",
+    "answer": "Silla",
+    "difficulty": "easy"
+  },
+  {
+    "id": "s-003",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Reptil sin patas que se arrastra por el suelo",
+    "answer": "Serpiente",
+    "difficulty": "easy"
+  },
+  {
+    "id": "s-004",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Anfibio parecido a la rana, de piel rugosa",
+    "answer": "Sapo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "s-005",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Condimento blanco que se saca del mar",
+    "answer": "Sal",
+    "difficulty": "easy"
+  },
+  {
+    "id": "s-006",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Día de la semana entre el viernes y el domingo",
+    "answer": "Sábado",
+    "difficulty": "easy"
+  },
+  {
+    "id": "s-007",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Comida líquida y caliente que se toma con cuchara",
+    "answer": "Sopa",
+    "difficulty": "easy"
+  },
+  {
+    "id": "s-008",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Prenda con ala que se usa en la cabeza",
+    "answer": "Sombrero",
+    "difficulty": "easy"
+  },
+  {
+    "id": "s-009",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Período de siete días, de lunes a domingo",
+    "answer": "Semana",
+    "difficulty": "easy"
+  },
+  {
+    "id": "s-010",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Fruta enorme, verde por fuera y roja por dentro",
+    "answer": "Sandía",
+    "difficulty": "easy"
+  },
+  {
+    "id": "s-011",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Mes en que llega la primavera y se festeja el Día del Estudiante",
+    "answer": "Septiembre",
+    "difficulty": "easy"
+  },
+  {
+    "id": "s-012",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Ser de los cuentos, mitad mujer y mitad pez",
+    "answer": "Sirena",
+    "difficulty": "easy"
+  },
+  {
+    "id": "s-013",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Recipiente con mango largo para freír",
+    "answer": "Sartén",
+    "difficulty": "easy"
+  },
+  {
+    "id": "s-014",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Líquido rojo que corre por las venas",
+    "answer": "Sangre",
+    "difficulty": "easy"
+  },
+  {
+    "id": "s-015",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Embutido largo que va adentro del pancho",
+    "answer": "Salchicha",
+    "difficulty": "easy"
+  },
+  {
+    "id": "s-016",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Pito que usa el árbitro para cobrar las faltas",
+    "answer": "Silbato",
+    "difficulty": "easy"
+  },
+  {
+    "id": "s-017",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Planeta famoso por sus anillos",
+    "answer": "Saturno",
+    "difficulty": "medium"
+  },
+  {
+    "id": "s-018",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Nave que navega bajo el agua; también, leche caliente con una barra de chocolate",
+    "answer": "Submarino",
+    "difficulty": "medium"
+  },
+  {
+    "id": "s-019",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Aparato que ordena el tránsito con luces roja, amarilla y verde",
+    "answer": "Semáforo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "s-020",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Persona que hace trajes a medida",
+    "answer": "Sastre",
+    "difficulty": "medium"
+  },
+  {
+    "id": "s-021",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Provincia del norte argentino a la que llaman \"la linda\"",
+    "answer": "Salta",
+    "difficulty": "medium"
+  },
+  {
+    "id": "s-022",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Apellido del Libertador de Argentina, Chile y Perú que cruzó los Andes",
+    "answer": "San Martín",
+    "difficulty": "medium"
+  },
+  {
+    "id": "s-023",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Desierto más grande y caluroso del mundo, en el norte de África",
+    "answer": "Sahara",
+    "difficulty": "medium"
+  },
+  {
+    "id": "s-024",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Herramienta con dientes para cortar madera",
+    "answer": "Serrucho",
+    "difficulty": "medium"
+  },
+  {
+    "id": "s-025",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Instrumento de viento de metal, muy usado en el jazz",
+    "answer": "Saxofón",
+    "difficulty": "medium"
+  },
+  {
+    "id": "s-026",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Líquido que larga la piel cuando hace calor o hacemos ejercicio",
+    "answer": "Sudor",
+    "difficulty": "medium"
+  },
+  {
+    "id": "s-027",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Comida de dos panes con fiambre y queso en el medio",
+    "answer": "Sándwich",
+    "difficulty": "medium"
+  },
+  {
+    "id": "s-028",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Árbol de ramas que cuelgan junto al agua, llamado \"llorón\"",
+    "answer": "Sauce",
+    "difficulty": "medium"
+  },
+  {
+    "id": "s-029",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Madre de tu esposa o de tu esposo",
+    "answer": "Suegra",
+    "difficulty": "medium"
+  },
+  {
+    "id": "s-030",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Pez de carne rosada que nada río arriba para desovar",
+    "answer": "Salmón",
+    "difficulty": "hard"
+  },
+  {
+    "id": "s-031",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Deporte que consiste en deslizarse sobre las olas con una tabla",
+    "answer": "Surf",
+    "difficulty": "medium"
+  },
+  {
+    "id": "s-032",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Cada golpe de voz en que se divide una palabra",
+    "answer": "Sílaba",
+    "difficulty": "medium"
+  },
+  {
+    "id": "s-033",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Ataúd de piedra en el que se enterraba a los faraones",
+    "answer": "Sarcófago",
+    "difficulty": "hard"
+  },
+  {
+    "id": "s-034",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Palabra que significa lo mismo que otra",
+    "answer": "Sinónimo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "s-035",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Día más largo o más corto del año",
+    "answer": "Solsticio",
+    "difficulty": "hard"
+  },
+  {
+    "id": "s-036",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Gato de origen tailandés, de ojos azules y orejas y cara oscuras",
+    "answer": "Siamés",
+    "difficulty": "hard"
+  },
+  {
+    "id": "s-037",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Poema de catorce versos",
+    "answer": "Soneto",
+    "difficulty": "hard"
+  },
+  {
+    "id": "s-038",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Nombre del filósofo griego que enseñaba haciendo preguntas",
+    "answer": "Sócrates",
+    "difficulty": "hard"
+  },
+  {
+    "id": "s-039",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Pequeño mamífero africano que se para en dos patas para vigilar",
+    "answer": "Suricata",
+    "difficulty": "hard"
+  },
+  {
+    "id": "s-040",
+    "letter": "S",
+    "type": "startsWith",
+    "clue": "Cuerpo que gira alrededor de un planeta, como la Luna alrededor de la Tierra",
+    "answer": "Satélite",
+    "difficulty": "hard"
+  }
+]

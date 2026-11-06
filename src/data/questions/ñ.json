@@ -1,0 +1,322 @@
+[
+  {
+    "id": "enie-001",
+    "letter": "Ñ",
+    "type": "startsWith",
+    "clue": "Ave grande de la llanura que corre muy rápido y no vuela",
+    "answer": "Ñandú",
+    "difficulty": "easy"
+  },
+  {
+    "id": "enie-002",
+    "letter": "Ñ",
+    "type": "startsWith",
+    "clue": "Bolitas de masa de papa que se comen el 29 de cada mes",
+    "answer": "Ñoqui",
+    "difficulty": "easy"
+  },
+  {
+    "id": "enie-003",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Persona de pocos años, que todavía no es adolescente",
+    "answer": "Niño",
+    "difficulty": "easy"
+  },
+  {
+    "id": "enie-004",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Lo que tarda la Tierra en dar una vuelta completa al Sol",
+    "answer": "Año",
+    "difficulty": "easy"
+  },
+  {
+    "id": "enie-005",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Habitación de la casa con ducha e inodoro",
+    "answer": "Baño",
+    "difficulty": "easy"
+  },
+  {
+    "id": "enie-006",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Lo que crece en la punta de los dedos y se corta con una tijerita",
+    "answer": "Uña",
+    "difficulty": "easy"
+  },
+  {
+    "id": "enie-007",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "El Aconcagua es la más alta de América",
+    "answer": "Montaña",
+    "difficulty": "easy"
+  },
+  {
+    "id": "enie-008",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Ganas de dormir que dan a la noche",
+    "answer": "Sueño",
+    "difficulty": "easy"
+  },
+  {
+    "id": "enie-009",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Parte del día que va desde que sale el sol hasta el mediodía",
+    "answer": "Mañana",
+    "difficulty": "easy"
+  },
+  {
+    "id": "enie-010",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Juguete con forma de nena; también, la articulación de la mano",
+    "answer": "Muñeca",
+    "difficulty": "easy"
+  },
+  {
+    "id": "enie-011",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Estación del año en que caen las hojas de los árboles",
+    "answer": "Otoño",
+    "difficulty": "easy"
+  },
+  {
+    "id": "enie-012",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Trozo de tela chico para sonarse la nariz",
+    "answer": "Pañuelo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "enie-013",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Cada pelito del borde del párpado",
+    "answer": "Pestaña",
+    "difficulty": "easy"
+  },
+  {
+    "id": "enie-014",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Troncos secos que se queman en la chimenea o para el asado",
+    "answer": "Leña",
+    "difficulty": "easy"
+  },
+  {
+    "id": "enie-015",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Mano cerrada con fuerza",
+    "answer": "Puño",
+    "difficulty": "easy"
+  },
+  {
+    "id": "enie-016",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Prenda descartable que usan los bebés",
+    "answer": "Pañal",
+    "difficulty": "easy"
+  },
+  {
+    "id": "enie-017",
+    "letter": "Ñ",
+    "type": "startsWith",
+    "clue": "Antílope africano con barba que migra en grandes manadas",
+    "answer": "Ñu",
+    "difficulty": "medium"
+  },
+  {
+    "id": "enie-018",
+    "letter": "Ñ",
+    "type": "startsWith",
+    "clue": "De nariz pequeña y chata",
+    "answer": "Ñato",
+    "difficulty": "medium"
+  },
+  {
+    "id": "enie-019",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Ave de patas largas que, según los cuentos, trae a los bebés",
+    "answer": "Cigüeña",
+    "difficulty": "medium"
+  },
+  {
+    "id": "enie-020",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Casita de madera en el medio del bosque",
+    "answer": "Cabaña",
+    "difficulty": "medium"
+  },
+  {
+    "id": "enie-021",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Recipiente lleno de golosinas que se rompe a palazos en un cumpleaños",
+    "answer": "Piñata",
+    "difficulty": "medium"
+  },
+  {
+    "id": "enie-022",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Órgano que filtra la sangre y produce la orina",
+    "answer": "Riñón",
+    "difficulty": "hard"
+  },
+  {
+    "id": "enie-023",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Hermano de tu esposa o de tu esposo",
+    "answer": "Cuñado",
+    "difficulty": "medium"
+  },
+  {
+    "id": "enie-024",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Grupo de ovejas que cuida un pastor",
+    "answer": "Rebaño",
+    "difficulty": "medium"
+  },
+  {
+    "id": "enie-025",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Plato de capas de pasta con carne, salsa y queso gratinado",
+    "answer": "Lasaña",
+    "difficulty": "medium"
+  },
+  {
+    "id": "enie-026",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Lazo decorativo que adorna un regalo o el pelo",
+    "answer": "Moño",
+    "difficulty": "medium"
+  },
+  {
+    "id": "enie-027",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Reunión con música folclórica, guitarras y empanadas",
+    "answer": "Peña",
+    "difficulty": "medium"
+  },
+  {
+    "id": "enie-028",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Color de pelo marrón",
+    "answer": "Castaño",
+    "difficulty": "medium"
+  },
+  {
+    "id": "enie-029",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Cambiar el color del pelo o de una tela con tintura",
+    "answer": "Teñir",
+    "difficulty": "medium"
+  },
+  {
+    "id": "enie-030",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Vara larga y flexible que se usa para pescar",
+    "answer": "Caña",
+    "difficulty": "medium"
+  },
+  {
+    "id": "enie-031",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Profesional que crea ropa, logos o muebles",
+    "answer": "Diseñador",
+    "difficulty": "medium"
+  },
+  {
+    "id": "enie-032",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Persona que comparte el aula o el trabajo con otra",
+    "answer": "Compañero",
+    "difficulty": "medium"
+  },
+  {
+    "id": "enie-033",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Pez carnívoro de los ríos sudamericanos, con dientes muy filosos",
+    "answer": "Piraña",
+    "difficulty": "hard"
+  },
+  {
+    "id": "enie-034",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Que no le gusta gastar plata ni invitar nada",
+    "answer": "Tacaño",
+    "difficulty": "medium"
+  },
+  {
+    "id": "enie-035",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Expedición militar, como la que hizo San Martín para cruzar los Andes",
+    "answer": "Campaña",
+    "difficulty": "hard"
+  },
+  {
+    "id": "enie-036",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Plantación de uvas para hacer vino, muy común en Mendoza",
+    "answer": "Viñedo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "enie-037",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Acción heroica y difícil de lograr",
+    "answer": "Hazaña",
+    "difficulty": "hard"
+  },
+  {
+    "id": "enie-038",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Cómo es un vino o un queso que se dejó estacionar mucho tiempo",
+    "answer": "Añejo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "enie-039",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Corte de la parrilla que se saca del diafragma de la vaca",
+    "answer": "Entraña",
+    "difficulty": "hard"
+  },
+  {
+    "id": "enie-040",
+    "letter": "Ñ",
+    "type": "contains",
+    "clue": "Valle profundo y angosto con paredes muy altas, como el del Colorado",
+    "answer": "Cañón",
+    "difficulty": "hard"
+  }
+]

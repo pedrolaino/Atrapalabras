@@ -1,0 +1,322 @@
+[
+  {
+    "id": "y-001",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Hembra del caballo",
+    "answer": "Yegua",
+    "difficulty": "easy"
+  },
+  {
+    "id": "y-002",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Lácteo cremoso que se come con cereales o frutas",
+    "answer": "Yogur",
+    "difficulty": "easy"
+  },
+  {
+    "id": "y-003",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Parte amarilla del huevo",
+    "answer": "Yema",
+    "difficulty": "easy"
+  },
+  {
+    "id": "y-004",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Barco de lujo para pasear",
+    "answer": "Yate",
+    "difficulty": "easy"
+  },
+  {
+    "id": "y-005",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Hojas secas y molidas con las que se prepara el mate",
+    "answer": "Yerba",
+    "difficulty": "easy"
+  },
+  {
+    "id": "y-006",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Palabra con la que uno habla de sí mismo",
+    "answer": "Yo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "y-007",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Juguete que sube y baja enrollándose en un hilo",
+    "answer": "Yoyó",
+    "difficulty": "easy"
+  },
+  {
+    "id": "y-008",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Material blanco con el que se inmoviliza un hueso roto",
+    "answer": "Yeso",
+    "difficulty": "easy"
+  },
+  {
+    "id": "y-009",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Reptil de los esteros correntinos, parecido al cocodrilo",
+    "answer": "Yacaré",
+    "difficulty": "easy"
+  },
+  {
+    "id": "y-010",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Orilla de arena junto al mar",
+    "answer": "Playa",
+    "difficulty": "easy"
+  },
+  {
+    "id": "y-011",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "El día anterior a hoy",
+    "answer": "Ayer",
+    "difficulty": "easy"
+  },
+  {
+    "id": "y-012",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Aderezo cremoso hecho con huevo y aceite",
+    "answer": "Mayonesa",
+    "difficulty": "easy"
+  },
+  {
+    "id": "y-013",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Juego de saltar en un pie por casilleros dibujados en el piso",
+    "answer": "Rayuela",
+    "difficulty": "easy"
+  },
+  {
+    "id": "y-014",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Toro castrado que tira del arado",
+    "answer": "Buey",
+    "difficulty": "easy"
+  },
+  {
+    "id": "y-015",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Río pequeño y de poco caudal",
+    "answer": "Arroyo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "y-016",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Pozo en la tierra, como los del golf",
+    "answer": "Hoyo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "y-017",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Felino en peligro de extinción, emblema de la selva misionera",
+    "answer": "Yaguareté",
+    "difficulty": "medium"
+  },
+  {
+    "id": "y-018",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Víbora venenosa del litoral argentino",
+    "answer": "Yarará",
+    "difficulty": "medium"
+  },
+  {
+    "id": "y-019",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Esposo de tu hija",
+    "answer": "Yerno",
+    "difficulty": "medium"
+  },
+  {
+    "id": "y-020",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Bloque de hierro sobre el que el herrero golpea el metal",
+    "answer": "Yunque",
+    "difficulty": "medium"
+  },
+  {
+    "id": "y-021",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Hierba que crece sola en el jardín y hay que arrancar",
+    "answer": "Yuyo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "y-022",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Lo que el vendedor te regala de más, como un caramelo",
+    "answer": "Yapa",
+    "difficulty": "medium"
+  },
+  {
+    "id": "y-023",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Disciplina de la India con posturas, estiramientos y respiración",
+    "answer": "Yoga",
+    "difficulty": "medium"
+  },
+  {
+    "id": "y-024",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Lugar bajo tierra donde hay petróleo o minerales",
+    "answer": "Yacimiento",
+    "difficulty": "medium"
+  },
+  {
+    "id": "y-025",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Relato tradicional con elementos fantásticos que pasa de generación en generación",
+    "answer": "Leyenda",
+    "difficulty": "medium"
+  },
+  {
+    "id": "y-026",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Letra grande con la que empieza una oración",
+    "answer": "Mayúscula",
+    "difficulty": "medium"
+  },
+  {
+    "id": "y-027",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Pasar un tiempo sin comer",
+    "answer": "Ayuno",
+    "difficulty": "medium"
+  },
+  {
+    "id": "y-028",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Aparato que muestra imágenes agrandadas sobre una pantalla",
+    "answer": "Proyector",
+    "difficulty": "medium"
+  },
+  {
+    "id": "y-029",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Práctica de una obra de teatro antes del estreno",
+    "answer": "Ensayo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "y-030",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Región formada por Mendoza, San Juan y San Luis",
+    "answer": "Cuyo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "y-031",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Fruta tropical de pulpa rosada con la que se hace dulce",
+    "answer": "Guayaba",
+    "difficulty": "medium"
+  },
+  {
+    "id": "y-032",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Trazar una línea debajo de una palabra para destacarla",
+    "answer": "Subrayar",
+    "difficulty": "medium"
+  },
+  {
+    "id": "y-033",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Animal salvaje de Norteamérica parecido a un perro, que aúlla de noche",
+    "answer": "Coyote",
+    "difficulty": "hard"
+  },
+  {
+    "id": "y-034",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Pérdida del conocimiento por un rato, por ejemplo cuando baja la presión",
+    "answer": "Desmayo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "y-035",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Cantor criollo que improvisa versos acompañado por la guitarra",
+    "answer": "Payador",
+    "difficulty": "hard"
+  },
+  {
+    "id": "y-036",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Elemento químico que se usaba para desinfectar heridas",
+    "answer": "Yodo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "y-037",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Empleado principal de una mansión, que abre la puerta y dirige a los demás sirvientes",
+    "answer": "Mayordomo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "y-038",
+    "letter": "Y",
+    "type": "startsWith",
+    "clue": "Criatura legendaria del Himalaya, el abominable hombre de las nieves",
+    "answer": "Yeti",
+    "difficulty": "hard"
+  },
+  {
+    "id": "y-039",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Mes de la Revolución de 1810 que formó el primer gobierno patrio",
+    "answer": "Mayo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "y-040",
+    "letter": "Y",
+    "type": "contains",
+    "clue": "Persona que tiene el mismo nombre que otra",
+    "answer": "Tocayo",
+    "difficulty": "hard"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "x-001",
+    "letter": "X",
+    "type": "startsWith",
+    "clue": "Instrumento de placas de madera que se golpean con palillos",
+    "answer": "Xilófono",
+    "difficulty": "easy"
+  },
+  {
+    "id": "x-002",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Auto con chofer que se para con la mano y cobra por viaje",
+    "answer": "Taxi",
+    "difficulty": "easy"
+  },
+  {
+    "id": "x-003",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Prueba escrita u oral para saber cuánto aprendiste",
+    "answer": "Examen",
+    "difficulty": "easy"
+  },
+  {
+    "id": "x-004",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Resultado muy bueno, lo contrario del fracaso",
+    "answer": "Éxito",
+    "difficulty": "easy"
+  },
+  {
+    "id": "x-005",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Conjunto de palabras escritas, como el de un libro",
+    "answer": "Texto",
+    "difficulty": "easy"
+  },
+  {
+    "id": "x-006",
+    "letter": "X",
+    "type": "contains",
+    "clue": "País de los mariachis y los tacos",
+    "answer": "México",
+    "difficulty": "easy"
+  },
+  {
+    "id": "x-007",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Estallido violento con ruido y fuego, como el de una bomba",
+    "answer": "Explosión",
+    "difficulty": "easy"
+  },
+  {
+    "id": "x-008",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Persona que viene de otro país",
+    "answer": "Extranjero",
+    "difficulty": "easy"
+  },
+  {
+    "id": "x-009",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Hueco debajo del brazo donde se pone el desodorante",
+    "answer": "Axila",
+    "difficulty": "easy"
+  },
+  {
+    "id": "x-010",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Utensilio de cocina para sacarle el jugo a las naranjas",
+    "answer": "Exprimidor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "x-011",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Salida de un día con la escuela para conocer un lugar",
+    "answer": "Excursión",
+    "difficulty": "easy"
+  },
+  {
+    "id": "x-012",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Ayuda que se pide a los gritos cuando hay peligro",
+    "answer": "Auxilio",
+    "difficulty": "easy"
+  },
+  {
+    "id": "x-013",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Ser que viene de otro planeta, como un marciano",
+    "answer": "Extraterrestre",
+    "difficulty": "easy"
+  },
+  {
+    "id": "x-014",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Que viene después, el siguiente",
+    "answer": "Próximo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "x-015",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Muy bueno, como la nota más alta",
+    "answer": "Excelente",
+    "difficulty": "easy"
+  },
+  {
+    "id": "x-016",
+    "letter": "X",
+    "type": "contains",
+    "clue": "El que va después del quinto",
+    "answer": "Sexto",
+    "difficulty": "easy"
+  },
+  {
+    "id": "x-017",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Aparato rojo que sirve para apagar un fuego chico",
+    "answer": "Extintor",
+    "difficulty": "medium"
+  },
+  {
+    "id": "x-018",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Persona que viaja a lugares desconocidos para descubrirlos",
+    "answer": "Explorador",
+    "difficulty": "medium"
+  },
+  {
+    "id": "x-019",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Prueba que se hace en un laboratorio para comprobar algo",
+    "answer": "Experimento",
+    "difficulty": "medium"
+  },
+  {
+    "id": "x-020",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Parte del cuerpo entre el cuello y el abdomen; el pecho",
+    "answer": "Tórax",
+    "difficulty": "medium"
+  },
+  {
+    "id": "x-021",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Que se dobla sin romperse",
+    "answer": "Flexible",
+    "difficulty": "medium"
+  },
+  {
+    "id": "x-022",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Capa rojiza que se forma sobre el hierro con la humedad",
+    "answer": "Óxido",
+    "difficulty": "medium"
+  },
+  {
+    "id": "x-023",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Venenoso, que hace mal a la salud",
+    "answer": "Tóxico",
+    "difficulty": "medium"
+  },
+  {
+    "id": "x-024",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Máquina con una pala que hace pozos en las obras",
+    "answer": "Excavadora",
+    "difficulty": "medium"
+  },
+  {
+    "id": "x-025",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Lo más grande posible, lo contrario de mínimo",
+    "answer": "Máximo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "x-026",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Situación de quien tiene que vivir fuera de su país por obligación",
+    "answer": "Exilio",
+    "difficulty": "medium"
+  },
+  {
+    "id": "x-027",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Contar algo como si fuera más grande de lo que fue",
+    "answer": "Exagerar",
+    "difficulty": "medium"
+  },
+  {
+    "id": "x-028",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Signo que va antes y después de una frase de asombro",
+    "answer": "Exclamación",
+    "difficulty": "medium"
+  },
+  {
+    "id": "x-029",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Motivo inventado para no hacer algo",
+    "answer": "Excusa",
+    "difficulty": "medium"
+  },
+  {
+    "id": "x-030",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Muestra de cuadros u objetos para que los vea el público",
+    "answer": "Exposición",
+    "difficulty": "medium"
+  },
+  {
+    "id": "x-031",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Falta de aire que impide respirar",
+    "answer": "Asfixia",
+    "difficulty": "medium"
+  },
+  {
+    "id": "x-032",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Lo que se pierde cuando se corta el wifi",
+    "answer": "Conexión",
+    "difficulty": "medium"
+  },
+  {
+    "id": "x-033",
+    "letter": "X",
+    "type": "startsWith",
+    "clue": "Rechazo u odio hacia las personas de otros países",
+    "answer": "Xenofobia",
+    "difficulty": "hard"
+  },
+  {
+    "id": "x-034",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Desaparición total de una especie, como la de los dinosaurios",
+    "answer": "Extinción",
+    "difficulty": "hard"
+  },
+  {
+    "id": "x-035",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Salida masiva de un pueblo, como la del pueblo jujeño en 1812",
+    "answer": "Éxodo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "x-036",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Venta de productos de un país a otros países",
+    "answer": "Exportación",
+    "difficulty": "hard"
+  },
+  {
+    "id": "x-037",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Ritual para expulsar al demonio de una persona poseída",
+    "answer": "Exorcismo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "x-038",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Momento de mayor tensión en una película o una novela",
+    "answer": "Clímax",
+    "difficulty": "hard"
+  },
+  {
+    "id": "x-039",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Lesión en la que un hueso se sale de su articulación",
+    "answer": "Luxación",
+    "difficulty": "hard"
+  },
+  {
+    "id": "x-040",
+    "letter": "X",
+    "type": "contains",
+    "clue": "Echar el aire de los pulmones",
+    "answer": "Exhalar",
+    "difficulty": "hard"
+  }
+]
