@@ -1,4 +1,4 @@
-import { useEffect, useReducer, useRef } from 'react'
+import { useEffect, useReducer, useRef, useState } from 'react'
 import { GameTable } from './components/GameTable'
 import { QuestionBankError } from './components/QuestionBankError'
 import { StartScreen } from './components/StartScreen'
@@ -8,6 +8,8 @@ import { loadGame, readJSON, saveGame, writeJSON } from './game/storage'
 import { pickWheels } from './game/questionPicker'
 import { reducer } from './game/reducer'
 import type { Game } from './game/types'
+import { shouldStartOnline } from './online/seat'
+import { Online } from './online/Online'
 import { currentTime } from './ui/hooks'
 
 const { bank, errors } = loadBank()
@@ -26,12 +28,13 @@ function savedNames(): [string, string] {
 }
 
 export default function App() {
+  const [online, setOnline] = useState(shouldStartOnline)
   if (errors.length > 0) return <QuestionBankError errors={errors} />
-  return <LocalGame />
+  return online ? <Online bank={bank} onExit={() => setOnline(false)} /> : <LocalGame onOnline={() => setOnline(true)} />
 }
 
 // One device: the game lives in this browser.
-function LocalGame() {
+function LocalGame({ onOnline }: { onOnline: () => void }) {
   const [game, dispatch] = useReducer(reducer, null, initialGame)
   const latest = useRef(game)
 
@@ -68,7 +71,7 @@ function LocalGame() {
     })
   }
 
-  if (!game) return <StartScreen initialNames={savedNames()} onPlay={start} />
+  if (!game) return <StartScreen initialNames={savedNames()} onPlay={start} onOnline={onOnline} />
 
   return (
     <GameTable

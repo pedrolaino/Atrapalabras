@@ -1,6 +1,10 @@
 import { useEffect, useRef, useState } from 'react'
 
-export const currentTime = () => Date.now()
+// In online mode the time is corrected with the server's, so both devices compute the same
+// remaining time even if their clocks disagree.
+let offsetMs = 0
+export const setClockOffset = (ms: number) => { offsetMs = ms }
+export const currentTime = () => Date.now() + offsetMs
 
 // Current time, refreshed several times per second while `active` is true.
 // It may lag a few milliseconds right after starting; remainingTime tolerates it.

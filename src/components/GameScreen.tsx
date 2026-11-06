@@ -12,6 +12,8 @@ interface Props {
   game: Game
   remainingMs: number
   muted: boolean
+  // Online, on the answering player's device: the reader's name. The question is not shown.
+  readBy?: string
   onTap: (t: Tap) => void
   onPause: () => void
   onResume: () => void
@@ -20,7 +22,7 @@ interface Props {
   onToggleMute: () => void
 }
 
-export function GameScreen({ game, remainingMs, muted, onTap, onPause, onResume, onUndo, onQuit, onToggleMute }: Props) {
+export function GameScreen({ game, remainingMs, muted, readBy, onTap, onPause, onResume, onUndo, onQuit, onToggleMute }: Props) {
   const player = game.players[game.current]
   const slot = player.wheel[player.index]
   const { question } = slot
@@ -35,9 +37,11 @@ export function GameScreen({ game, remainingMs, muted, onTap, onPause, onResume,
           <span>Aciertos: <strong>{stats(player).correct}</strong></span>
         </p>
         <div className="game__controls">
-          <button type="button" className="button button--small" onClick={onUndo} disabled={game.history.length === 0} aria-keyshortcuts="Z">
-            <ArrowCounterClockwise size={18} weight="bold" aria-hidden /> Deshacer
-          </button>
+          {readBy === undefined && (
+            <button type="button" className="button button--small" onClick={onUndo} disabled={game.history.length === 0} aria-keyshortcuts="Z">
+              <ArrowCounterClockwise size={18} weight="bold" aria-hidden /> Deshacer
+            </button>
+          )}
           <button type="button" className="button button--small" onClick={onToggleMute} aria-pressed={muted} aria-label="Silenciar">
             {muted ? <SpeakerSlash size={20} weight="bold" aria-hidden /> : <SpeakerHigh size={20} weight="bold" aria-hidden />}
           </button>
@@ -63,13 +67,19 @@ export function GameScreen({ game, remainingMs, muted, onTap, onPause, onResume,
                 <p className="question__prompt">
                   {question.type === 'startsWith' ? 'Empieza con la' : 'Contiene la'} <strong className="question__letter">{slot.letter}</strong>
                 </p>
-                <p className="question__clue">{question.clue}</p>
-                <p className="question__answer">Respuesta: <strong>{question.answer}</strong></p>
+                {readBy === undefined ? (
+                  <>
+                    <p className="question__clue">{question.clue}</p>
+                    <p className="question__answer">Respuesta: <strong>{question.answer}</strong></p>
+                  </>
+                ) : (
+                  <p className="question__clue">Te está leyendo {readBy}</p>
+                )}
               </>
             )}
           </section>
 
-          <div className="answer-buttons">
+          {readBy === undefined && <div className="answer-buttons">
             <button type="button" className="button button--large button--correct" onClick={() => onTap('CORRECT')}>
               <Check size={30} weight="bold" aria-hidden /> Correcto
             </button>
@@ -79,7 +89,7 @@ export function GameScreen({ game, remainingMs, muted, onTap, onPause, onResume,
             <button type="button" className="button button--large button--pass" onClick={() => onTap('PASS')}>
               <CaretDoubleRight size={30} weight="bold" aria-hidden /> Pasa
             </button>
-          </div>
+          </div>}
         </div>
       </div>
 

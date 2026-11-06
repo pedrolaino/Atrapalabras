@@ -14,14 +14,18 @@ const MUTED_KEY = 'atrapalabras:muted'
 interface Props {
   game: Game
   dispatch: (a: Action) => void
+  // Online only: the seat (0 or 1) of the player on this device.
+  seat?: 0 | 1
   onRematch: () => void
   onHome: () => void
 }
 
-// The game in progress: picks the screen for the current phase, runs the clock and plays the sounds.
-export function GameTable({ game, dispatch, onRematch, onHome }: Props) {
+// The game in progress, the same on one device or online. Online, the answering player never sees the question.
+export function GameTable({ game, dispatch, seat, onRematch, onHome }: Props) {
   const [muted, setMutedState] = useState(() => readJSON(MUTED_KEY) === true)
   const previous = useRef(game)
+  const online = seat !== undefined
+  const answering = online && game.current === seat
 
   const running = game.phase === 'playing' && !game.paused
   const now = useNow(running)
@@ -41,6 +45,7 @@ export function GameTable({ game, dispatch, onRematch, onHome }: Props) {
     if (sound) play(sound)
   }, [game])
 
+  // Online both devices dispatch it; the reducer ignores the duplicate.
   useEffect(() => {
     if (running && remainingMs <= 0) dispatch({ type: 'TIME_UP', now: currentTime() })
   }, [running, remainingMs, dispatch])
@@ -51,7 +56,7 @@ export function GameTable({ game, dispatch, onRematch, onHome }: Props) {
 
   // The time is read when tapping, never when rendering.
   const tap = (t: Tap) => {
-    if (!running) return
+    if (!running || answering) return
     dispatch({ type: t, now: currentTime() })
   }
   const continueGame = () => { if (game.phase === 'betweenTurns') dispatch({ type: 'CONTINUE', now: currentTime() }) }
@@ -65,7 +70,7 @@ export function GameTable({ game, dispatch, onRematch, onHome }: Props) {
     shortcuts[' '] = resume
   } else if (game.phase === 'playing') {
     // Answers only go through the buttons; the keyboard just pauses and undoes.
-    Object.assign(shortcuts, { ' ': pause, escape: pause, z: undo })
+    Object.assign(shortcuts, { ' ': pause, escape: pause }, !answering && { z: undo })
   } else if (game.phase === 'betweenTurns') {
     Object.assign(shortcuts, { enter: continueGame, ' ': continueGame, z: undo })
   }
@@ -75,8 +80,8 @@ export function GameTable({ game, dispatch, onRematch, onHome }: Props) {
 
   if (game.phase === 'betweenTurns') {
     return game.turns === 0
-      ? <HandOverScreen game={game} onContinue={continueGame} />
-      : <BetweenTurnsScreen game={game} onContinue={continueGame} onUndo={undo} />
+      ? <HandOverScreen game={game} online={online} onContinue={continueGame} />
+      : <BetweenTurnsScreen game={game} online={online} onContinue={continueGame} onUndo={undo} />
   }
 
   return (
@@ -84,6 +89,7 @@ export function GameTable({ game, dispatch, onRematch, onHome }: Props) {
       game={game}
       remainingMs={remainingMs}
       muted={muted}
+      readBy={answering ? game.players[game.current === 0 ? 1 : 0].name : undefined}
       onTap={tap}
       onPause={pause}
       onResume={resume}
