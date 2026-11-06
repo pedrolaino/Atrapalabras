@@ -11,7 +11,8 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "e2e": "node e2e/local-game.cjs",
-    "test:online": "npx -y firebase-tools@15.34.2 emulators:exec --only database --project atrapalabras-c3577 \"vitest run src/online\""
+    "test:online": "npx -y firebase-tools@15.34.2 emulators:exec --only database --project atrapalabras-c3577 \"vitest run src/online\"",
+    "e2e:online": "node e2e/online-game.cjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",
