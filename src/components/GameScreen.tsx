@@ -1,4 +1,4 @@
-import { ArrowCounterClockwise, CaretDoubleRight, Check, Pause, Timer, X } from '@phosphor-icons/react'
+import { ArrowCounterClockwise, CaretDoubleRight, Check, Pause, SpeakerHigh, SpeakerSlash, Timer, X } from '@phosphor-icons/react'
 import { useState, type CSSProperties } from 'react'
 import { config } from '../config'
 import { stats } from '../game/scoring'
@@ -11,14 +11,16 @@ export type Tap = 'CORRECT' | 'WRONG' | 'PASS'
 interface Props {
   game: Game
   remainingMs: number
+  muted: boolean
   onTap: (t: Tap) => void
   onPause: () => void
   onResume: () => void
   onUndo: () => void
   onQuit: () => void
+  onToggleMute: () => void
 }
 
-export function GameScreen({ game, remainingMs, onTap, onPause, onResume, onUndo, onQuit }: Props) {
+export function GameScreen({ game, remainingMs, muted, onTap, onPause, onResume, onUndo, onQuit, onToggleMute }: Props) {
   const player = game.players[game.current]
   const slot = player.wheel[player.index]
   const { question } = slot
@@ -35,6 +37,9 @@ export function GameScreen({ game, remainingMs, onTap, onPause, onResume, onUndo
         <div className="game__controls">
           <button type="button" className="button button--small" onClick={onUndo} disabled={game.history.length === 0} aria-keyshortcuts="Z">
             <ArrowCounterClockwise size={18} weight="bold" aria-hidden /> Deshacer
+          </button>
+          <button type="button" className="button button--small" onClick={onToggleMute} aria-pressed={muted} aria-label="Silenciar">
+            {muted ? <SpeakerSlash size={20} weight="bold" aria-hidden /> : <SpeakerHigh size={20} weight="bold" aria-hidden />}
           </button>
           <button type="button" className="button button--small" onClick={onPause} aria-keyshortcuts="Space">
             <Pause size={18} weight="bold" aria-hidden /> Pausa

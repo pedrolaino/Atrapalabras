@@ -1,10 +1,15 @@
-import { useEffect } from 'react'
+import { useEffect, useRef, useState } from 'react'
+import { config } from '../config'
 import { remainingTime } from '../game/clock'
+import { readJSON, writeJSON } from '../game/storage'
 import type { Action, Game } from '../game/types'
 import { currentTime, useNow, useShortcuts, useWakeLock } from '../ui/hooks'
+import { play, setMuted, soundForChange } from '../ui/sounds'
 import { BetweenTurnsScreen, HandOverScreen } from './BetweenTurnsScreen'
 import { FinalScreen } from './FinalScreen'
 import { GameScreen, type Tap } from './GameScreen'
+
+const MUTED_KEY = 'atrapalabras:muted'
 
 interface Props {
   game: Game
@@ -13,17 +18,36 @@ interface Props {
   onHome: () => void
 }
 
-// The game in progress: picks the screen for the current phase and runs the clock.
+// The game in progress: picks the screen for the current phase, runs the clock and plays the sounds.
 export function GameTable({ game, dispatch, onRematch, onHome }: Props) {
+  const [muted, setMutedState] = useState(() => readJSON(MUTED_KEY) === true)
+  const previous = useRef(game)
+
   const running = game.phase === 'playing' && !game.paused
   const now = useNow(running)
   const remainingMs = remainingTime(game, game.current, now)
+  const seconds = Math.ceil(remainingMs / 1000)
 
   useWakeLock(game.phase !== 'finished')
 
   useEffect(() => {
+    setMuted(muted)
+    writeJSON(MUTED_KEY, muted)
+  }, [muted])
+
+  useEffect(() => {
+    const sound = soundForChange(previous.current, game)
+    previous.current = game
+    if (sound) play(sound)
+  }, [game])
+
+  useEffect(() => {
     if (running && remainingMs <= 0) dispatch({ type: 'TIME_UP', now: currentTime() })
   }, [running, remainingMs, dispatch])
+
+  useEffect(() => {
+    if (running && seconds > 0 && seconds <= config.warningSeconds) play('warning')
+  }, [running, seconds])
 
   // The time is read when tapping, never when rendering.
   const tap = (t: Tap) => {
@@ -59,11 +83,13 @@ export function GameTable({ game, dispatch, onRematch, onHome }: Props) {
     <GameScreen
       game={game}
       remainingMs={remainingMs}
+      muted={muted}
       onTap={tap}
       onPause={pause}
       onResume={resume}
       onUndo={undo}
       onQuit={quit}
+      onToggleMute={() => setMutedState(!muted)}
     />
   )
 }
