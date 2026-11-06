@@ -20,7 +20,11 @@ async function device(browser, name, viewport, touch) {
     page,
     errors,
     button: (text) => page.getByRole('button', { name: text, exact: typeof text === 'string' }),
-    answer: (text) => page.getByRole('button', { name: text }).click(),
+    // Right after a question appears the game ignores taps for a moment (double-tap guard).
+    answer: async (text) => {
+      await page.waitForTimeout(400)
+      await page.getByRole('button', { name: text }).click()
+    },
     letter: (l, status, current = false) =>
       page.getByRole('listitem', { name: `${l}: ${status}${current ? ', letra actual' : ''}`, exact: true }).first(),
     turnOf: (player) => page.getByRole('heading', { name: `Turno de ${player}` }).waitFor(),

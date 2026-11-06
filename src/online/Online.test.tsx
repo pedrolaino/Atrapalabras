@@ -1,6 +1,6 @@
 // @vitest-environment jsdom
 import { act, cleanup, fireEvent, render, screen, within } from '@testing-library/react'
-import { afterEach, beforeEach, expect, it } from 'vitest'
+import { afterEach, beforeEach, expect, it, vi } from 'vitest'
 import { loadBank } from '../data/loadQuestions'
 import { memoryConnection, type Connection } from './connection'
 import { currentTime } from '../ui/hooks'
@@ -9,6 +9,11 @@ import { InRoom, Online } from './Online'
 const { bank } = loadBank()
 let network: Connection
 const createConnection = () => Promise.resolve(network)
+
+// Test taps are instantaneous: simulate one second between taps.
+let clock = 0
+beforeEach(() => { vi.spyOn(performance, 'now').mockImplementation(() => (clock += 1000)) })
+afterEach(() => { vi.restoreAllMocks() })
 
 beforeEach(() => {
   localStorage.clear()

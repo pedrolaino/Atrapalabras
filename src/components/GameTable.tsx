@@ -21,6 +21,8 @@ interface Props {
 }
 
 // The game in progress, the same on one device or online. Online, the answering player never sees the question.
+const MIN_MS_BETWEEN_TAPS = 350
+
 export function GameTable({ game, dispatch, seat, onRematch, onHome }: Props) {
   const [muted, setMutedState] = useState(() => readJSON(MUTED_KEY) === true)
   const previous = useRef(game)
@@ -54,12 +56,20 @@ export function GameTable({ game, dispatch, seat, onRematch, onHome }: Props) {
     if (running && seconds > 0 && seconds <= config.warningSeconds) play('warning')
   }, [running, seconds])
 
+  // Each tap carries the question and turn on screen: if by the time it arrives they changed
+  // (a double tap, or the other device tapped first), the reducer ignores it. On top of that,
+  // taps are ignored for a moment right after a question appears, so a double tap never scores the next one.
+  const player = game.players[game.current]
+  const questionId = player.wheel[player.index]?.question.id
+  const shownAt = useRef(0)
+  useEffect(() => { shownAt.current = performance.now() }, [questionId])
+
   // The time is read when tapping, never when rendering.
   const tap = (t: Tap) => {
-    if (!running || answering) return
-    dispatch({ type: t, now: currentTime() })
+    if (!running || answering || performance.now() - shownAt.current < MIN_MS_BETWEEN_TAPS) return
+    dispatch({ type: t, now: currentTime(), questionId, turn: game.turns })
   }
-  const continueGame = () => { if (game.phase === 'betweenTurns') dispatch({ type: 'CONTINUE', now: currentTime() }) }
+  const continueGame = () => { if (game.phase === 'betweenTurns') dispatch({ type: 'CONTINUE', now: currentTime(), turn: game.turns }) }
   const pause = () => dispatch({ type: 'PAUSE', now: currentTime() })
   const resume = () => dispatch({ type: 'RESUME', now: currentTime() })
   const undo = () => dispatch({ type: 'UNDO', now: currentTime() })

@@ -65,12 +65,17 @@ export interface BoardSnapshot {
   players: [PlayerSnapshot, PlayerSnapshot]
 }
 
+// Which question and turn the tap was made on: if that is no longer the current one (a double
+// tap, or a tap that arrived late from the other device), it is ignored.
+export interface AnswerTap { now: number; questionId?: string; turn?: number }
+
 export type Action =
   | { type: 'START'; names: [string, string]; wheels: [Question[], Question[]]; timeMs: number }
-  | { type: 'CORRECT'; now: number }
-  | { type: 'WRONG'; now: number }
-  | { type: 'PASS'; now: number }
-  | { type: 'CONTINUE'; now: number }
+  | ({ type: 'CORRECT' } & AnswerTap)
+  | ({ type: 'WRONG' } & AnswerTap)
+  | ({ type: 'PASS' } & AnswerTap)
+  // turn: the turn number on screen when tapped, so a late tap is ignored.
+  | { type: 'CONTINUE'; now: number; turn?: number }
   | { type: 'UNDO'; now: number }
   | { type: 'PAUSE'; now: number }
   | { type: 'RESUME'; now: number }

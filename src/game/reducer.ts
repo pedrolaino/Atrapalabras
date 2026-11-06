@@ -1,17 +1,18 @@
 import { config } from '../config'
 import { remainingTime } from './clock'
-import type { Action, BoardSnapshot, Game, Player, Question, WheelSlot } from './types'
+import type { Action, AnswerTap, BoardSnapshot, Game, Player, Question, WheelSlot } from './types'
 
 // Pure function: (game, action) => new game. It never reads the clock or randomness:
 // everything it needs comes in the action, so every device reaches the same state.
 export function reducer(g: Game | null, a: Action): Game | null {
-  if (a.type === 'START') return createGame(a.names, a.wheels, a.timeMs)
+  // A game in progress is never overwritten: if both players tap Rematch, the first one wins.
+  if (a.type === 'START') return g && g.phase !== 'finished' ? g : createGame(a.names, a.wheels, a.timeMs)
   if (a.type === 'RESET') return null
   if (!g) return g
 
   switch (a.type) {
     case 'CONTINUE':
-      if (g.phase !== 'betweenTurns') return g
+      if (g.phase !== 'betweenTurns' || (a.turn !== undefined && a.turn !== g.turns)) return g
       return { ...g, phase: 'playing', clockStartedAt: a.now, turns: g.turns + 1, history: [] }
 
     case 'PAUSE':
@@ -29,7 +30,7 @@ export function reducer(g: Game | null, a: Action): Game | null {
     case 'CORRECT':
     case 'WRONG':
     case 'PASS': {
-      if (!running(g)) return g
+      if (!running(g) || !isOnScreen(g, a)) return g
       if (remainingTime(g, g.current, a.now) <= 0) return timeUp(g, a.now)
       const history = [...g.history, snapshot(g)].slice(-config.maxUndo)
       return { ...answer(g, a.type, a.now), history }
@@ -62,6 +63,11 @@ function createGame(names: [string, string], wheels: [Question[], Question[]], t
 }
 
 const running = (g: Game) => g.phase === 'playing' && !g.paused
+
+function isOnScreen(g: Game, t: AnswerTap): boolean {
+  const p = g.players[g.current]
+  return (t.turn === undefined || t.turn === g.turns) && (t.questionId === undefined || t.questionId === p.wheel[p.index].question.id)
+}
 
 function withPlayer(g: Game, i: 0 | 1, p: Player): Game {
   const players: [Player, Player] = [...g.players]

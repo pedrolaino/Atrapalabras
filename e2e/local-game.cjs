@@ -38,6 +38,8 @@ async function run({ name, viewport, touch }, browser) {
   // Answers always go through the buttons. On desktop, continue, pause and undo use the keyboard.
   const keys = { Continuar: 'Enter', Pausa: 'Space', Deshacer: 'z' }
   const tap = async (action) => {
+    // Right after a question appears the game ignores taps for a moment (double-tap guard).
+    if (/^(Correcto|Incorrecto|Pasa)$/.test(action)) await page.waitForTimeout(400)
     if (touch || !keys[action]) await button(new RegExp(`^${action}`)).first().click()
     else await page.keyboard.press(keys[action])
   }
