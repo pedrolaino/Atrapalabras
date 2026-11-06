@@ -92,4 +92,25 @@ describe.each(implementations)('connection %s', (_, devices) => {
     stop()
     expect(typeof offset).toBe('number')
   })
+
+  it('joining again (for example, after a dropped connection) returns to the same seat', async () => {
+    const [pedro, juan, ana] = await devices()
+    const code = await pedro.createRoom('Pedro', [])
+    await juan.join(code, 'Juan', [])
+    await juan.join(code, 'Juan', [])
+    await expect(ana.join(code, 'Juan', [])).rejects.toThrow(/llena/)
+    expect((await waitFor(pedro, code, () => true))?.players).toEqual(['Pedro', 'Juan'])
+  })
+})
+
+// The Firebase rules: only the two players can modify the room.
+describe.skipIf(!emulator)('Firebase rules', () => {
+  it('an outsider cannot change the game', async () => {
+    const [pedro, juan, ana] = await implementations[1][1]()
+    const code = await pedro.createRoom('Pedro', [])
+    await juan.join(code, 'Juan', [])
+    await pedro.dispatch(code, START)
+    await expect(ana.dispatch(code, { type: 'RESET' })).rejects.toThrow(/permission/i)
+    expect((await waitFor(pedro, code, () => true))?.game?.turns).toBe(0)
+  })
 })

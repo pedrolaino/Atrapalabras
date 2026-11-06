@@ -14,7 +14,8 @@ export interface Room {
 
 export interface Connection {
   createRoom(name: string, used: string[]): Promise<string>
-  // Takes seat 1. Fails with RoomError if the room does not exist, is full or the name is taken.
+  // Takes seat 1. If this device already had it (for example, the reply arrived late and the
+  // call was retried), it does nothing. Fails with RoomError if the room does not exist, is full or the name is taken.
   join(code: string, name: string, used: string[]): Promise<void>
   // Reports the room every time it changes (null if it does not exist). Returns the unsubscribe function.
   subscribe(code: string, onChange: (room: Room | null) => void): () => void
@@ -36,16 +37,18 @@ export function checkJoin(room: Room | null, name: string): void {
   }
 }
 
-// What lives on the server with Firebase. Several connections can share it, like several devices.
+// What lives on the server with Firebase. Each connection is a device with its own identity.
 export function createMemoryServer() {
   return {
     rooms: new Map<string, Room>(),
+    members: new Map<string, [string, string | null]>(),
     listeners: new Map<string, Set<(r: Room | null) => void>>(),
   }
 }
 
 export function memoryConnection(server = createMemoryServer()): Connection {
-  const { rooms, listeners } = server
+  const me = Math.random().toString(36).slice(2)
+  const { rooms, members, listeners } = server
   const read = (code: string) => (rooms.has(code) ? structuredClone(rooms.get(code)!) : null)
   const notify = (code: string) => listeners.get(code)?.forEach((f) => f(read(code)))
 
@@ -54,14 +57,17 @@ export function memoryConnection(server = createMemoryServer()): Connection {
       let code = newRoomCode()
       while (rooms.has(code)) code = newRoomCode()
       rooms.set(code, { players: [name, null], used: [used, []], game: null })
+      members.set(code, [me, null])
       notify(code)
       return code
     },
     async join(code, name, used) {
       const room = rooms.get(code) ?? null
+      if (room && members.get(code)![1] === me) return // already in
       checkJoin(room, name)
       room!.players[1] = name
       room!.used[1] = used
+      members.get(code)![1] = me
       notify(code)
     },
     subscribe(code, onChange) {
@@ -73,6 +79,7 @@ export function memoryConnection(server = createMemoryServer()): Connection {
     async dispatch(code, action) {
       const room = rooms.get(code)
       if (!room) return
+      if (!members.get(code)!.includes(me)) throw new Error('PERMISSION_DENIED')
       const next = reducer(room.game, action)
       if (next === room.game) return
       room.game = structuredClone(next)

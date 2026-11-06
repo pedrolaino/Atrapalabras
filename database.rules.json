@@ -2,11 +2,17 @@
   "rules": {
     "rooms": {
       "$code": {
-        ".read": "$code.matches(/^[ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ]$/)",
-        ".write": "$code.matches(/^[ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ]$/)",
-        ".validate": "newData.hasChildren(['createdAt', 'name0', 'used0'])",
+        ".read": "auth != null && $code.matches(/^[ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ]$/)",
+        ".write": "auth != null && $code.matches(/^[ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ][ABCDEFGHJKMNPQRSTUVWXYZ]$/) && (!data.exists() || (data.child('uid0').val() === auth.uid || data.child('uid1').val() === auth.uid) || (!data.child('uid1').exists() && newData.child('uid1').val() === auth.uid && newData.child('game').val() === data.child('game').val() && newData.child('used0').val() === data.child('used0').val()))",
+        ".validate": "newData.hasChildren(['createdAt', 'uid0', 'name0', 'used0'])",
         "createdAt": {
           ".validate": "newData.isNumber() && (!data.exists() || newData.val() === data.val())"
+        },
+        "uid0": {
+          ".validate": "newData.isString() && (data.exists() ? newData.val() === data.val() : newData.val() === auth.uid)"
+        },
+        "uid1": {
+          ".validate": "newData.isString() && (data.exists() ? newData.val() === data.val() : newData.val() === auth.uid)"
         },
         "name0": {
           ".validate": "newData.isString() && newData.val().length >= 1 && newData.val().length <= 20 && (!data.exists() || newData.val() === data.val())"
