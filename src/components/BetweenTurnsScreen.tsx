@@ -5,18 +5,20 @@ import { Scoreboard } from './Scoreboard'
 
 interface Props {
   game: Game
+  // Online each player has their own device: nothing to hand over.
+  online?: boolean
   onContinue: () => void
   onUndo: () => void
 }
 
 // Message for the player who is up: the device is held by whoever read to the other player.
-function TurnNotice({ game }: { game: Game }) {
+function TurnNotice({ game, online }: { game: Game; online?: boolean }) {
   const answerer = game.players[game.current]
   const reader = game.players[game.current === 0 ? 1 : 0]
   return (
     <div className="turn-notice" role="status">
       <h2>Turno de {answerer.name}</h2>
-      {game.handOver && <p>Pasale el dispositivo a {reader.name} para que te lea.</p>}
+      {online ? <p>Te lee {reader.name}.</p> : game.handOver !== false && <p>Pasale el dispositivo a {reader.name} para que te lea.</p>}
       {reader.done && <p className="note">{reader.name} ya terminó: {answerer.name} sigue solo hasta terminar.</p>}
     </div>
   )
@@ -31,20 +33,20 @@ function ContinueButton({ onClick }: { onClick: () => void }) {
 }
 
 // Before the first turn: just the notice, no wheels.
-export function HandOverScreen({ game, onContinue }: Omit<Props, 'onUndo'>) {
+export function HandOverScreen({ game, online, onContinue }: Omit<Props, 'onUndo'>) {
   return (
     <main className="screen screen--centered">
-      <TurnNotice game={game} />
+      <TurnNotice game={game} online={online} />
       <ContinueButton onClick={onContinue} />
     </main>
   )
 }
 
 // Between turns: both wheels with only each letter's status (never questions or answers).
-export function BetweenTurnsScreen({ game, onContinue, onUndo }: Props) {
+export function BetweenTurnsScreen({ game, online, onContinue, onUndo }: Props) {
   return (
     <main className="screen between-turns">
-      <TurnNotice game={game} />
+      <TurnNotice game={game} online={online} />
       <div className="between-turns__wheels">
         {game.players.map((p, i) => {
           // The player who is up sees the letter they continue with, so they can get ready.

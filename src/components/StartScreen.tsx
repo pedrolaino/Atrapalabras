@@ -1,3 +1,4 @@
+import { Globe } from '@phosphor-icons/react'
 import { useState, type FormEvent } from 'react'
 import { config } from '../config'
 import { clearFlagged, readFlagged } from '../game/storage'
@@ -5,11 +6,12 @@ import { clearFlagged, readFlagged } from '../game/storage'
 interface Props {
   initialNames: [string, string]
   onPlay: (names: [string, string]) => void
+  onOnline: () => void
 }
 
-const MAX_NAME_LENGTH = 20
+export const MAX_NAME_LENGTH = 20
 
-export function StartScreen({ initialNames, onPlay }: Props) {
+export function StartScreen({ initialNames, onPlay, onOnline }: Props) {
   const [names, setNames] = useState(initialNames)
   const [error, setError] = useState('')
   const [flagged, setFlagged] = useState(readFlagged)
@@ -57,6 +59,10 @@ export function StartScreen({ initialNames, onPlay }: Props) {
         {error && <p id="names-error" className="error" role="alert">{error}</p>}
         <button type="submit" className="button button--primary button--large">Jugar</button>
       </form>
+
+      <button type="button" className="button button--large start__online" onClick={onOnline}>
+        <Globe size={26} weight="bold" aria-hidden /> Jugar online
+      </button>
 
       {flagged.length > 0 && (
         <details className="flagged">
